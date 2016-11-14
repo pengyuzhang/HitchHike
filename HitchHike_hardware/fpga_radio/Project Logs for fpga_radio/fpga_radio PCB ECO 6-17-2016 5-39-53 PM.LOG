@@ -1,0 +1,7 @@
+Added Component: Designator=U3(NCS2200)
+Added Pin To Net: NetName=NetU3_1 Pin=U3-1
+Added Pin To Net: NetName=VCC_3_3 Pin=U3-2
+Added Pin To Net: NetName=NetP4_1 Pin=U3-3
+Added Pin To Net: NetName=NetU3_4 Pin=U3-4
+Added Pin To Net: NetName=GND Pin=U3-5
+Added Member To Class: ClassName=fpga_radio Member=Component U3 NCS2200A

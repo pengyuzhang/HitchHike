@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [fpga_radio.PrjPCB]
+   Generated File[fpga_radio.TXT]
+   Generated File[fpga_radio.LDP]
+   Generated File[fpga_radio.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 1:21:07 PM On 7/6/2016

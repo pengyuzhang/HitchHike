@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=VCC_3_3 Pin=P2-1
+Added Pin To Net: NetName=VCC Pin=P2-1
+Change Net Name : Old Net Name=NetP6_2 New Net Name=NetP4_2
+Change Net Name : Old Net Name=NetP6_3 New Net Name=NetP4_3
+Change Net Name : Old Net Name=NetP6_6 New Net Name=NetP4_6
+Change Net Name : Old Net Name=NetP6_8 New Net Name=NetP4_8
+Change Net Name : Old Net Name=NetP6_9 New Net Name=NetP4_9
+Added Room: Name=fpga_radio
+Added Room: Name=io_bank
+Added Room: Name=power

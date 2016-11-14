@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetP1_4 Pin=U2-3
+Removed Pin From Net: NetName=NetP1_4 Pin=U3-3
+Added Pin To Net: NetName=NetP1_4 Pin=U5-95
+Added Pin To Net: NetName=NetU2_3 Pin=U2-3
+Added Pin To Net: NetName=NetU2_3 Pin=U3-3
+Added Net: Name=NetU2_3
+Added Room: Name=fpga_radio
+Added Room: Name=io_bank
+Added Room: Name=power

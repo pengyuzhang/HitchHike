@@ -1,0 +1,8 @@
+Added Component: Designator=U6(ASTX_H11)
+Added Pin To Net: NetName=GND Pin=U6-2
+Added Pin To Net: NetName=NetU3_15 Pin=U6-3
+Added Pin To Net: NetName=VCC_3_3 Pin=U6-4
+Added Member To Class: ClassName=power Member=Component U6 ASTX_H11_20MHz
+Added Room: Name=fpga_radio
+Added Room: Name=io_bank
+Added Room: Name=power

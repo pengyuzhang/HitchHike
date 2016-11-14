@@ -1,0 +1,13 @@
+Added Component: Designator=P2(HDR1X8)
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetP2_2 Pin=P2-2
+Added Pin To Net: NetName=NetP2_3 Pin=P2-3
+Added Pin To Net: NetName=NetP2_4 Pin=P2-4
+Added Pin To Net: NetName=NetP2_5 Pin=P2-5
+Added Pin To Net: NetName=NetP2_6 Pin=P2-6
+Added Pin To Net: NetName=NetP2_7 Pin=P2-7
+Added Pin To Net: NetName=NetP2_8 Pin=P2-8
+Added Member To Class: ClassName=io_bank Member=Component P2 Header 8
+Added Room: Name=fpga_radio
+Added Room: Name=io_bank
+Added Room: Name=power

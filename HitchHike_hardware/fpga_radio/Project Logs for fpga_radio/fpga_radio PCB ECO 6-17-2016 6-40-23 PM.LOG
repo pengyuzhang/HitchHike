@@ -1,0 +1,19 @@
+Added Component: Designator=C33(0603)
+Added Component: Designator=C34(0603)
+Added Component: Designator=C35(0603)
+Added Component: Designator=C36(0603)
+Added Pin To Net: NetName=GND Pin=C33-1
+Added Pin To Net: NetName=VCC_1_5 Pin=C33-2
+Added Pin To Net: NetName=GND Pin=C34-1
+Added Pin To Net: NetName=VCC_1_5 Pin=C34-2
+Added Pin To Net: NetName=GND Pin=C35-1
+Added Pin To Net: NetName=VCC_1_5 Pin=C35-2
+Added Pin To Net: NetName=GND Pin=C36-1
+Added Pin To Net: NetName=VCC_1_5 Pin=C36-2
+Added Member To Class: ClassName=power Member=Component C33 Cap
+Added Member To Class: ClassName=power Member=Component C34 Cap
+Added Member To Class: ClassName=power Member=Component C35 Cap
+Added Member To Class: ClassName=power Member=Component C36 Cap
+Added Room: Name=fpga_radio
+Added Room: Name=io_bank
+Added Room: Name=power

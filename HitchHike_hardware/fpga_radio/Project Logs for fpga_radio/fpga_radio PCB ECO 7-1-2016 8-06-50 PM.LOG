@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=NetU1_2 Pin=U1-2
+Added Component: Designator=P1(HDR1X12)
+Added Pin To Net: NetName=NetP1_1 Pin=P1-1
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=NetP1_4 Pin=P1-4
+Added Pin To Net: NetName=NetP1_5 Pin=P1-5
+Added Pin To Net: NetName=NetP1_6 Pin=P1-6
+Added Pin To Net: NetName=NetP1_7 Pin=P1-7
+Added Pin To Net: NetName=NetP1_8 Pin=P1-8
+Added Pin To Net: NetName=NetU5_90 Pin=P1-9
+Added Pin To Net: NetName=NetU5_86 Pin=P1-10
+Added Pin To Net: NetName=NetU5_85 Pin=P1-11
+Added Pin To Net: NetName=NetU1_2 Pin=P1-12
+Added Pin To Net: NetName=NetP1_1 Pin=U1-2
+Added Pin To Net: NetName=NetU1_2 Pin=U5-84
+Change Net Name : Old Net Name=NetU1_2 New Net Name=NetP1_12
+Change Net Name : Old Net Name=NetU5_85 New Net Name=NetP1_11
+Change Net Name : Old Net Name=NetU5_86 New Net Name=NetP1_10
+Change Net Name : Old Net Name=NetU5_90 New Net Name=NetP1_9
+Added Member To Class: ClassName=io_bank Member=Component P1 Header 12
+Added Room: Name=io_bank

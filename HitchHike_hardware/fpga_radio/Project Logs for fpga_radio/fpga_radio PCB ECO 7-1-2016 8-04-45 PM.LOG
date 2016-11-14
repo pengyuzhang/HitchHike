@@ -1,0 +1,5 @@
+Added Component: Designator=P2(HDR1X12)
+Added Member To Class: ClassName=io_bank Member=Component P2 Header 12
+Added Room: Name=fpga_radio
+Added Room: Name=io_bank
+Added Room: Name=power

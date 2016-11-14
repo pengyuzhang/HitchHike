@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=NetP4_6 Pin=U5-48
+Removed Pin From Net: NetName=NetP4_3 Pin=U5-49
+Removed Pin From Net: NetName=NetP4_9 Pin=U5-54
+Added Component: Designator=P4(HDR2X5)
+Added Pin To Net: NetName=NetP4_2 Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P4-2
+Added Pin To Net: NetName=NetP4_3 Pin=P4-3
+Added Pin To Net: NetName=NetP4_6 Pin=P4-5
+Added Pin To Net: NetName=VCC_3_3 Pin=P4-6
+Added Pin To Net: NetName=VCC_3_3 Pin=P4-7
+Added Pin To Net: NetName=NetP4_8 Pin=P4-8
+Added Pin To Net: NetName=NetP4_9 Pin=P4-9
+Added Pin To Net: NetName=GND Pin=P4-10
+Added Pin To Net: NetName=NetP4_9 Pin=U5-48
+Added Pin To Net: NetName=NetP4_6 Pin=U5-49
+Added Pin To Net: NetName=NetP4_3 Pin=U5-54
+Change Net Name : Old Net Name=NetP4_2 New Net Name=NetP4_1
+Change Net Name : Old Net Name=NetP4_6 New Net Name=NetP4_5
+Added Member To Class: ClassName=power Member=Component P4 Header 5X2
+Added Room: Name=fpga_radio
+Added Room: Name=io_bank
+Added Room: Name=power

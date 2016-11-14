@@ -1,0 +1,15 @@
+Added Component: Designator=P4(HDR1X2)
+Added Pin To Net: NetName=NetP4_1 Pin=P4-1
+Added Pin To Net: NetName=NetP4_2 Pin=P4-2
+Change Net Name : Old Net Name=NetP2_1 New Net Name=NetU5_90
+Change Net Name : Old Net Name=NetP2_2 New Net Name=NetU5_86
+Change Net Name : Old Net Name=NetP2_3 New Net Name=NetU5_85
+Change Net Name : Old Net Name=NetP2_4 New Net Name=NetU5_84
+Change Net Name : Old Net Name=NetP2_5 New Net Name=NetU5_83
+Change Net Name : Old Net Name=NetP2_6 New Net Name=NetU5_82
+Change Net Name : Old Net Name=NetP2_7 New Net Name=NetU5_81
+Change Net Name : Old Net Name=NetP2_8 New Net Name=NetU5_80
+Added Member To Class: ClassName=io_bank Member=Component P4 Header 2
+Added Room: Name=fpga_radio
+Added Room: Name=io_bank
+Added Room: Name=power

@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=NetP3_10 Pin=U5-65
+Removed Pin From Net: NetName=NetP3_9 Pin=U5-69
+Removed Pin From Net: NetName=NetP3_8 Pin=U5-70
+Removed Pin From Net: NetName=NetP3_7 Pin=U5-71
+Removed Pin From Net: NetName=NetP3_6 Pin=U5-72
+Removed Pin From Net: NetName=NetP3_5 Pin=U5-73
+Removed Pin From Net: NetName=NetP3_4 Pin=U5-76
+Removed Pin From Net: NetName=NetP3_3 Pin=U5-77
+Removed Pin From Net: NetName=NetP3_2 Pin=U5-78
+Removed Pin From Net: NetName=NetP3_1 Pin=U5-79
+Added Component: Designator=P3(HDR1X11)
+Added Pin To Net: NetName=GND Pin=P3-1
+Added Pin To Net: NetName=NetP3_2 Pin=P3-2
+Added Pin To Net: NetName=NetP3_3 Pin=P3-3
+Added Pin To Net: NetName=NetP3_4 Pin=P3-4
+Added Pin To Net: NetName=NetP3_5 Pin=P3-5
+Added Pin To Net: NetName=NetP3_6 Pin=P3-6
+Added Pin To Net: NetName=NetP3_7 Pin=P3-7
+Added Pin To Net: NetName=NetP3_8 Pin=P3-8
+Added Pin To Net: NetName=NetP3_9 Pin=P3-9
+Added Pin To Net: NetName=NetP3_10 Pin=P3-10
+Added Pin To Net: NetName=NetP3_1 Pin=P3-11
+Added Pin To Net: NetName=NetP3_1 Pin=U5-65
+Added Pin To Net: NetName=NetP3_10 Pin=U5-69
+Added Pin To Net: NetName=NetP3_9 Pin=U5-70
+Added Pin To Net: NetName=NetP3_8 Pin=U5-71
+Added Pin To Net: NetName=NetP3_7 Pin=U5-72
+Added Pin To Net: NetName=NetP3_6 Pin=U5-73
+Added Pin To Net: NetName=NetP3_5 Pin=U5-76
+Added Pin To Net: NetName=NetP3_4 Pin=U5-77
+Added Pin To Net: NetName=NetP3_3 Pin=U5-78
+Added Pin To Net: NetName=NetP3_2 Pin=U5-79
+Change Net Name : Old Net Name=NetP3_1 New Net Name=NetP3_11
+Added Member To Class: ClassName=io_bank Member=Component P3 Header 11
+Added Room: Name=fpga_radio
