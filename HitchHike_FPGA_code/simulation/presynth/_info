@@ -1,0 +1,179 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/fpga_vision/test_tmp/simulation
+vclock_divider
+!s110 1457216938
+!i10b 1
+!s100 SEW]eUKHbn?ehN6e4^?312
+I_>7Z6<T4lcUc[^Y>^>0cU1
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dZ:/fpga_vision/fs_backscatter/simulation
+w1457157299
+8Z:/fpga_vision/fs_backscatter/hdl/clock_divider.v
+FZ:/fpga_vision/fs_backscatter/hdl/clock_divider.v
+Z3 L0 20
+Z4 OW;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1457216938.869000
+!s107 Z:/fpga_vision/fs_backscatter/hdl/clock_divider.v|
+!s90 -reportprogress|300|-work|presynth|Z:/fpga_vision/fs_backscatter/hdl/clock_divider.v|
+!s101 -O0
+!i113 1
+Z5 o-work presynth -O0
+vcounter_tmp
+!s110 1425327960
+!i10b 1
+!s100 FO^dU;8l>5T2KNH2BkMac0
+INf9D87=>g830Kd^Kg7zKH1
+R1
+R0
+w1425307710
+8Z:/fpga_vision/test_tmp/hdl/counter_tmp.v
+FZ:/fpga_vision/test_tmp/hdl/counter_tmp.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1425327960.530000
+!s107 Z:/fpga_vision/test_tmp/hdl/counter_tmp.v|
+!s90 -work|presynth|Z:/fpga_vision/test_tmp/hdl/counter_tmp.v|
+!s101 -O0
+!i113 1
+R5
+vdata_rate
+Z6 !s110 1457216939
+!i10b 1
+!s100 a2X^=QHPh^EeKng3Kc`YC3
+ILQ]R<4>iMnKDIbo5VeYGP1
+R1
+R2
+w1457216326
+8Z:/fpga_vision/fs_backscatter/hdl/data_rate.v
+FZ:/fpga_vision/fs_backscatter/hdl/data_rate.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1457216939.041000
+!s107 Z:/fpga_vision/fs_backscatter/hdl/data_rate.v|
+!s90 -reportprogress|300|-work|presynth|Z:/fpga_vision/fs_backscatter/hdl/data_rate.v|
+!s101 -O0
+!i113 1
+R5
+vmodulator
+R6
+!i10b 1
+!s100 a3H29bWan81CW773I>f4o3
+IRd6GLoi_bh_Zz]Sn[l4K[2
+R1
+R2
+w1457203275
+8Z:/fpga_vision/fs_backscatter/hdl/modulator.v
+FZ:/fpga_vision/fs_backscatter/hdl/modulator.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1457216939.213000
+!s107 Z:/fpga_vision/fs_backscatter/hdl/modulator.v|
+!s90 -reportprogress|300|-work|presynth|Z:/fpga_vision/fs_backscatter/hdl/modulator.v|
+!s101 -O0
+!i113 1
+R5
+vpll_core
+R6
+!i10b 1
+!s100 MmjA8KdS>zO8DL^i^TcYm0
+INTgbVAQdRSaDYHGfeiX?k1
+R1
+R2
+w1457140469
+8Z:/fpga_vision/fs_backscatter/smartgen/pll_core/pll_core.v
+FZ:/fpga_vision/fs_backscatter/smartgen/pll_core/pll_core.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1457216939.385000
+!s107 Z:/fpga_vision/fs_backscatter/smartgen/pll_core/pll_core.v|
+!s90 -reportprogress|300|-work|presynth|Z:/fpga_vision/fs_backscatter/smartgen/pll_core/pll_core.v|
+!s101 -O0
+!i113 1
+R5
+vtop
+R6
+!i10b 1
+!s100 DB_ZeMBcH@4@<eZIk:_U=3
+I6aM?iW3MBIOm8d_4;QTSW2
+R1
+R2
+w1457216912
+8Z:/fpga_vision/fs_backscatter/component/work/top/top.v
+FZ:/fpga_vision/fs_backscatter/component/work/top/top.v
+L0 9
+R4
+r1
+!s85 0
+31
+!s108 1457216939.729000
+!s107 Z:/fpga_vision/fs_backscatter/component/work/top/top.v|
+!s90 -reportprogress|300|-work|presynth|Z:/fpga_vision/fs_backscatter/component/work/top/top.v|
+!s101 -O0
+!i113 1
+R5
+vtop_tb
+R6
+!i10b 1
+!s100 5:kA4GTmbSK`4`igDQQjL1
+I<5inWd2G3Y05Ii5H[BhP;0
+R1
+R2
+w1457216635
+8Z:/fpga_vision/fs_backscatter/stimulus/top_tb.v
+FZ:/fpga_vision/fs_backscatter/stimulus/top_tb.v
+L0 21
+R4
+r1
+!s85 0
+31
+!s108 1457216939.916000
+!s107 Z:/fpga_vision/fs_backscatter/stimulus/top_tb.v|
+!s90 -reportprogress|300|+incdir+Z:/fpga_vision/fs_backscatter/stimulus|-work|presynth|Z:/fpga_vision/fs_backscatter/stimulus/top_tb.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+Z:/fpga_vision/fs_backscatter/stimulus -work presynth -O0
+vtrigger_signal_gen
+R6
+!i10b 1
+!s100 IRT`9UT;;V6Hck=ZK[YXJ3
+IY7PM>nBNb12ld2mn1`jk30
+R1
+R2
+w1457161232
+8Z:/fpga_vision/fs_backscatter/hdl/trigger_signal_gen.v
+FZ:/fpga_vision/fs_backscatter/hdl/trigger_signal_gen.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1457216939.541000
+!s107 Z:/fpga_vision/fs_backscatter/hdl/trigger_signal_gen.v|
+!s90 -reportprogress|300|-work|presynth|Z:/fpga_vision/fs_backscatter/hdl/trigger_signal_gen.v|
+!s101 -O0
+!i113 1
+R5

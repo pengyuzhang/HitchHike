@@ -1,0 +1,4 @@
+@W: MT420 |Found inferred clock two_mhz_clock|clock_out_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:two_mhz_clock_0.clock_out"
+@W: MT420 |Found inferred clock ten_mhz_clock|clock_out_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:ten_mhz_clock_0.clock_out"
+@W: MT420 |Found inferred clock pll_core|GLA_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:pll_core_0.GLA"
+@W: MT420 |Found inferred clock modulator|output_signal_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:modulator_0.output_signal"

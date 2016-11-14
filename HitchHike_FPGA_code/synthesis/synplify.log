@@ -1,0 +1,94 @@
+
+Starting:    C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
+Date:        Fri Nov 11 14:44:48 2016
+Version:     I-2014.03M-SP1
+
+Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log top_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+auto_infer_blackbox is not supported in current product.
+
+log file: "Z:\fpga_vision\xorfi_demo\synthesis\top.srr"
+
+
+
+Running top_syn|synthesis
+
+
+Running: Compile on top_syn|synthesis
+
+
+Running: Compile Process on top_syn|synthesis
+
+
+Running: Compile Input on top_syn|synthesis
+
+Copied Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_comp.srs to Z:\fpga_vision\xorfi_demo\synthesis\top.srs
+
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:03s
+
+
+Running: Multi-srs Generator on top_syn|synthesis
+
+Copied Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_comp.srs to Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_s.srs
+
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Copied Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_mult.srs to Z:\fpga_vision\xorfi_demo\synthesis\top.srs
+
+Complete: Compile Process on top_syn|synthesis
+
+
+Running: Pre-mapping on top_syn|synthesis
+
+Copied Z:\fpga_vision\xorfi_demo\synthesis\top.sap to Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_s.sap
+
+Copied Z:\fpga_vision\xorfi_demo\synthesis\top.fse to Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_s.fse
+
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:02s
+
+Complete: Compile on top_syn|synthesis
+
+
+Running: Map on top_syn|synthesis
+
+
+Running: Map & Optimize on top_syn|synthesis
+
+Copied Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_m.srm to Z:\fpga_vision\xorfi_demo\synthesis\top.srm
+
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:04s
+
+Complete: Map on top_syn|synthesis
+
+Complete: Logic Synthesis on top_syn|synthesis
+
+TCL script complete: "top_syn.tcl"
+
+exit status=0
+
+exit status=0
+
+License checkin: synplifypro_actel
+

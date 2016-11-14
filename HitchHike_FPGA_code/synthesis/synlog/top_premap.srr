@@ -1,0 +1,45 @@
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1346R, Built Oct 10 2014 10:43:41
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version I-2014.03M-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+
+@L: Z:\fpga_vision\xorfi_demo\synthesis\top_scck.rpt 
+Printing clock  summary report in "Z:\fpga_vision\xorfi_demo\synthesis\top_scck.rpt" file 
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start                                      Requested     Requested     Clock        Clock              
+Clock                                      Frequency     Period        Type         Group              
+-------------------------------------------------------------------------------------------------------
+modulator|output_signal_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_1
+pll_core|GLA_inferred_clock                1.0 MHz       1000.000      inferred     Inferred_clkgroup_3
+ten_mhz_clock|clock_out_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
+two_mhz_clock|clock_out_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_2
+=======================================================================================================
+
+@W: MT530 :"z:\fpga_vision\xorfi_demo\hdl\modulator.v":26:0:26:5|Found inferred clock ten_mhz_clock|clock_out_inferred_clock which controls 17 sequential elements including modulator_0.clock_counter[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\fpga_vision\xorfi_demo\hdl\data_rate.v":39:0:39:5|Found inferred clock modulator|output_signal_inferred_clock which controls 94 sequential elements including data_rate_0.bit_index[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\fpga_vision\xorfi_demo\hdl\data_rate.v":39:0:39:5|Found inferred clock two_mhz_clock|clock_out_inferred_clock which controls 14 sequential elements including data_rate_0.bit_index[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\fpga_vision\xorfi_demo\hdl\main_clock.v":26:0:26:5|Found inferred clock pll_core|GLA_inferred_clock which controls 35 sequential elements including main_clock_0.counter[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file Z:\fpga_vision\xorfi_demo\synthesis\top.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 31MB peak: 64MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 11 14:44:54 2016
+
+###########################################################]

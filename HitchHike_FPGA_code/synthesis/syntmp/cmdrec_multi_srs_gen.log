@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\syn_nfilter.exe  -link  -top  top  -multisrs  Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_comp.srs  -osyn  Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_mult.srs  -log  Z:\fpga_vision\xorfi_demo\synthesis\synlog\top_multi_srs_gen.srr 
+rc:0 success:1
+Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_comp.srs|i|1478893489|17973
+Z:\fpga_vision\xorfi_demo\synthesis\synwork\top_mult.srs|o|1478893491|5001
+Z:\fpga_vision\xorfi_demo\synthesis\synlog\top_multi_srs_gen.srr|o|1478893491|566
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\syn_nfilter.exe|i|1412907456|6340608
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\syn_nfilter.exe|i|1412907262|2743296

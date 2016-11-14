@@ -1,0 +1,31 @@
+FlashPro
+Version: 11.5.0.26
+Release: v11.5
+
+Software Version: 11.5.0.26
+PDB file 'Z:\fpga_vision\xorfi_demo\designer\impl1\top.pdb' has been loaded successfully.
+DESIGN : Top;  CHECKSUM : 92F1;  PDB_VERSION : 1.9
+Warning: The programmer with id '83442' in the project file cannot be detected and connected.
+Opened 'Z:\fpga_vision\xorfi_demo\designer\impl1\top_fp\top.pro'
+Rescanning for Programmers...
+programmer '012ZVMC' : FlashPro5
+Rescanning for Programmers DONE.
+programmer '012ZVMC' : Scan Chain...
+Warning: programmer '012ZVMC' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '012ZVMC' : Scan Chain PASSED.
+programmer '012ZVMC' : Executing action PROGRAM
+programmer '012ZVMC' : EXPORT FSN[48] = 0155dc08bc95
+programmer '012ZVMC' : Erase ...
+programmer '012ZVMC' : Completed erase
+programmer '012ZVMC' : EXPORT CHECKSUM: [16] = 92f1
+programmer '012ZVMC' : Programming FPGA Array
+programmer '012ZVMC' : Verifying FPGA Array
+programmer '012ZVMC' :         Verifying FPGA Array -- pass
+programmer '012ZVMC' : Finished: Fri Nov 11 14:49:30 2016 (Elapsed time 00:00:55)
+programmer '012ZVMC' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'top' has been modified. Do you want to save it? [NO]
+Project closed.

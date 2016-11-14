@@ -1,0 +1,806 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "top")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1346R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "top")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[15\]/A  modulator_0/clock_counter_RNO\[15\]/Y  modulator_0/clock_counter\[15\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[1\]/CLK  modulator_0/clock_counter\[1\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/B  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNO\[13\]/B  modulator_0/clock_counter_RNO\[13\]/Y  modulator_0/clock_counter\[13\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[2\]/CLK  modulator_0/clock_counter\[2\]/Q  modulator_0/clock_counter_RNIO0O3\[2\]/B  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[3\]/CLK  modulator_0/clock_counter\[3\]/Q  modulator_0/clock_counter_RNI2305\[3\]/B  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNO\[12\]/B  modulator_0/clock_counter_RNO\[12\]/Y  modulator_0/clock_counter\[12\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[4\]/CLK  modulator_0/clock_counter\[4\]/Q  modulator_0/clock_counter_RNID686\[4\]/B  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNO\[11\]/B  modulator_0/clock_counter_RNO\[11\]/Y  modulator_0/clock_counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[5\]/CLK  modulator_0/clock_counter\[5\]/Q  modulator_0/clock_counter_RNIPAG7\[5\]/B  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNO\[10\]/B  modulator_0/clock_counter_RNO\[10\]/Y  modulator_0/clock_counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[6\]/CLK  modulator_0/clock_counter\[6\]/Q  modulator_0/clock_counter_RNI6GO8\[6\]/B  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNO\[9\]/B  modulator_0/clock_counter_RNO\[9\]/Y  modulator_0/clock_counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[7\]/CLK  modulator_0/clock_counter\[7\]/Q  modulator_0/clock_counter_RNIKM0A\[7\]/B  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNI3U8B\[8\]/A  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNIKM0A\[7\]/A  modulator_0/clock_counter_RNIKM0A\[7\]/Y  modulator_0/clock_counter_RNO\[8\]/B  modulator_0/clock_counter_RNO\[8\]/Y  modulator_0/clock_counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[1\]/C  data_rate_0/counter_RNIC7CJ3\[1\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/A  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[0\]/A  data_rate_0/counter_RNO\[0\]/Y  data_rate_0/counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[7\]/A  data_rate_0/counter_RNO\[7\]/Y  data_rate_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[6\]/A  data_rate_0/counter_RNO\[6\]/Y  data_rate_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[5\]/A  data_rate_0/counter_RNO\[5\]/Y  data_rate_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[4\]/A  data_rate_0/counter_RNO\[4\]/Y  data_rate_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[3\]/A  data_rate_0/counter_RNO\[3\]/Y  data_rate_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[2\]/A  data_rate_0/counter_RNO\[2\]/Y  data_rate_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNI1B8B1\[2\]/B  data_rate_0/counter_RNI1B8B1\[2\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/B  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[1\]/CLK  data_rate_0/counter\[1\]/Q  data_rate_0/counter_RNI1B8B1\[2\]/A  data_rate_0/counter_RNI1B8B1\[2\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/B  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[8\]/CLK  modulator_0/clock_counter\[8\]/Q  modulator_0/clock_counter_RNI3U8B\[8\]/B  modulator_0/clock_counter_RNI3U8B\[8\]/Y  modulator_0/clock_counter_RNIJ6HC\[9\]/A  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[4\]/CLK  data_rate_0/counter\[4\]/Q  data_rate_0/counter_RNIT3RS\[4\]/B  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNI6GO8\[6\]/A  modulator_0/clock_counter_RNI6GO8\[6\]/Y  modulator_0/clock_counter_RNO\[7\]/B  modulator_0/clock_counter_RNO\[7\]/Y  modulator_0/clock_counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[2\]/CLK  data_rate_0/counter\[2\]/Q  data_rate_0/counter_RNI1B8B1\[2\]/C  data_rate_0/counter_RNI1B8B1\[2\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/B  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[4\]/CLK  modulator_0/clock_counter\[4\]/Q  modulator_0/output_signal_RNO_14/C  modulator_0/output_signal_RNO_14/Y  modulator_0/output_signal_RNO_11/B  modulator_0/output_signal_RNO_11/Y  modulator_0/output_signal_RNO_9/A  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[3\]/CLK  modulator_0/clock_counter\[3\]/Q  modulator_0/output_signal_RNO_13/B  modulator_0/output_signal_RNO_13/Y  modulator_0/output_signal_RNO_11/A  modulator_0/output_signal_RNO_11/Y  modulator_0/output_signal_RNO_9/A  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/output_signal_RNO_13/A  modulator_0/output_signal_RNO_13/Y  modulator_0/output_signal_RNO_11/A  modulator_0/output_signal_RNO_11/Y  modulator_0/output_signal_RNO_9/A  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[5\]/CLK  modulator_0/clock_counter\[5\]/Q  modulator_0/output_signal_RNO_15/B  modulator_0/output_signal_RNO_15/Y  modulator_0/output_signal_RNO_11/C  modulator_0/output_signal_RNO_11/Y  modulator_0/output_signal_RNO_9/A  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[2\]/CLK  modulator_0/clock_counter\[2\]/Q  modulator_0/output_signal_RNO_14/B  modulator_0/output_signal_RNO_14/Y  modulator_0/output_signal_RNO_11/B  modulator_0/output_signal_RNO_11/Y  modulator_0/output_signal_RNO_9/A  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[6\]/CLK  modulator_0/clock_counter\[6\]/Q  modulator_0/output_signal_RNO_15/A  modulator_0/output_signal_RNO_15/Y  modulator_0/output_signal_RNO_11/C  modulator_0/output_signal_RNO_11/Y  modulator_0/output_signal_RNO_9/A  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/bit_index\[2\]/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/bit_index\[1\]/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/bit_index\[0\]/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/bit_index\[3\]/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNILRQS\[1\]/B  data_rate_0/counter_RNILRQS\[1\]/Y  data_rate_0/counter_RNIC7CJ3\[1\]/A  data_rate_0/counter_RNIC7CJ3\[1\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/A  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[3\]/CLK  data_rate_0/counter\[3\]/Q  data_rate_0/counter_RNIPVQS\[2\]/A  data_rate_0/counter_RNIPVQS\[2\]/Y  data_rate_0/counter_RNIC7CJ3\[1\]/B  data_rate_0/counter_RNIC7CJ3\[1\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/A  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[1\]/CLK  modulator_0/clock_counter\[1\]/Q  modulator_0/output_signal_RNO_14/A  modulator_0/output_signal_RNO_14/Y  modulator_0/output_signal_RNO_11/B  modulator_0/output_signal_RNO_11/Y  modulator_0/output_signal_RNO_9/A  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[9\]/CLK  modulator_0/clock_counter\[9\]/Q  modulator_0/clock_counter_RNIJ6HC\[9\]/B  modulator_0/clock_counter_RNIJ6HC\[9\]/Y  modulator_0/clock_counter_RNIB3OL\[10\]/A  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNI1B8B1\[2\]/B  data_rate_0/counter_RNI1B8B1\[2\]/Y  data_rate_0/counter_RNISC382\[4\]/B  data_rate_0/counter_RNISC382\[4\]/Y  data_rate_0/counter_RNO_1\[7\]/B  data_rate_0/counter_RNO_1\[7\]/Y  data_rate_0/counter_RNO_0\[7\]/A  data_rate_0/counter_RNO_0\[7\]/Y  data_rate_0/counter_RNO\[7\]/B  data_rate_0/counter_RNO\[7\]/Y  data_rate_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[6\]/CLK  data_rate_0/counter\[6\]/Q  data_rate_0/counter_RNIUBMP1\[7\]/B  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[2\]/CLK  data_rate_0/counter\[2\]/Q  data_rate_0/counter_RNIPVQS\[2\]/B  data_rate_0/counter_RNIPVQS\[2\]/Y  data_rate_0/counter_RNIC7CJ3\[1\]/B  data_rate_0/counter_RNIC7CJ3\[1\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/A  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[1\]/CLK  data_rate_0/counter\[1\]/Q  data_rate_0/counter_RNILRQS\[1\]/A  data_rate_0/counter_RNILRQS\[1\]/Y  data_rate_0/counter_RNIC7CJ3\[1\]/A  data_rate_0/counter_RNIC7CJ3\[1\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/A  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNIPAG7\[5\]/A  modulator_0/clock_counter_RNIPAG7\[5\]/Y  modulator_0/clock_counter_RNO\[6\]/B  modulator_0/clock_counter_RNO\[6\]/Y  modulator_0/clock_counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[7\]/CLK  data_rate_0/counter\[7\]/Q  data_rate_0/counter_RNIUBMP1\[7\]/C  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNI1B8B1\[2\]/B  data_rate_0/counter_RNI1B8B1\[2\]/Y  data_rate_0/counter_RNISC382\[4\]/B  data_rate_0/counter_RNISC382\[4\]/Y  data_rate_0/counter_RNO_0\[6\]/B  data_rate_0/counter_RNO_0\[6\]/Y  data_rate_0/counter_RNO\[6\]/B  data_rate_0/counter_RNO\[6\]/Y  data_rate_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/bit_index_RNI3D2G\[2\]/C  data_rate_0/bit_index_RNI3D2G\[2\]/Y  data_rate_0/packet_start_flag_RNI63RS/A  data_rate_0/packet_start_flag_RNI63RS/Y  data_rate_0/packet_start_flag_RNI8TBA1/B  data_rate_0/packet_start_flag_RNI8TBA1/Y  data_rate_0/bit_index_RNO\[0\]/B  data_rate_0/bit_index_RNO\[0\]/Y  data_rate_0/bit_index\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/bit_index_RNI3D2G\[2\]/C  data_rate_0/bit_index_RNI3D2G\[2\]/Y  data_rate_0/packet_start_flag_RNI63RS/A  data_rate_0/packet_start_flag_RNI63RS/Y  data_rate_0/packet_start_flag_RNI8TBA1/B  data_rate_0/packet_start_flag_RNI8TBA1/Y  data_rate_0/bit_index_RNO\[1\]/C  data_rate_0/bit_index_RNO\[1\]/Y  data_rate_0/bit_index\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_19/C  data_rate_0/output_data_rate_RNO_19/Y  data_rate_0/output_data_rate_RNO_10/B  data_rate_0/output_data_rate_RNO_10/Y  data_rate_0/output_data_rate_RNO_4/A  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/bit_index_RNI3D2G\[2\]/B  data_rate_0/bit_index_RNI3D2G\[2\]/Y  data_rate_0/packet_start_flag_RNI63RS/A  data_rate_0/packet_start_flag_RNI63RS/Y  data_rate_0/packet_start_flag_RNI8TBA1/B  data_rate_0/packet_start_flag_RNI8TBA1/Y  data_rate_0/bit_index_RNO\[0\]/B  data_rate_0/bit_index_RNO\[0\]/Y  data_rate_0/bit_index\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_19/A  data_rate_0/output_data_rate_RNO_19/Y  data_rate_0/output_data_rate_RNO_10/B  data_rate_0/output_data_rate_RNO_10/Y  data_rate_0/output_data_rate_RNO_4/A  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[3\]/CLK  data_rate_0/counter\[3\]/Q  data_rate_0/counter_RNIC7CJ3\[3\]/A  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNIOJ5E7/B  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/bit_index_RNI3D2G\[2\]/C  data_rate_0/bit_index_RNI3D2G\[2\]/Y  data_rate_0/packet_start_flag_RNI63RS/A  data_rate_0/packet_start_flag_RNI63RS/Y  data_rate_0/packet_start_flag_RNI8TBA1/B  data_rate_0/packet_start_flag_RNI8TBA1/Y  data_rate_0/bit_index_RNO\[2\]/B  data_rate_0/bit_index_RNO\[2\]/Y  data_rate_0/bit_index\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/bit_index_RNI3D2G\[2\]/C  data_rate_0/bit_index_RNI3D2G\[2\]/Y  data_rate_0/packet_start_flag_RNI63RS/A  data_rate_0/packet_start_flag_RNI63RS/Y  data_rate_0/packet_start_flag_RNI8TBA1/B  data_rate_0/packet_start_flag_RNI8TBA1/Y  data_rate_0/bit_index_RNO\[3\]/B  data_rate_0/bit_index_RNO\[3\]/Y  data_rate_0/bit_index\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_21/B  data_rate_0/output_data_rate_RNO_21/Y  data_rate_0/output_data_rate_RNO_12/A  data_rate_0/output_data_rate_RNO_12/Y  data_rate_0/output_data_rate_RNO_4/C  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/bit_index_RNI51NA\[3\]/A  data_rate_0/bit_index_RNI51NA\[3\]/Y  data_rate_0/output_data_rate_RNO_12/C  data_rate_0/output_data_rate_RNO_12/Y  data_rate_0/output_data_rate_RNO_4/C  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[7\]/CLK  modulator_0/clock_counter\[7\]/Q  modulator_0/output_signal_RNO_12/B  modulator_0/output_signal_RNO_12/Y  modulator_0/output_signal_RNO_9/B  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_18/B  data_rate_0/output_data_rate_RNO_18/Y  data_rate_0/output_data_rate_RNO_10/A  data_rate_0/output_data_rate_RNO_10/Y  data_rate_0/output_data_rate_RNO_4/A  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/bit_index_RNI51NA\[3\]/A  data_rate_0/bit_index_RNI51NA\[3\]/Y  data_rate_0/output_data_rate_RNO_10/C  data_rate_0/output_data_rate_RNO_10/Y  data_rate_0/output_data_rate_RNO_4/A  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[6\]/CLK  two_mhz_clock_0/counter\[6\]/Q  two_mhz_clock_0/counter_RNIUT6U\[6\]/B  two_mhz_clock_0/counter_RNIUT6U\[6\]/Y  two_mhz_clock_0/counter_RNILKDS1\[2\]/B  two_mhz_clock_0/counter_RNILKDS1\[2\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/C  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/clock_out_RNO/B  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/output_data_rate_RNO_22/A  data_rate_0/output_data_rate_RNO_22/Y  data_rate_0/output_data_rate_RNO_15/A  data_rate_0/output_data_rate_RNO_15/Y  data_rate_0/output_data_rate_RNO_6/C  data_rate_0/output_data_rate_RNO_6/Y  data_rate_0/output_data_rate_RNO_2/A  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_18/C  data_rate_0/output_data_rate_RNO_18/Y  data_rate_0/output_data_rate_RNO_10/A  data_rate_0/output_data_rate_RNO_10/Y  data_rate_0/output_data_rate_RNO_4/A  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_20/C  data_rate_0/output_data_rate_RNO_20/Y  data_rate_0/output_data_rate_RNO_11/B  data_rate_0/output_data_rate_RNO_11/Y  data_rate_0/output_data_rate_RNO_4/B  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[8\]/CLK  modulator_0/clock_counter\[8\]/Q  modulator_0/output_signal_RNO_12/A  modulator_0/output_signal_RNO_12/Y  modulator_0/output_signal_RNO_9/B  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[10\]/CLK  modulator_0/clock_counter\[10\]/Q  modulator_0/clock_counter_RNIB3OL\[10\]/B  modulator_0/clock_counter_RNIB3OL\[10\]/Y  modulator_0/clock_counter_RNI41VU\[11\]/A  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/output_data_rate_RNO_22/C  data_rate_0/output_data_rate_RNO_22/Y  data_rate_0/output_data_rate_RNO_15/A  data_rate_0/output_data_rate_RNO_15/Y  data_rate_0/output_data_rate_RNO_6/C  data_rate_0/output_data_rate_RNO_6/Y  data_rate_0/output_data_rate_RNO_2/A  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNI1B8B1\[2\]/B  data_rate_0/counter_RNI1B8B1\[2\]/Y  data_rate_0/counter_RNISC382\[4\]/B  data_rate_0/counter_RNISC382\[4\]/Y  data_rate_0/counter_RNO_0\[5\]/A  data_rate_0/counter_RNO_0\[5\]/Y  data_rate_0/counter_RNO\[5\]/B  data_rate_0/counter_RNO\[5\]/Y  data_rate_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[8\]/CLK  two_mhz_clock_0/counter\[8\]/Q  two_mhz_clock_0/counter_RNIUT6U\[6\]/A  two_mhz_clock_0/counter_RNIUT6U\[6\]/Y  two_mhz_clock_0/counter_RNILKDS1\[2\]/B  two_mhz_clock_0/counter_RNILKDS1\[2\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/C  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/clock_out_RNO/B  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/bit_index_RNI51NA\[3\]/B  data_rate_0/bit_index_RNI51NA\[3\]/Y  data_rate_0/output_data_rate_RNO_12/C  data_rate_0/output_data_rate_RNO_12/Y  data_rate_0/output_data_rate_RNO_4/C  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNID686\[4\]/A  modulator_0/clock_counter_RNID686\[4\]/Y  modulator_0/clock_counter_RNO\[5\]/B  modulator_0/clock_counter_RNO\[5\]/Y  modulator_0/clock_counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_14/C  data_rate_0/output_data_rate_RNO_14/Y  data_rate_0/output_data_rate_RNO_6/A  data_rate_0/output_data_rate_RNO_6/Y  data_rate_0/output_data_rate_RNO_2/A  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[6\]/CLK  two_mhz_clock_0/counter\[6\]/Q  two_mhz_clock_0/counter_RNIUT6U\[6\]/B  two_mhz_clock_0/counter_RNIUT6U\[6\]/Y  two_mhz_clock_0/counter_RNILKDS1\[2\]/B  two_mhz_clock_0/counter_RNILKDS1\[2\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/C  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/counter_RNO\[4\]/A  two_mhz_clock_0/counter_RNO\[4\]/Y  two_mhz_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[6\]/CLK  two_mhz_clock_0/counter\[6\]/Q  two_mhz_clock_0/counter_RNIUT6U\[6\]/B  two_mhz_clock_0/counter_RNIUT6U\[6\]/Y  two_mhz_clock_0/counter_RNILKDS1\[2\]/B  two_mhz_clock_0/counter_RNILKDS1\[2\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/C  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/counter_RNO\[5\]/A  two_mhz_clock_0/counter_RNO\[5\]/Y  two_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[6\]/CLK  two_mhz_clock_0/counter\[6\]/Q  two_mhz_clock_0/counter_RNIUT6U\[6\]/B  two_mhz_clock_0/counter_RNIUT6U\[6\]/Y  two_mhz_clock_0/counter_RNILKDS1\[2\]/B  two_mhz_clock_0/counter_RNILKDS1\[2\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/C  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/counter_RNO\[1\]/A  two_mhz_clock_0/counter_RNO\[1\]/Y  two_mhz_clock_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_10/A  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_24/A  two_mhz_clock_0/un5_counter_I_24/Y  two_mhz_clock_0/un5_counter_I_25/B  two_mhz_clock_0/un5_counter_I_25/Y  two_mhz_clock_0/un5_counter_I_26/A  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/output_data_rate_RNO_20/B  data_rate_0/output_data_rate_RNO_20/Y  data_rate_0/output_data_rate_RNO_11/B  data_rate_0/output_data_rate_RNO_11/Y  data_rate_0/output_data_rate_RNO_4/B  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[1\]/CLK  two_mhz_clock_0/counter\[1\]/Q  two_mhz_clock_0/un5_counter_I_10/B  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_24/A  two_mhz_clock_0/un5_counter_I_24/Y  two_mhz_clock_0/un5_counter_I_25/B  two_mhz_clock_0/un5_counter_I_25/Y  two_mhz_clock_0/un5_counter_I_26/A  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/B  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_24/A  ten_mhz_clock_0/un5_counter_1_I_24/Y  ten_mhz_clock_0/un5_counter_1_I_25/B  ten_mhz_clock_0/un5_counter_1_I_25/Y  ten_mhz_clock_0/un5_counter_1_I_26/A  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/bit_index_RNI3D2G\[2\]/A  data_rate_0/bit_index_RNI3D2G\[2\]/Y  data_rate_0/packet_start_flag_RNI63RS/A  data_rate_0/packet_start_flag_RNI63RS/Y  data_rate_0/packet_start_flag_RNI8TBA1/B  data_rate_0/packet_start_flag_RNI8TBA1/Y  data_rate_0/bit_index_RNO\[0\]/B  data_rate_0/bit_index_RNO\[0\]/Y  data_rate_0/bit_index\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[1\]/CLK  two_mhz_clock_0/counter\[1\]/Q  two_mhz_clock_0/un5_counter_I_10/B  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_24/A  two_mhz_clock_0/un5_counter_I_24/Y  two_mhz_clock_0/un5_counter_I_27/A  two_mhz_clock_0/un5_counter_I_27/Y  two_mhz_clock_0/un5_counter_I_28/A  two_mhz_clock_0/un5_counter_I_28/Y  two_mhz_clock_0/counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_10/A  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_30/A  two_mhz_clock_0/un5_counter_I_30/Y  two_mhz_clock_0/un5_counter_I_31/A  two_mhz_clock_0/un5_counter_I_31/Y  two_mhz_clock_0/un5_counter_I_32/A  two_mhz_clock_0/un5_counter_I_32/Y  two_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_9/A  data_rate_0/output_data_rate_RNO_9/Y  data_rate_0/output_data_rate_RNO_3/A  data_rate_0/output_data_rate_RNO_3/Y  data_rate_0/output_data_rate_RNO_1/A  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[2\]/CLK  two_mhz_clock_0/counter\[2\]/Q  two_mhz_clock_0/un5_counter_I_10/C  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_24/A  two_mhz_clock_0/un5_counter_I_24/Y  two_mhz_clock_0/un5_counter_I_25/B  two_mhz_clock_0/un5_counter_I_25/Y  two_mhz_clock_0/un5_counter_I_26/A  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[2\]/CLK  ten_mhz_clock_0/counter\[2\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/C  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_24/A  ten_mhz_clock_0/un5_counter_1_I_24/Y  ten_mhz_clock_0/un5_counter_1_I_25/B  ten_mhz_clock_0/un5_counter_1_I_25/Y  ten_mhz_clock_0/un5_counter_1_I_26/A  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_10/A  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_11/B  two_mhz_clock_0/un5_counter_I_11/Y  two_mhz_clock_0/un5_counter_I_12/A  two_mhz_clock_0/un5_counter_I_12/Y  two_mhz_clock_0/counter_RNO\[4\]/C  two_mhz_clock_0/counter_RNO\[4\]/Y  two_mhz_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/B  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_24/A  ten_mhz_clock_0/un5_counter_1_I_24/Y  ten_mhz_clock_0/un5_counter_1_I_27/A  ten_mhz_clock_0/un5_counter_1_I_27/Y  ten_mhz_clock_0/un5_counter_1_I_28/A  ten_mhz_clock_0/un5_counter_1_I_28/Y  ten_mhz_clock_0/counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_14/A  data_rate_0/output_data_rate_RNO_14/Y  data_rate_0/output_data_rate_RNO_6/A  data_rate_0/output_data_rate_RNO_6/Y  data_rate_0/output_data_rate_RNO_2/A  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[0\]/CLK  ten_mhz_clock_0/counter\[0\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/A  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_24/A  ten_mhz_clock_0/un5_counter_1_I_24/Y  ten_mhz_clock_0/un5_counter_1_I_25/B  ten_mhz_clock_0/un5_counter_1_I_25/Y  ten_mhz_clock_0/un5_counter_1_I_26/A  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_15/C  data_rate_0/output_data_rate_RNO_15/Y  data_rate_0/output_data_rate_RNO_6/C  data_rate_0/output_data_rate_RNO_6/Y  data_rate_0/output_data_rate_RNO_2/A  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[3\]/CLK  two_mhz_clock_0/counter\[3\]/Q  two_mhz_clock_0/un5_counter_I_18/A  two_mhz_clock_0/un5_counter_I_18/Y  two_mhz_clock_0/un5_counter_I_24/B  two_mhz_clock_0/un5_counter_I_24/Y  two_mhz_clock_0/un5_counter_I_25/B  two_mhz_clock_0/un5_counter_I_25/Y  two_mhz_clock_0/un5_counter_I_26/A  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/un5_counter_1_I_18/A  ten_mhz_clock_0/un5_counter_1_I_18/Y  ten_mhz_clock_0/un5_counter_1_I_24/B  ten_mhz_clock_0/un5_counter_1_I_24/Y  ten_mhz_clock_0/un5_counter_1_I_25/B  ten_mhz_clock_0/un5_counter_1_I_25/Y  ten_mhz_clock_0/un5_counter_1_I_26/A  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[4\]/CLK  two_mhz_clock_0/counter\[4\]/Q  two_mhz_clock_0/un5_counter_I_18/B  two_mhz_clock_0/un5_counter_I_18/Y  two_mhz_clock_0/un5_counter_I_24/B  two_mhz_clock_0/un5_counter_I_24/Y  two_mhz_clock_0/un5_counter_I_25/B  two_mhz_clock_0/un5_counter_I_25/Y  two_mhz_clock_0/un5_counter_I_26/A  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[4\]/CLK  ten_mhz_clock_0/counter\[4\]/Q  ten_mhz_clock_0/un5_counter_1_I_18/B  ten_mhz_clock_0/un5_counter_1_I_18/Y  ten_mhz_clock_0/un5_counter_1_I_24/B  ten_mhz_clock_0/un5_counter_1_I_24/Y  ten_mhz_clock_0/un5_counter_1_I_25/B  ten_mhz_clock_0/un5_counter_1_I_25/Y  ten_mhz_clock_0/un5_counter_1_I_26/A  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/B  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_30/A  ten_mhz_clock_0/un5_counter_1_I_30/Y  ten_mhz_clock_0/un5_counter_1_I_31/A  ten_mhz_clock_0/un5_counter_1_I_31/Y  ten_mhz_clock_0/un5_counter_1_I_32/A  ten_mhz_clock_0/un5_counter_1_I_32/Y  ten_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_10/A  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_13/A  two_mhz_clock_0/un5_counter_I_13/Y  two_mhz_clock_0/un5_counter_I_14/A  two_mhz_clock_0/un5_counter_I_14/Y  two_mhz_clock_0/counter_RNO\[5\]/C  two_mhz_clock_0/counter_RNO\[5\]/Y  two_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[5\]/CLK  two_mhz_clock_0/counter\[5\]/Q  two_mhz_clock_0/un5_counter_I_18/C  two_mhz_clock_0/un5_counter_I_18/Y  two_mhz_clock_0/un5_counter_I_24/B  two_mhz_clock_0/un5_counter_I_24/Y  two_mhz_clock_0/un5_counter_I_25/B  two_mhz_clock_0/un5_counter_I_25/Y  two_mhz_clock_0/un5_counter_I_26/A  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[5\]/CLK  ten_mhz_clock_0/counter\[5\]/Q  ten_mhz_clock_0/un5_counter_1_I_18/C  ten_mhz_clock_0/un5_counter_1_I_18/Y  ten_mhz_clock_0/un5_counter_1_I_24/B  ten_mhz_clock_0/un5_counter_1_I_24/Y  ten_mhz_clock_0/un5_counter_1_I_25/B  ten_mhz_clock_0/un5_counter_1_I_25/Y  ten_mhz_clock_0/un5_counter_1_I_26/A  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_12/B  data_rate_0/output_data_rate_RNO_12/Y  data_rate_0/output_data_rate_RNO_4/C  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[6\]/CLK  modulator_0/clock_counter\[6\]/Q  modulator_0/output_signal_RNO_10/B  modulator_0/output_signal_RNO_10/Y  modulator_0/output_signal_RNO_6/C  modulator_0/output_signal_RNO_6/Y  modulator_0/output_signal_RNO_2/A  modulator_0/output_signal_RNO_2/Y  modulator_0/output_signal_RNO_0/A  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_15/B  data_rate_0/output_data_rate_RNO_15/Y  data_rate_0/output_data_rate_RNO_6/C  data_rate_0/output_data_rate_RNO_6/Y  data_rate_0/output_data_rate_RNO_2/A  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[3\]/CLK  two_mhz_clock_0/counter\[3\]/Q  two_mhz_clock_0/un5_counter_I_18/A  two_mhz_clock_0/un5_counter_I_18/Y  two_mhz_clock_0/un5_counter_I_30/B  two_mhz_clock_0/un5_counter_I_30/Y  two_mhz_clock_0/un5_counter_I_31/A  two_mhz_clock_0/un5_counter_I_31/Y  two_mhz_clock_0/un5_counter_I_32/A  two_mhz_clock_0/un5_counter_I_32/Y  two_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/un5_counter_1_I_18/A  ten_mhz_clock_0/un5_counter_1_I_18/Y  ten_mhz_clock_0/un5_counter_1_I_30/B  ten_mhz_clock_0/un5_counter_1_I_30/Y  ten_mhz_clock_0/un5_counter_1_I_31/A  ten_mhz_clock_0/un5_counter_1_I_31/Y  ten_mhz_clock_0/un5_counter_1_I_32/A  ten_mhz_clock_0/un5_counter_1_I_32/Y  ten_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_13/C  data_rate_0/output_data_rate_RNO_13/Y  data_rate_0/output_data_rate_RNO_5/A  data_rate_0/output_data_rate_RNO_5/Y  data_rate_0/output_data_rate_RNO_1/C  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_9/C  data_rate_0/output_data_rate_RNO_9/Y  data_rate_0/output_data_rate_RNO_3/A  data_rate_0/output_data_rate_RNO_3/Y  data_rate_0/output_data_rate_RNO_1/A  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_16/B  data_rate_0/output_data_rate_RNO_16/Y  data_rate_0/output_data_rate_RNO_7/A  data_rate_0/output_data_rate_RNO_7/Y  data_rate_0/output_data_rate_RNO_2/B  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/bit_index_RNI51NA_0\[3\]/B  data_rate_0/bit_index_RNI51NA_0\[3\]/Y  data_rate_0/output_data_rate_RNO_6/B  data_rate_0/output_data_rate_RNO_6/Y  data_rate_0/output_data_rate_RNO_2/A  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[7\]/CLK  modulator_0/clock_counter\[7\]/Q  modulator_0/output_signal_RNO_10/A  modulator_0/output_signal_RNO_10/Y  modulator_0/output_signal_RNO_6/C  modulator_0/output_signal_RNO_6/Y  modulator_0/output_signal_RNO_2/A  modulator_0/output_signal_RNO_2/Y  modulator_0/output_signal_RNO_0/A  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_11/A  data_rate_0/output_data_rate_RNO_11/Y  data_rate_0/output_data_rate_RNO_4/B  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/bit_index_RNI51NA_0\[3\]/A  data_rate_0/bit_index_RNI51NA_0\[3\]/Y  data_rate_0/output_data_rate_RNO_6/B  data_rate_0/output_data_rate_RNO_6/Y  data_rate_0/output_data_rate_RNO_2/A  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/bit_index_RNI51NA_0\[3\]/B  data_rate_0/bit_index_RNI51NA_0\[3\]/Y  data_rate_0/output_data_rate_RNO_3/B  data_rate_0/output_data_rate_RNO_3/Y  data_rate_0/output_data_rate_RNO_1/A  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/output_data_rate_RNO_17/C  data_rate_0/output_data_rate_RNO_17/Y  data_rate_0/output_data_rate_RNO_8/A  data_rate_0/output_data_rate_RNO_8/Y  data_rate_0/output_data_rate_RNO_2/C  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/output_data_rate_RNO_17/B  data_rate_0/output_data_rate_RNO_17/Y  data_rate_0/output_data_rate_RNO_8/A  data_rate_0/output_data_rate_RNO_8/Y  data_rate_0/output_data_rate_RNO_2/C  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT data_rate_0/packet_start_flag/CLK  data_rate_0/packet_start_flag/Q  data_rate_0/packet_start_flag_RNIOJ5E7/S  data_rate_0/packet_start_flag_RNIOJ5E7/Y  data_rate_0/packet_start_flag_RNIQDMR7/B  data_rate_0/packet_start_flag_RNIQDMR7/Y  data_rate_0/counter_RNO\[1\]/C  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/counter_RNIJI6U\[0\]/A  two_mhz_clock_0/counter_RNIJI6U\[0\]/Y  two_mhz_clock_0/counter_RNI87DS1\[1\]/B  two_mhz_clock_0/counter_RNI87DS1\[1\]/Y  two_mhz_clock_0/clock_out_RNO/A  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/counter_RNIJI6U\[0\]/A  two_mhz_clock_0/counter_RNIJI6U\[0\]/Y  two_mhz_clock_0/counter_RNI87DS1\[1\]/B  two_mhz_clock_0/counter_RNI87DS1\[1\]/Y  two_mhz_clock_0/counter_RNO\[4\]/B  two_mhz_clock_0/counter_RNO\[4\]/Y  two_mhz_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/counter_RNIJI6U\[0\]/A  two_mhz_clock_0/counter_RNIJI6U\[0\]/Y  two_mhz_clock_0/counter_RNI87DS1\[1\]/B  two_mhz_clock_0/counter_RNI87DS1\[1\]/Y  two_mhz_clock_0/counter_RNO\[5\]/B  two_mhz_clock_0/counter_RNO\[5\]/Y  two_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/counter_RNIJI6U\[0\]/A  two_mhz_clock_0/counter_RNIJI6U\[0\]/Y  two_mhz_clock_0/counter_RNI87DS1\[1\]/B  two_mhz_clock_0/counter_RNI87DS1\[1\]/Y  two_mhz_clock_0/counter_RNO\[1\]/B  two_mhz_clock_0/counter_RNO\[1\]/Y  two_mhz_clock_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/packet_start_flag_RNI63RS/B  data_rate_0/packet_start_flag_RNI63RS/Y  data_rate_0/packet_start_flag_RNI8TBA1/B  data_rate_0/packet_start_flag_RNI8TBA1/Y  data_rate_0/bit_index_RNO\[0\]/B  data_rate_0/bit_index_RNO\[0\]/Y  data_rate_0/bit_index\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNIT3RS\[4\]/A  data_rate_0/counter_RNIT3RS\[4\]/Y  data_rate_0/counter_RNIUBMP1\[7\]/A  data_rate_0/counter_RNIUBMP1\[7\]/Y  data_rate_0/counter_RNIC7CJ3\[3\]/C  data_rate_0/counter_RNIC7CJ3\[3\]/Y  data_rate_0/packet_start_flag_RNO/A  data_rate_0/packet_start_flag_RNO/Y  data_rate_0/packet_start_flag/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[11\]/CLK  modulator_0/clock_counter\[11\]/Q  modulator_0/clock_counter_RNI41VU\[11\]/B  modulator_0/clock_counter_RNI41VU\[11\]/Y  modulator_0/clock_counter_RNIUV581\[12\]/A  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[9\]/CLK  modulator_0/clock_counter\[9\]/Q  modulator_0/output_signal_RNO_9/C  modulator_0/output_signal_RNO_9/Y  modulator_0/output_signal_RNO_4/B  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[5\]/CLK  two_mhz_clock_0/counter\[5\]/Q  two_mhz_clock_0/counter_RNILKDS1\[2\]/A  two_mhz_clock_0/counter_RNILKDS1\[2\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/C  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/clock_out_RNO/B  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/counter_RNILRF1\[11\]/C  ten_mhz_clock_0/counter_RNILRF1\[11\]/Y  ten_mhz_clock_0/counter_RNI0KG3\[11\]/C  ten_mhz_clock_0/counter_RNI0KG3\[11\]/Y  ten_mhz_clock_0/clock_out_RNO/B  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNI2305\[3\]/A  modulator_0/clock_counter_RNI2305\[3\]/Y  modulator_0/clock_counter_RNO\[4\]/B  modulator_0/clock_counter_RNO\[4\]/Y  modulator_0/clock_counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[3\]/CLK  two_mhz_clock_0/counter\[3\]/Q  two_mhz_clock_0/counter_RNIJI6U\[0\]/B  two_mhz_clock_0/counter_RNIJI6U\[0\]/Y  two_mhz_clock_0/counter_RNI87DS1\[1\]/B  two_mhz_clock_0/counter_RNI87DS1\[1\]/Y  two_mhz_clock_0/clock_out_RNO/A  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/counter_RNILRF1\[11\]/C  ten_mhz_clock_0/counter_RNILRF1\[11\]/Y  ten_mhz_clock_0/counter_RNI0KG3\[11\]/C  ten_mhz_clock_0/counter_RNI0KG3\[11\]/Y  ten_mhz_clock_0/counter_RNO\[2\]/A  ten_mhz_clock_0/counter_RNO\[2\]/Y  ten_mhz_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNI1B8B1\[2\]/B  data_rate_0/counter_RNI1B8B1\[2\]/Y  data_rate_0/counter_RNO_0\[4\]/B  data_rate_0/counter_RNO_0\[4\]/Y  data_rate_0/counter_RNO\[4\]/B  data_rate_0/counter_RNO\[4\]/Y  data_rate_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/counter_RNILRF1\[11\]/C  ten_mhz_clock_0/counter_RNILRF1\[11\]/Y  ten_mhz_clock_0/counter_RNI0KG3\[11\]/C  ten_mhz_clock_0/counter_RNI0KG3\[11\]/Y  ten_mhz_clock_0/counter_RNO\[0\]/A  ten_mhz_clock_0/counter_RNO\[0\]/Y  ten_mhz_clock_0/counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/bit_index_RNI1TMA\[1\]/B  data_rate_0/bit_index_RNI1TMA\[1\]/Y  data_rate_0/bit_index_RNO_0\[3\]/A  data_rate_0/bit_index_RNO_0\[3\]/Y  data_rate_0/bit_index_RNO\[3\]/A  data_rate_0/bit_index_RNO\[3\]/Y  data_rate_0/bit_index\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[3\]/CLK  data_rate_0/counter\[3\]/Q  data_rate_0/counter_RNISC382\[4\]/A  data_rate_0/counter_RNISC382\[4\]/Y  data_rate_0/counter_RNO_1\[7\]/B  data_rate_0/counter_RNO_1\[7\]/Y  data_rate_0/counter_RNO_0\[7\]/A  data_rate_0/counter_RNO_0\[7\]/Y  data_rate_0/counter_RNO\[7\]/B  data_rate_0/counter_RNO\[7\]/Y  data_rate_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/B  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_11/B  ten_mhz_clock_0/un5_counter_1_I_11/Y  ten_mhz_clock_0/un5_counter_1_I_12/A  ten_mhz_clock_0/un5_counter_1_I_12/Y  ten_mhz_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[7\]/CLK  two_mhz_clock_0/counter\[7\]/Q  two_mhz_clock_0/counter_RNI007U\[7\]/B  two_mhz_clock_0/counter_RNI007U\[7\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/A  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/clock_out_RNO/B  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/output_data_rate_RNO_16/C  data_rate_0/output_data_rate_RNO_16/Y  data_rate_0/output_data_rate_RNO_7/A  data_rate_0/output_data_rate_RNO_7/Y  data_rate_0/output_data_rate_RNO_2/B  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[2\]/CLK  two_mhz_clock_0/counter\[2\]/Q  two_mhz_clock_0/counter_RNILKDS1\[2\]/C  two_mhz_clock_0/counter_RNILKDS1\[2\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/C  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/clock_out_RNO/B  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_10/A  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_16/A  two_mhz_clock_0/un5_counter_I_16/Y  two_mhz_clock_0/un5_counter_I_17/A  two_mhz_clock_0/un5_counter_I_17/Y  two_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_10/A  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_19/A  two_mhz_clock_0/un5_counter_I_19/Y  two_mhz_clock_0/un5_counter_I_20/A  two_mhz_clock_0/un5_counter_I_20/Y  two_mhz_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_10/A  two_mhz_clock_0/un5_counter_I_10/Y  two_mhz_clock_0/un5_counter_I_22/A  two_mhz_clock_0/un5_counter_I_22/Y  two_mhz_clock_0/un5_counter_I_23/A  two_mhz_clock_0/un5_counter_I_23/Y  two_mhz_clock_0/counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/bit_index_RNI1TMA\[1\]/A  data_rate_0/bit_index_RNI1TMA\[1\]/Y  data_rate_0/bit_index_RNO_0\[3\]/A  data_rate_0/bit_index_RNO_0\[3\]/Y  data_rate_0/bit_index_RNO\[3\]/A  data_rate_0/bit_index_RNO\[3\]/Y  data_rate_0/bit_index\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_8/C  data_rate_0/output_data_rate_RNO_8/Y  data_rate_0/output_data_rate_RNO_2/C  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/B  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_16/A  ten_mhz_clock_0/un5_counter_1_I_16/Y  ten_mhz_clock_0/un5_counter_1_I_17/A  ten_mhz_clock_0/un5_counter_1_I_17/Y  ten_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/B  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_19/A  ten_mhz_clock_0/un5_counter_1_I_19/Y  ten_mhz_clock_0/un5_counter_1_I_20/A  ten_mhz_clock_0/un5_counter_1_I_20/Y  ten_mhz_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/B  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_22/A  ten_mhz_clock_0/un5_counter_1_I_22/Y  ten_mhz_clock_0/un5_counter_1_I_23/A  ten_mhz_clock_0/un5_counter_1_I_23/Y  ten_mhz_clock_0/counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_10/B  ten_mhz_clock_0/un5_counter_1_I_10/Y  ten_mhz_clock_0/un5_counter_1_I_13/A  ten_mhz_clock_0/un5_counter_1_I_13/Y  ten_mhz_clock_0/un5_counter_1_I_14/A  ten_mhz_clock_0/un5_counter_1_I_14/Y  ten_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[9\]/CLK  two_mhz_clock_0/counter\[9\]/Q  two_mhz_clock_0/counter_RNI007U\[7\]/A  two_mhz_clock_0/counter_RNI007U\[7\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/A  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/clock_out_RNO/B  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/output_data_rate_RNO_13/B  data_rate_0/output_data_rate_RNO_13/Y  data_rate_0/output_data_rate_RNO_5/A  data_rate_0/output_data_rate_RNO_5/Y  data_rate_0/output_data_rate_RNO_1/C  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[7\]/CLK  ten_mhz_clock_0/counter\[7\]/Q  ten_mhz_clock_0/un5_counter_1_I_21/B  ten_mhz_clock_0/un5_counter_1_I_21/Y  ten_mhz_clock_0/un5_counter_1_I_24/C  ten_mhz_clock_0/un5_counter_1_I_24/Y  ten_mhz_clock_0/un5_counter_1_I_25/B  ten_mhz_clock_0/un5_counter_1_I_25/Y  ten_mhz_clock_0/un5_counter_1_I_26/A  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/output_data_rate_RNO_11/C  data_rate_0/output_data_rate_RNO_11/Y  data_rate_0/output_data_rate_RNO_4/B  data_rate_0/output_data_rate_RNO_4/Y  data_rate_0/output_data_rate_RNO_1/B  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/counter_RNIF501\[1\]/B  ten_mhz_clock_0/counter_RNIF501\[1\]/Y  ten_mhz_clock_0/counter_RNI7K02\[6\]/A  ten_mhz_clock_0/counter_RNI7K02\[6\]/Y  ten_mhz_clock_0/clock_out_RNO/A  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[7\]/CLK  two_mhz_clock_0/counter\[7\]/Q  two_mhz_clock_0/un5_counter_I_21/B  two_mhz_clock_0/un5_counter_I_21/Y  two_mhz_clock_0/un5_counter_I_24/C  two_mhz_clock_0/un5_counter_I_24/Y  two_mhz_clock_0/un5_counter_I_25/B  two_mhz_clock_0/un5_counter_I_25/Y  two_mhz_clock_0/un5_counter_I_26/A  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[6\]/CLK  ten_mhz_clock_0/counter\[6\]/Q  ten_mhz_clock_0/un5_counter_1_I_21/A  ten_mhz_clock_0/un5_counter_1_I_21/Y  ten_mhz_clock_0/un5_counter_1_I_24/C  ten_mhz_clock_0/un5_counter_1_I_24/Y  ten_mhz_clock_0/un5_counter_1_I_25/B  ten_mhz_clock_0/un5_counter_1_I_25/Y  ten_mhz_clock_0/un5_counter_1_I_26/A  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[6\]/CLK  two_mhz_clock_0/counter\[6\]/Q  two_mhz_clock_0/un5_counter_I_21/A  two_mhz_clock_0/un5_counter_I_21/Y  two_mhz_clock_0/un5_counter_I_24/C  two_mhz_clock_0/un5_counter_I_24/Y  two_mhz_clock_0/un5_counter_I_25/B  two_mhz_clock_0/un5_counter_I_25/Y  two_mhz_clock_0/un5_counter_I_26/A  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/packet_start_flag/CLK  data_rate_0/packet_start_flag/Q  data_rate_0/packet_start_flag_RNI63RS/C  data_rate_0/packet_start_flag_RNI63RS/Y  data_rate_0/packet_start_flag_RNI8TBA1/B  data_rate_0/packet_start_flag_RNI8TBA1/Y  data_rate_0/bit_index_RNO\[0\]/B  data_rate_0/bit_index_RNO\[0\]/Y  data_rate_0/bit_index\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[4\]/CLK  data_rate_0/counter\[4\]/Q  data_rate_0/counter_RNISC382\[4\]/C  data_rate_0/counter_RNISC382\[4\]/Y  data_rate_0/counter_RNO_1\[7\]/B  data_rate_0/counter_RNO_1\[7\]/Y  data_rate_0/counter_RNO_0\[7\]/A  data_rate_0/counter_RNO_0\[7\]/Y  data_rate_0/counter_RNO\[7\]/B  data_rate_0/counter_RNO\[7\]/Y  data_rate_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[10\]/CLK  modulator_0/clock_counter\[10\]/Q  modulator_0/output_signal_RNO_8/B  modulator_0/output_signal_RNO_8/Y  modulator_0/output_signal_RNO_2/C  modulator_0/output_signal_RNO_2/Y  modulator_0/output_signal_RNO_0/A  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[10\]/CLK  two_mhz_clock_0/counter\[10\]/Q  two_mhz_clock_0/counter_RNIJDL4\[11\]/B  two_mhz_clock_0/counter_RNIJDL4\[11\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/B  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/clock_out_RNO/B  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[7\]/CLK  ten_mhz_clock_0/counter\[7\]/Q  ten_mhz_clock_0/counter_RNIQG01\[7\]/B  ten_mhz_clock_0/counter_RNIQG01\[7\]/Y  ten_mhz_clock_0/counter_RNI0KG3\[11\]/B  ten_mhz_clock_0/counter_RNI0KG3\[11\]/Y  ten_mhz_clock_0/clock_out_RNO/B  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[3\]/CLK  two_mhz_clock_0/counter\[3\]/Q  two_mhz_clock_0/un5_counter_I_18/A  two_mhz_clock_0/un5_counter_I_18/Y  two_mhz_clock_0/un5_counter_I_22/B  two_mhz_clock_0/un5_counter_I_22/Y  two_mhz_clock_0/un5_counter_I_23/A  two_mhz_clock_0/un5_counter_I_23/Y  two_mhz_clock_0/counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[3\]/CLK  two_mhz_clock_0/counter\[3\]/Q  two_mhz_clock_0/un5_counter_I_18/A  two_mhz_clock_0/un5_counter_I_18/Y  two_mhz_clock_0/un5_counter_I_19/B  two_mhz_clock_0/un5_counter_I_19/Y  two_mhz_clock_0/un5_counter_I_20/A  two_mhz_clock_0/un5_counter_I_20/Y  two_mhz_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/un5_counter_1_I_18/A  ten_mhz_clock_0/un5_counter_1_I_18/Y  ten_mhz_clock_0/un5_counter_1_I_22/B  ten_mhz_clock_0/un5_counter_1_I_22/Y  ten_mhz_clock_0/un5_counter_1_I_23/A  ten_mhz_clock_0/un5_counter_1_I_23/Y  ten_mhz_clock_0/counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/un5_counter_1_I_18/A  ten_mhz_clock_0/un5_counter_1_I_18/Y  ten_mhz_clock_0/un5_counter_1_I_19/B  ten_mhz_clock_0/un5_counter_1_I_19/Y  ten_mhz_clock_0/un5_counter_1_I_20/A  ten_mhz_clock_0/un5_counter_1_I_20/Y  ten_mhz_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/output_data_rate_RNO_8/B  data_rate_0/output_data_rate_RNO_8/Y  data_rate_0/output_data_rate_RNO_2/C  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[4\]/CLK  ten_mhz_clock_0/counter\[4\]/Q  ten_mhz_clock_0/counter_RNIF501\[1\]/A  ten_mhz_clock_0/counter_RNIF501\[1\]/Y  ten_mhz_clock_0/counter_RNI7K02\[6\]/A  ten_mhz_clock_0/counter_RNI7K02\[6\]/Y  ten_mhz_clock_0/clock_out_RNO/A  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[5\]/CLK  modulator_0/clock_counter\[5\]/Q  modulator_0/output_signal_RNO_7/C  modulator_0/output_signal_RNO_7/Y  modulator_0/output_signal_RNO_2/B  modulator_0/output_signal_RNO_2/Y  modulator_0/output_signal_RNO_0/A  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[1\]/CLK  main_clock_0/counter\[1\]/Q  main_clock_0/un5_counter_1_I_10/B  main_clock_0/un5_counter_1_I_10/Y  main_clock_0/un5_counter_1_I_11/B  main_clock_0/un5_counter_1_I_11/Y  main_clock_0/un5_counter_1_I_12/A  main_clock_0/un5_counter_1_I_12/Y  main_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/bit_index_RNI1TMA\[1\]/B  data_rate_0/bit_index_RNI1TMA\[1\]/Y  data_rate_0/bit_index_RNO_0\[2\]/A  data_rate_0/bit_index_RNO_0\[2\]/Y  data_rate_0/bit_index_RNO\[2\]/A  data_rate_0/bit_index_RNO\[2\]/Y  data_rate_0/bit_index\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[4\]/CLK  modulator_0/clock_counter\[4\]/Q  modulator_0/output_signal_RNO_7/B  modulator_0/output_signal_RNO_7/Y  modulator_0/output_signal_RNO_2/B  modulator_0/output_signal_RNO_2/Y  modulator_0/output_signal_RNO_0/A  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNI1B8B1\[2\]/B  data_rate_0/counter_RNI1B8B1\[2\]/Y  data_rate_0/counter_RNO_0\[3\]/A  data_rate_0/counter_RNO_0\[3\]/Y  data_rate_0/counter_RNO\[3\]/B  data_rate_0/counter_RNO\[3\]/Y  data_rate_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[8\]/CLK  ten_mhz_clock_0/counter\[8\]/Q  ten_mhz_clock_0/un5_counter_1_I_29/C  ten_mhz_clock_0/un5_counter_1_I_29/Y  ten_mhz_clock_0/un5_counter_1_I_30/C  ten_mhz_clock_0/un5_counter_1_I_30/Y  ten_mhz_clock_0/un5_counter_1_I_31/A  ten_mhz_clock_0/un5_counter_1_I_31/Y  ten_mhz_clock_0/un5_counter_1_I_32/A  ten_mhz_clock_0/un5_counter_1_I_32/Y  ten_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[8\]/CLK  two_mhz_clock_0/counter\[8\]/Q  two_mhz_clock_0/un5_counter_I_29/C  two_mhz_clock_0/un5_counter_I_29/Y  two_mhz_clock_0/un5_counter_I_30/C  two_mhz_clock_0/un5_counter_I_30/Y  two_mhz_clock_0/un5_counter_I_31/A  two_mhz_clock_0/un5_counter_I_31/Y  two_mhz_clock_0/un5_counter_I_32/A  two_mhz_clock_0/un5_counter_I_32/Y  two_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[2\]/CLK  main_clock_0/counter\[2\]/Q  main_clock_0/un5_counter_1_I_10/C  main_clock_0/un5_counter_1_I_10/Y  main_clock_0/un5_counter_1_I_11/B  main_clock_0/un5_counter_1_I_11/Y  main_clock_0/un5_counter_1_I_12/A  main_clock_0/un5_counter_1_I_12/Y  main_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_7/C  data_rate_0/output_data_rate_RNO_7/Y  data_rate_0/output_data_rate_RNO_2/B  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[11\]/CLK  modulator_0/clock_counter\[11\]/Q  modulator_0/output_signal_RNO_8/A  modulator_0/output_signal_RNO_8/Y  modulator_0/output_signal_RNO_2/C  modulator_0/output_signal_RNO_2/Y  modulator_0/output_signal_RNO_0/A  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[9\]/CLK  ten_mhz_clock_0/counter\[9\]/Q  ten_mhz_clock_0/counter_RNIQG01\[7\]/A  ten_mhz_clock_0/counter_RNIQG01\[7\]/Y  ten_mhz_clock_0/counter_RNI0KG3\[11\]/B  ten_mhz_clock_0/counter_RNI0KG3\[11\]/Y  ten_mhz_clock_0/clock_out_RNO/B  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/counter_RNIF501\[1\]/B  ten_mhz_clock_0/counter_RNIF501\[1\]/Y  ten_mhz_clock_0/counter_RNI7K02\[6\]/A  ten_mhz_clock_0/counter_RNI7K02\[6\]/Y  ten_mhz_clock_0/counter_RNO\[0\]/B  ten_mhz_clock_0/counter_RNO\[0\]/Y  ten_mhz_clock_0/counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[8\]/CLK  modulator_0/clock_counter\[8\]/Q  modulator_0/output_signal_RNO_6/A  modulator_0/output_signal_RNO_6/Y  modulator_0/output_signal_RNO_2/A  modulator_0/output_signal_RNO_2/Y  modulator_0/output_signal_RNO_0/A  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[2\]/CLK  ten_mhz_clock_0/counter\[2\]/Q  ten_mhz_clock_0/counter_RNIH701\[2\]/A  ten_mhz_clock_0/counter_RNIH701\[2\]/Y  ten_mhz_clock_0/counter_RNI0KG3\[11\]/A  ten_mhz_clock_0/counter_RNI0KG3\[11\]/Y  ten_mhz_clock_0/clock_out_RNO/B  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[0\]/CLK  main_clock_0/counter\[0\]/Q  main_clock_0/un5_counter_1_I_10/A  main_clock_0/un5_counter_1_I_10/Y  main_clock_0/un5_counter_1_I_11/B  main_clock_0/un5_counter_1_I_11/Y  main_clock_0/un5_counter_1_I_12/A  main_clock_0/un5_counter_1_I_12/Y  main_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[1\]/CLK  main_clock_0/counter\[1\]/Q  main_clock_0/un5_counter_1_I_10/B  main_clock_0/un5_counter_1_I_10/Y  main_clock_0/un5_counter_1_I_16/A  main_clock_0/un5_counter_1_I_16/Y  main_clock_0/un5_counter_1_I_17/A  main_clock_0/un5_counter_1_I_17/Y  main_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[1\]/CLK  main_clock_0/counter\[1\]/Q  main_clock_0/un5_counter_1_I_10/B  main_clock_0/un5_counter_1_I_10/Y  main_clock_0/un5_counter_1_I_19/A  main_clock_0/un5_counter_1_I_19/Y  main_clock_0/un5_counter_1_I_20/A  main_clock_0/un5_counter_1_I_20/Y  main_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[1\]/CLK  main_clock_0/counter\[1\]/Q  main_clock_0/un5_counter_1_I_10/B  main_clock_0/un5_counter_1_I_10/Y  main_clock_0/un5_counter_1_I_13/A  main_clock_0/un5_counter_1_I_13/Y  main_clock_0/un5_counter_1_I_14/A  main_clock_0/un5_counter_1_I_14/Y  main_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/counter_RNIF501\[1\]/B  ten_mhz_clock_0/counter_RNIF501\[1\]/Y  ten_mhz_clock_0/counter_RNI7K02\[6\]/A  ten_mhz_clock_0/counter_RNI7K02\[6\]/Y  ten_mhz_clock_0/counter_RNO\[2\]/B  ten_mhz_clock_0/counter_RNO\[2\]/Y  ten_mhz_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[9\]/CLK  modulator_0/clock_counter\[9\]/Q  modulator_0/output_signal_RNO_6/B  modulator_0/output_signal_RNO_6/Y  modulator_0/output_signal_RNO_2/A  modulator_0/output_signal_RNO_2/Y  modulator_0/output_signal_RNO_0/A  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[3\]/CLK  modulator_0/clock_counter\[3\]/Q  modulator_0/output_signal_RNO_7/A  modulator_0/output_signal_RNO_7/Y  modulator_0/output_signal_RNO_2/B  modulator_0/output_signal_RNO_2/Y  modulator_0/output_signal_RNO_0/A  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[7\]/CLK  two_mhz_clock_0/counter\[7\]/Q  two_mhz_clock_0/un5_counter_I_29/B  two_mhz_clock_0/un5_counter_I_29/Y  two_mhz_clock_0/un5_counter_I_30/C  two_mhz_clock_0/un5_counter_I_30/Y  two_mhz_clock_0/un5_counter_I_31/A  two_mhz_clock_0/un5_counter_I_31/Y  two_mhz_clock_0/un5_counter_I_32/A  two_mhz_clock_0/un5_counter_I_32/Y  two_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[7\]/CLK  ten_mhz_clock_0/counter\[7\]/Q  ten_mhz_clock_0/un5_counter_1_I_29/B  ten_mhz_clock_0/un5_counter_1_I_29/Y  ten_mhz_clock_0/un5_counter_1_I_30/C  ten_mhz_clock_0/un5_counter_1_I_30/Y  ten_mhz_clock_0/un5_counter_1_I_31/A  ten_mhz_clock_0/un5_counter_1_I_31/Y  ten_mhz_clock_0/un5_counter_1_I_32/A  ten_mhz_clock_0/un5_counter_1_I_32/Y  ten_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[6\]/CLK  two_mhz_clock_0/counter\[6\]/Q  two_mhz_clock_0/un5_counter_I_29/A  two_mhz_clock_0/un5_counter_I_29/Y  two_mhz_clock_0/un5_counter_I_30/C  two_mhz_clock_0/un5_counter_I_30/Y  two_mhz_clock_0/un5_counter_I_31/A  two_mhz_clock_0/un5_counter_I_31/Y  two_mhz_clock_0/un5_counter_I_32/A  two_mhz_clock_0/un5_counter_I_32/Y  two_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[6\]/CLK  ten_mhz_clock_0/counter\[6\]/Q  ten_mhz_clock_0/un5_counter_1_I_29/A  ten_mhz_clock_0/un5_counter_1_I_29/Y  ten_mhz_clock_0/un5_counter_1_I_30/C  ten_mhz_clock_0/un5_counter_1_I_30/Y  ten_mhz_clock_0/un5_counter_1_I_31/A  ten_mhz_clock_0/un5_counter_1_I_31/Y  ten_mhz_clock_0/un5_counter_1_I_32/A  ten_mhz_clock_0/un5_counter_1_I_32/Y  ten_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/output_data_rate_RNO_5/C  data_rate_0/output_data_rate_RNO_5/Y  data_rate_0/output_data_rate_RNO_1/C  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[1\]/CLK  main_clock_0/counter\[1\]/Q  main_clock_0/counter_RNIF4VS\[1\]/B  main_clock_0/counter_RNIF4VS\[1\]/Y  main_clock_0/counter_RNI0BUP1\[2\]/A  main_clock_0/counter_RNI0BUP1\[2\]/Y  main_clock_0/clock_out_RNO/B  main_clock_0/clock_out_RNO/Y  main_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[5\]/CLK  ten_mhz_clock_0/counter\[5\]/Q  ten_mhz_clock_0/counter_RNIH701\[2\]/B  ten_mhz_clock_0/counter_RNIH701\[2\]/Y  ten_mhz_clock_0/counter_RNI0KG3\[11\]/A  ten_mhz_clock_0/counter_RNI0KG3\[11\]/Y  ten_mhz_clock_0/clock_out_RNO/B  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[4\]/CLK  main_clock_0/counter\[4\]/Q  main_clock_0/counter_RNIF4VS\[1\]/A  main_clock_0/counter_RNIF4VS\[1\]/Y  main_clock_0/counter_RNI0BUP1\[2\]/A  main_clock_0/counter_RNI0BUP1\[2\]/Y  main_clock_0/clock_out_RNO/B  main_clock_0/clock_out_RNO/Y  main_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[12\]/CLK  modulator_0/clock_counter\[12\]/Q  modulator_0/clock_counter_RNIUV581\[12\]/B  modulator_0/clock_counter_RNIUV581\[12\]/Y  modulator_0/clock_counter_RNIPVCH1\[13\]/A  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[10\]/CLK  modulator_0/clock_counter\[10\]/Q  modulator_0/output_signal_RNO_4/A  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[10\]/CLK  ten_mhz_clock_0/counter\[10\]/Q  ten_mhz_clock_0/counter_RNILRF1\[11\]/A  ten_mhz_clock_0/counter_RNILRF1\[11\]/Y  ten_mhz_clock_0/counter_RNI0KG3\[11\]/C  ten_mhz_clock_0/counter_RNI0KG3\[11\]/Y  ten_mhz_clock_0/clock_out_RNO/B  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[4\]/CLK  two_mhz_clock_0/counter\[4\]/Q  two_mhz_clock_0/counter_RNI87DS1\[1\]/A  two_mhz_clock_0/counter_RNI87DS1\[1\]/Y  two_mhz_clock_0/clock_out_RNO/A  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNIO0O3\[2\]/A  modulator_0/clock_counter_RNIO0O3\[2\]/Y  modulator_0/clock_counter_RNO\[3\]/B  modulator_0/clock_counter_RNO\[3\]/Y  modulator_0/clock_counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[11\]/CLK  two_mhz_clock_0/counter\[11\]/Q  two_mhz_clock_0/counter_RNIJDL4\[11\]/A  two_mhz_clock_0/counter_RNIJDL4\[11\]/Y  two_mhz_clock_0/counter_RNI82AV2\[11\]/B  two_mhz_clock_0/counter_RNI82AV2\[11\]/Y  two_mhz_clock_0/clock_out_RNO/B  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[1\]/CLK  main_clock_0/counter\[1\]/Q  main_clock_0/counter_RNIF4VS\[1\]/B  main_clock_0/counter_RNIF4VS\[1\]/Y  main_clock_0/counter_RNI0BUP1\[2\]/A  main_clock_0/counter_RNI0BUP1\[2\]/Y  main_clock_0/counter_RNO\[0\]/A  main_clock_0/counter_RNO\[0\]/Y  main_clock_0/counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[1\]/CLK  two_mhz_clock_0/counter\[1\]/Q  two_mhz_clock_0/counter_RNI87DS1\[1\]/C  two_mhz_clock_0/counter_RNI87DS1\[1\]/Y  two_mhz_clock_0/clock_out_RNO/A  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[14\]/CLK  modulator_0/clock_counter\[14\]/Q  modulator_0/output_signal_RNO_3/C  modulator_0/output_signal_RNO_3/Y  modulator_0/output_signal_RNO_0/C  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/output_data_rate_RNO_7/B  data_rate_0/output_data_rate_RNO_7/Y  data_rate_0/output_data_rate_RNO_2/B  data_rate_0/output_data_rate_RNO_2/Y  data_rate_0/output_data_rate_RNO_0/B  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[11\]/CLK  ten_mhz_clock_0/counter\[11\]/Q  ten_mhz_clock_0/counter_RNILRF1\[11\]/B  ten_mhz_clock_0/counter_RNILRF1\[11\]/Y  ten_mhz_clock_0/counter_RNI0KG3\[11\]/C  ten_mhz_clock_0/counter_RNI0KG3\[11\]/Y  ten_mhz_clock_0/clock_out_RNO/B  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[11\]/CLK  modulator_0/clock_counter\[11\]/Q  modulator_0/output_signal_RNO_4/C  modulator_0/output_signal_RNO_4/Y  modulator_0/output_signal_RNO_1/B  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[8\]/CLK  ten_mhz_clock_0/counter\[8\]/Q  ten_mhz_clock_0/counter_RNI7K02\[6\]/C  ten_mhz_clock_0/counter_RNI7K02\[6\]/Y  ten_mhz_clock_0/clock_out_RNO/A  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/output_data_rate_RNO_5/B  data_rate_0/output_data_rate_RNO_5/Y  data_rate_0/output_data_rate_RNO_1/C  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[3\]/CLK  main_clock_0/counter\[3\]/Q  main_clock_0/un5_counter_1_I_15/A  main_clock_0/un5_counter_1_I_15/Y  main_clock_0/un5_counter_1_I_16/B  main_clock_0/un5_counter_1_I_16/Y  main_clock_0/un5_counter_1_I_17/A  main_clock_0/un5_counter_1_I_17/Y  main_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[3\]/CLK  two_mhz_clock_0/counter\[3\]/Q  two_mhz_clock_0/un5_counter_I_15/A  two_mhz_clock_0/un5_counter_I_15/Y  two_mhz_clock_0/un5_counter_I_16/B  two_mhz_clock_0/un5_counter_I_16/Y  two_mhz_clock_0/un5_counter_I_17/A  two_mhz_clock_0/un5_counter_I_17/Y  two_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/un5_counter_1_I_15/A  ten_mhz_clock_0/un5_counter_1_I_15/Y  ten_mhz_clock_0/un5_counter_1_I_16/B  ten_mhz_clock_0/un5_counter_1_I_16/Y  ten_mhz_clock_0/un5_counter_1_I_17/A  ten_mhz_clock_0/un5_counter_1_I_17/Y  ten_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[7\]/CLK  ten_mhz_clock_0/counter\[7\]/Q  ten_mhz_clock_0/un5_counter_1_I_21/B  ten_mhz_clock_0/un5_counter_1_I_21/Y  ten_mhz_clock_0/un5_counter_1_I_22/C  ten_mhz_clock_0/un5_counter_1_I_22/Y  ten_mhz_clock_0/un5_counter_1_I_23/A  ten_mhz_clock_0/un5_counter_1_I_23/Y  ten_mhz_clock_0/counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[7\]/CLK  two_mhz_clock_0/counter\[7\]/Q  two_mhz_clock_0/un5_counter_I_21/B  two_mhz_clock_0/un5_counter_I_21/Y  two_mhz_clock_0/un5_counter_I_22/C  two_mhz_clock_0/un5_counter_I_22/Y  two_mhz_clock_0/un5_counter_I_23/A  two_mhz_clock_0/un5_counter_I_23/Y  two_mhz_clock_0/counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[4\]/CLK  two_mhz_clock_0/counter\[4\]/Q  two_mhz_clock_0/un5_counter_I_15/B  two_mhz_clock_0/un5_counter_I_15/Y  two_mhz_clock_0/un5_counter_I_16/B  two_mhz_clock_0/un5_counter_I_16/Y  two_mhz_clock_0/un5_counter_I_17/A  two_mhz_clock_0/un5_counter_I_17/Y  two_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[4\]/CLK  ten_mhz_clock_0/counter\[4\]/Q  ten_mhz_clock_0/un5_counter_1_I_15/B  ten_mhz_clock_0/un5_counter_1_I_15/Y  ten_mhz_clock_0/un5_counter_1_I_16/B  ten_mhz_clock_0/un5_counter_1_I_16/Y  ten_mhz_clock_0/un5_counter_1_I_17/A  ten_mhz_clock_0/un5_counter_1_I_17/Y  ten_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[4\]/CLK  main_clock_0/counter\[4\]/Q  main_clock_0/un5_counter_1_I_15/B  main_clock_0/un5_counter_1_I_15/Y  main_clock_0/un5_counter_1_I_16/B  main_clock_0/un5_counter_1_I_16/Y  main_clock_0/un5_counter_1_I_17/A  main_clock_0/un5_counter_1_I_17/Y  main_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[3\]/CLK  main_clock_0/counter\[3\]/Q  main_clock_0/un5_counter_1_I_18/A  main_clock_0/un5_counter_1_I_18/Y  main_clock_0/un5_counter_1_I_19/B  main_clock_0/un5_counter_1_I_19/Y  main_clock_0/un5_counter_1_I_20/A  main_clock_0/un5_counter_1_I_20/Y  main_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[4\]/CLK  main_clock_0/counter\[4\]/Q  main_clock_0/un5_counter_1_I_18/B  main_clock_0/un5_counter_1_I_18/Y  main_clock_0/un5_counter_1_I_19/B  main_clock_0/un5_counter_1_I_19/Y  main_clock_0/un5_counter_1_I_20/A  main_clock_0/un5_counter_1_I_20/Y  main_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[13\]/CLK  modulator_0/clock_counter\[13\]/Q  modulator_0/output_signal_RNO_3/A  modulator_0/output_signal_RNO_3/Y  modulator_0/output_signal_RNO_0/C  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[14\]/CLK  modulator_0/clock_counter\[14\]/Q  modulator_0/output_signal_RNO_5/C  modulator_0/output_signal_RNO_5/Y  modulator_0/output_signal_RNO_1/C  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[5\]/CLK  main_clock_0/counter\[5\]/Q  main_clock_0/un5_counter_1_I_18/C  main_clock_0/un5_counter_1_I_18/Y  main_clock_0/un5_counter_1_I_19/B  main_clock_0/un5_counter_1_I_19/Y  main_clock_0/un5_counter_1_I_20/A  main_clock_0/un5_counter_1_I_20/Y  main_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[3\]/CLK  two_mhz_clock_0/counter\[3\]/Q  two_mhz_clock_0/un5_counter_I_13/B  two_mhz_clock_0/un5_counter_I_13/Y  two_mhz_clock_0/un5_counter_I_14/A  two_mhz_clock_0/un5_counter_I_14/Y  two_mhz_clock_0/counter_RNO\[5\]/C  two_mhz_clock_0/counter_RNO\[5\]/Y  two_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[6\]/CLK  ten_mhz_clock_0/counter\[6\]/Q  ten_mhz_clock_0/counter_RNI7K02\[6\]/B  ten_mhz_clock_0/counter_RNI7K02\[6\]/Y  ten_mhz_clock_0/clock_out_RNO/A  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/bit_index_RNO_0\[3\]/B  data_rate_0/bit_index_RNO_0\[3\]/Y  data_rate_0/bit_index_RNO\[3\]/A  data_rate_0/bit_index_RNO\[3\]/Y  data_rate_0/bit_index\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[3\]/CLK  main_clock_0/counter\[3\]/Q  main_clock_0/counter_RNIFVEB1\[7\]/C  main_clock_0/counter_RNIFVEB1\[7\]/Y  main_clock_0/clock_out_RNO/A  main_clock_0/clock_out_RNO/Y  main_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[3\]/CLK  main_clock_0/counter\[3\]/Q  main_clock_0/counter_RNIFVEB1\[7\]/C  main_clock_0/counter_RNIFVEB1\[7\]/Y  main_clock_0/counter_RNO\[0\]/B  main_clock_0/counter_RNO\[0\]/Y  main_clock_0/counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[2\]/CLK  data_rate_0/bit_index\[2\]/Q  data_rate_0/bit_index_RNO_0\[2\]/B  data_rate_0/bit_index_RNO_0\[2\]/Y  data_rate_0/bit_index_RNO\[2\]/A  data_rate_0/bit_index_RNO\[2\]/Y  data_rate_0/bit_index\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[15\]/CLK  modulator_0/clock_counter\[15\]/Q  modulator_0/output_signal_RNO_3/B  modulator_0/output_signal_RNO_3/Y  modulator_0/output_signal_RNO_0/C  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[3\]/CLK  two_mhz_clock_0/counter\[3\]/Q  two_mhz_clock_0/un5_counter_I_11/A  two_mhz_clock_0/un5_counter_I_11/Y  two_mhz_clock_0/un5_counter_I_12/A  two_mhz_clock_0/un5_counter_I_12/Y  two_mhz_clock_0/counter_RNO\[4\]/C  two_mhz_clock_0/counter_RNO\[4\]/Y  two_mhz_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[4\]/CLK  two_mhz_clock_0/counter\[4\]/Q  two_mhz_clock_0/un5_counter_I_13/C  two_mhz_clock_0/un5_counter_I_13/Y  two_mhz_clock_0/un5_counter_I_14/A  two_mhz_clock_0/un5_counter_I_14/Y  two_mhz_clock_0/counter_RNO\[5\]/C  two_mhz_clock_0/counter_RNO\[5\]/Y  two_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[13\]/CLK  modulator_0/clock_counter\[13\]/Q  modulator_0/output_signal_RNO_5/A  modulator_0/output_signal_RNO_5/Y  modulator_0/output_signal_RNO_1/C  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/packet_start_flag/CLK  data_rate_0/packet_start_flag/Q  data_rate_0/output_data_rate_RNO_3/C  data_rate_0/output_data_rate_RNO_3/Y  data_rate_0/output_data_rate_RNO_1/A  data_rate_0/output_data_rate_RNO_1/Y  data_rate_0/output_data_rate_RNO_0/A  data_rate_0/output_data_rate_RNO_0/Y  data_rate_0/output_data_rate/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[0\]/CLK  ten_mhz_clock_0/counter\[0\]/Q  ten_mhz_clock_0/un5_counter_1_I_6/B  ten_mhz_clock_0/un5_counter_1_I_6/Y  ten_mhz_clock_0/un5_counter_1_I_7/A  ten_mhz_clock_0/un5_counter_1_I_7/Y  ten_mhz_clock_0/counter_RNO\[2\]/C  ten_mhz_clock_0/counter_RNO\[2\]/Y  ten_mhz_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNO_1\[7\]/A  data_rate_0/counter_RNO_1\[7\]/Y  data_rate_0/counter_RNO_0\[7\]/A  data_rate_0/counter_RNO_0\[7\]/Y  data_rate_0/counter_RNO\[7\]/B  data_rate_0/counter_RNO\[7\]/Y  data_rate_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_6/A  ten_mhz_clock_0/un5_counter_1_I_6/Y  ten_mhz_clock_0/un5_counter_1_I_7/A  ten_mhz_clock_0/un5_counter_1_I_7/Y  ten_mhz_clock_0/counter_RNO\[2\]/C  ten_mhz_clock_0/counter_RNO\[2\]/Y  ten_mhz_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[5\]/CLK  main_clock_0/counter\[5\]/Q  main_clock_0/counter_RNI0BUP1\[2\]/C  main_clock_0/counter_RNI0BUP1\[2\]/Y  main_clock_0/clock_out_RNO/B  main_clock_0/clock_out_RNO/Y  main_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[13\]/CLK  modulator_0/clock_counter\[13\]/Q  modulator_0/clock_counter_RNIPVCH1\[13\]/B  modulator_0/clock_counter_RNIPVCH1\[13\]/Y  modulator_0/clock_counter_RNO\[14\]/B  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[15\]/CLK  modulator_0/clock_counter\[15\]/Q  modulator_0/output_signal_RNO_5/B  modulator_0/output_signal_RNO_5/Y  modulator_0/output_signal_RNO_1/C  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[6\]/CLK  data_rate_0/counter\[6\]/Q  data_rate_0/counter_RNO_1\[7\]/C  data_rate_0/counter_RNO_1\[7\]/Y  data_rate_0/counter_RNO_0\[7\]/A  data_rate_0/counter_RNO_0\[7\]/Y  data_rate_0/counter_RNO\[7\]/B  data_rate_0/counter_RNO\[7\]/Y  data_rate_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNIFVF2\[1\]/A  modulator_0/clock_counter_RNIFVF2\[1\]/Y  modulator_0/clock_counter_RNO\[2\]/B  modulator_0/clock_counter_RNO\[2\]/Y  modulator_0/clock_counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[14\]/CLK  modulator_0/clock_counter\[14\]/Q  modulator_0/clock_counter_RNO_0\[15\]/B  modulator_0/clock_counter_RNO_0\[15\]/Y  modulator_0/clock_counter_RNO\[15\]/B  modulator_0/clock_counter_RNO\[15\]/Y  modulator_0/clock_counter\[15\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNO_0\[2\]/B  data_rate_0/counter_RNO_0\[2\]/Y  data_rate_0/counter_RNO\[2\]/B  data_rate_0/counter_RNO\[2\]/Y  data_rate_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[3\]/CLK  data_rate_0/counter\[3\]/Q  data_rate_0/counter_RNO_0\[4\]/A  data_rate_0/counter_RNO_0\[4\]/Y  data_rate_0/counter_RNO\[4\]/B  data_rate_0/counter_RNO\[4\]/Y  data_rate_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[3\]/CLK  data_rate_0/bit_index\[3\]/Q  data_rate_0/bit_index_RNO_0\[3\]/C  data_rate_0/bit_index_RNO_0\[3\]/Y  data_rate_0/bit_index_RNO\[3\]/A  data_rate_0/bit_index_RNO\[3\]/Y  data_rate_0/bit_index\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[3\]/CLK  data_rate_0/counter\[3\]/Q  data_rate_0/counter_RNO_0\[3\]/B  data_rate_0/counter_RNO_0\[3\]/Y  data_rate_0/counter_RNO\[3\]/B  data_rate_0/counter_RNO\[3\]/Y  data_rate_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[2\]/CLK  main_clock_0/counter\[2\]/Q  main_clock_0/counter_RNI0BUP1\[2\]/B  main_clock_0/counter_RNI0BUP1\[2\]/Y  main_clock_0/clock_out_RNO/B  main_clock_0/clock_out_RNO/Y  main_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNO_0\[6\]/A  data_rate_0/counter_RNO_0\[6\]/Y  data_rate_0/counter_RNO\[6\]/B  data_rate_0/counter_RNO\[6\]/Y  data_rate_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[5\]/CLK  data_rate_0/counter\[5\]/Q  data_rate_0/counter_RNO_0\[5\]/B  data_rate_0/counter_RNO_0\[5\]/Y  data_rate_0/counter_RNO\[5\]/B  data_rate_0/counter_RNO\[5\]/Y  data_rate_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[1\]/CLK  two_mhz_clock_0/counter\[1\]/Q  two_mhz_clock_0/un5_counter_I_5/B  two_mhz_clock_0/un5_counter_I_5/Y  two_mhz_clock_0/counter_RNO\[1\]/C  two_mhz_clock_0/counter_RNO\[1\]/Y  two_mhz_clock_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[4\]/CLK  two_mhz_clock_0/counter\[4\]/Q  two_mhz_clock_0/un5_counter_I_12/B  two_mhz_clock_0/un5_counter_I_12/Y  two_mhz_clock_0/counter_RNO\[4\]/C  two_mhz_clock_0/counter_RNO\[4\]/Y  two_mhz_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[12\]/CLK  modulator_0/clock_counter\[12\]/Q  modulator_0/output_signal_RNO_1/A  modulator_0/output_signal_RNO_1/Y  modulator_0/output_signal_RNO/C  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[1\]/CLK  data_rate_0/bit_index\[1\]/Q  data_rate_0/bit_index_RNO\[1\]/A  data_rate_0/bit_index_RNO\[1\]/Y  data_rate_0/bit_index\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_6/B  two_mhz_clock_0/un5_counter_I_6/Y  two_mhz_clock_0/un5_counter_I_7/A  two_mhz_clock_0/un5_counter_I_7/Y  two_mhz_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[2\]/CLK  ten_mhz_clock_0/counter\[2\]/Q  ten_mhz_clock_0/un5_counter_1_I_7/B  ten_mhz_clock_0/un5_counter_1_I_7/Y  ten_mhz_clock_0/counter_RNO\[2\]/C  ten_mhz_clock_0/counter_RNO\[2\]/Y  ten_mhz_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/un5_counter_1_I_13/B  ten_mhz_clock_0/un5_counter_1_I_13/Y  ten_mhz_clock_0/un5_counter_1_I_14/A  ten_mhz_clock_0/un5_counter_1_I_14/Y  ten_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[5\]/CLK  two_mhz_clock_0/counter\[5\]/Q  two_mhz_clock_0/un5_counter_I_14/B  two_mhz_clock_0/un5_counter_I_14/Y  two_mhz_clock_0/counter_RNO\[5\]/C  two_mhz_clock_0/counter_RNO\[5\]/Y  two_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[3\]/CLK  main_clock_0/counter\[3\]/Q  main_clock_0/un5_counter_1_I_13/B  main_clock_0/un5_counter_1_I_13/Y  main_clock_0/un5_counter_1_I_14/A  main_clock_0/un5_counter_1_I_14/Y  main_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[1\]/CLK  data_rate_0/counter\[1\]/Q  data_rate_0/counter_RNO_0\[2\]/A  data_rate_0/counter_RNO_0\[2\]/Y  data_rate_0/counter_RNO\[2\]/B  data_rate_0/counter_RNO\[2\]/Y  data_rate_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[12\]/CLK  modulator_0/clock_counter\[12\]/Q  modulator_0/output_signal_RNO_0/B  modulator_0/output_signal_RNO_0/Y  modulator_0/output_signal_RNO/A  modulator_0/output_signal_RNO/Y  modulator_0/output_signal/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/un5_counter_1_I_11/A  ten_mhz_clock_0/un5_counter_1_I_11/Y  ten_mhz_clock_0/un5_counter_1_I_12/A  ten_mhz_clock_0/un5_counter_1_I_12/Y  ten_mhz_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[3\]/CLK  main_clock_0/counter\[3\]/Q  main_clock_0/un5_counter_1_I_11/A  main_clock_0/un5_counter_1_I_11/Y  main_clock_0/un5_counter_1_I_12/A  main_clock_0/un5_counter_1_I_12/Y  main_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/bit_index_RNO\[1\]/B  data_rate_0/bit_index_RNO\[1\]/Y  data_rate_0/bit_index\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[6\]/CLK  two_mhz_clock_0/counter\[6\]/Q  two_mhz_clock_0/un5_counter_I_19/C  two_mhz_clock_0/un5_counter_I_19/Y  two_mhz_clock_0/un5_counter_I_20/A  two_mhz_clock_0/un5_counter_I_20/Y  two_mhz_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[4\]/CLK  ten_mhz_clock_0/counter\[4\]/Q  ten_mhz_clock_0/un5_counter_1_I_13/C  ten_mhz_clock_0/un5_counter_1_I_13/Y  ten_mhz_clock_0/un5_counter_1_I_14/A  ten_mhz_clock_0/un5_counter_1_I_14/Y  ten_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[6\]/CLK  ten_mhz_clock_0/counter\[6\]/Q  ten_mhz_clock_0/un5_counter_1_I_19/C  ten_mhz_clock_0/un5_counter_1_I_19/Y  ten_mhz_clock_0/un5_counter_1_I_20/A  ten_mhz_clock_0/un5_counter_1_I_20/Y  ten_mhz_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[4\]/CLK  main_clock_0/counter\[4\]/Q  main_clock_0/un5_counter_1_I_13/C  main_clock_0/un5_counter_1_I_13/Y  main_clock_0/un5_counter_1_I_14/A  main_clock_0/un5_counter_1_I_14/Y  main_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[0\]/CLK  main_clock_0/counter\[0\]/Q  main_clock_0/un5_counter_1_I_6/B  main_clock_0/un5_counter_1_I_6/Y  main_clock_0/un5_counter_1_I_7/A  main_clock_0/un5_counter_1_I_7/Y  main_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_8/A  two_mhz_clock_0/un5_counter_I_8/Y  two_mhz_clock_0/un5_counter_I_9/A  two_mhz_clock_0/un5_counter_I_9/Y  two_mhz_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[8\]/CLK  two_mhz_clock_0/counter\[8\]/Q  two_mhz_clock_0/un5_counter_I_27/B  two_mhz_clock_0/un5_counter_I_27/Y  two_mhz_clock_0/un5_counter_I_28/A  two_mhz_clock_0/un5_counter_I_28/Y  two_mhz_clock_0/counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[1\]/CLK  two_mhz_clock_0/counter\[1\]/Q  two_mhz_clock_0/un5_counter_I_8/B  two_mhz_clock_0/un5_counter_I_8/Y  two_mhz_clock_0/un5_counter_I_9/A  two_mhz_clock_0/un5_counter_I_9/Y  two_mhz_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_8/B  ten_mhz_clock_0/un5_counter_1_I_8/Y  ten_mhz_clock_0/un5_counter_1_I_9/A  ten_mhz_clock_0/un5_counter_1_I_9/Y  ten_mhz_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[1\]/CLK  main_clock_0/counter\[1\]/Q  main_clock_0/un5_counter_1_I_8/B  main_clock_0/un5_counter_1_I_8/Y  main_clock_0/un5_counter_1_I_9/A  main_clock_0/un5_counter_1_I_9/Y  main_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[8\]/CLK  ten_mhz_clock_0/counter\[8\]/Q  ten_mhz_clock_0/un5_counter_1_I_27/B  ten_mhz_clock_0/un5_counter_1_I_27/Y  ten_mhz_clock_0/un5_counter_1_I_28/A  ten_mhz_clock_0/un5_counter_1_I_28/Y  ten_mhz_clock_0/counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[2\]/CLK  two_mhz_clock_0/counter\[2\]/Q  two_mhz_clock_0/un5_counter_I_8/C  two_mhz_clock_0/un5_counter_I_8/Y  two_mhz_clock_0/un5_counter_I_9/A  two_mhz_clock_0/un5_counter_I_9/Y  two_mhz_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[2\]/CLK  ten_mhz_clock_0/counter\[2\]/Q  ten_mhz_clock_0/un5_counter_1_I_8/C  ten_mhz_clock_0/un5_counter_1_I_8/Y  ten_mhz_clock_0/un5_counter_1_I_9/A  ten_mhz_clock_0/un5_counter_1_I_9/Y  ten_mhz_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[5\]/CLK  two_mhz_clock_0/counter\[5\]/Q  two_mhz_clock_0/un5_counter_I_16/C  two_mhz_clock_0/un5_counter_I_16/Y  two_mhz_clock_0/un5_counter_I_17/A  two_mhz_clock_0/un5_counter_I_17/Y  two_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[5\]/CLK  ten_mhz_clock_0/counter\[5\]/Q  ten_mhz_clock_0/un5_counter_1_I_16/C  ten_mhz_clock_0/un5_counter_1_I_16/Y  ten_mhz_clock_0/un5_counter_1_I_17/A  ten_mhz_clock_0/un5_counter_1_I_17/Y  ten_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[9\]/CLK  two_mhz_clock_0/counter\[9\]/Q  two_mhz_clock_0/un5_counter_I_27/C  two_mhz_clock_0/un5_counter_I_27/Y  two_mhz_clock_0/un5_counter_I_28/A  two_mhz_clock_0/un5_counter_I_28/Y  two_mhz_clock_0/counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[2\]/CLK  main_clock_0/counter\[2\]/Q  main_clock_0/un5_counter_1_I_8/C  main_clock_0/un5_counter_1_I_8/Y  main_clock_0/un5_counter_1_I_9/A  main_clock_0/un5_counter_1_I_9/Y  main_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[9\]/CLK  ten_mhz_clock_0/counter\[9\]/Q  ten_mhz_clock_0/un5_counter_1_I_27/C  ten_mhz_clock_0/un5_counter_1_I_27/Y  ten_mhz_clock_0/un5_counter_1_I_28/A  ten_mhz_clock_0/un5_counter_1_I_28/Y  ten_mhz_clock_0/counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[5\]/CLK  main_clock_0/counter\[5\]/Q  main_clock_0/un5_counter_1_I_16/C  main_clock_0/un5_counter_1_I_16/Y  main_clock_0/un5_counter_1_I_17/A  main_clock_0/un5_counter_1_I_17/Y  main_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_5/A  two_mhz_clock_0/un5_counter_I_5/Y  two_mhz_clock_0/counter_RNO\[1\]/C  two_mhz_clock_0/counter_RNO\[1\]/Y  two_mhz_clock_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[6\]/CLK  main_clock_0/counter\[6\]/Q  main_clock_0/counter_RNIFVEB1\[7\]/A  main_clock_0/counter_RNIFVEB1\[7\]/Y  main_clock_0/clock_out_RNO/A  main_clock_0/clock_out_RNO/Y  main_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[8\]/CLK  two_mhz_clock_0/counter\[8\]/Q  two_mhz_clock_0/un5_counter_I_25/A  two_mhz_clock_0/un5_counter_I_25/Y  two_mhz_clock_0/un5_counter_I_26/A  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[1\]/CLK  two_mhz_clock_0/counter\[1\]/Q  two_mhz_clock_0/un5_counter_I_6/A  two_mhz_clock_0/un5_counter_I_6/Y  two_mhz_clock_0/un5_counter_I_7/A  two_mhz_clock_0/un5_counter_I_7/Y  two_mhz_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[1\]/CLK  main_clock_0/counter\[1\]/Q  main_clock_0/un5_counter_1_I_6/A  main_clock_0/un5_counter_1_I_6/Y  main_clock_0/un5_counter_1_I_7/A  main_clock_0/un5_counter_1_I_7/Y  main_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[8\]/CLK  ten_mhz_clock_0/counter\[8\]/Q  ten_mhz_clock_0/un5_counter_1_I_25/A  ten_mhz_clock_0/un5_counter_1_I_25/Y  ten_mhz_clock_0/un5_counter_1_I_26/A  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[9\]/CLK  two_mhz_clock_0/counter\[9\]/Q  two_mhz_clock_0/un5_counter_I_31/B  two_mhz_clock_0/un5_counter_I_31/Y  two_mhz_clock_0/un5_counter_I_32/A  two_mhz_clock_0/un5_counter_I_32/Y  two_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[9\]/CLK  ten_mhz_clock_0/counter\[9\]/Q  ten_mhz_clock_0/un5_counter_1_I_31/B  ten_mhz_clock_0/un5_counter_1_I_31/Y  ten_mhz_clock_0/un5_counter_1_I_32/A  ten_mhz_clock_0/un5_counter_1_I_32/Y  ten_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/bit_index\[0\]/CLK  data_rate_0/bit_index\[0\]/Q  data_rate_0/bit_index_RNO\[0\]/A  data_rate_0/bit_index_RNO\[0\]/Y  data_rate_0/bit_index\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[0\]/CLK  ten_mhz_clock_0/counter\[0\]/Q  ten_mhz_clock_0/un5_counter_1_I_8/A  ten_mhz_clock_0/un5_counter_1_I_8/Y  ten_mhz_clock_0/un5_counter_1_I_9/A  ten_mhz_clock_0/un5_counter_1_I_9/Y  ten_mhz_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[0\]/CLK  main_clock_0/counter\[0\]/Q  main_clock_0/un5_counter_1_I_8/A  main_clock_0/un5_counter_1_I_8/Y  main_clock_0/un5_counter_1_I_9/A  main_clock_0/un5_counter_1_I_9/Y  main_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[7\]/CLK  main_clock_0/counter\[7\]/Q  main_clock_0/counter_RNIFVEB1\[7\]/B  main_clock_0/counter_RNIFVEB1\[7\]/Y  main_clock_0/clock_out_RNO/A  main_clock_0/clock_out_RNO/Y  main_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[3\]/CLK  two_mhz_clock_0/counter\[3\]/Q  two_mhz_clock_0/un5_counter_I_9/B  two_mhz_clock_0/un5_counter_I_9/Y  two_mhz_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[3\]/CLK  ten_mhz_clock_0/counter\[3\]/Q  ten_mhz_clock_0/un5_counter_1_I_9/B  ten_mhz_clock_0/un5_counter_1_I_9/Y  ten_mhz_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[3\]/CLK  main_clock_0/counter\[3\]/Q  main_clock_0/un5_counter_1_I_9/B  main_clock_0/un5_counter_1_I_9/Y  main_clock_0/counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[10\]/CLK  two_mhz_clock_0/counter\[10\]/Q  two_mhz_clock_0/un5_counter_I_31/C  two_mhz_clock_0/un5_counter_I_31/Y  two_mhz_clock_0/un5_counter_I_32/A  two_mhz_clock_0/un5_counter_I_32/Y  two_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[10\]/CLK  ten_mhz_clock_0/counter\[10\]/Q  ten_mhz_clock_0/un5_counter_1_I_31/C  ten_mhz_clock_0/un5_counter_1_I_31/Y  ten_mhz_clock_0/un5_counter_1_I_32/A  ten_mhz_clock_0/un5_counter_1_I_32/Y  ten_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[6\]/CLK  main_clock_0/counter\[6\]/Q  main_clock_0/un5_counter_1_I_19/C  main_clock_0/un5_counter_1_I_19/Y  main_clock_0/un5_counter_1_I_20/A  main_clock_0/un5_counter_1_I_20/Y  main_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[15\]/CLK  modulator_0/clock_counter\[15\]/Q  modulator_0/clock_counter_RNO_1\[15\]/B  modulator_0/clock_counter_RNO_1\[15\]/Y  modulator_0/clock_counter_RNO\[15\]/C  modulator_0/clock_counter_RNO\[15\]/Y  modulator_0/clock_counter\[15\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[6\]/CLK  two_mhz_clock_0/counter\[6\]/Q  two_mhz_clock_0/un5_counter_I_17/B  two_mhz_clock_0/un5_counter_I_17/Y  two_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[8\]/CLK  two_mhz_clock_0/counter\[8\]/Q  two_mhz_clock_0/un5_counter_I_23/B  two_mhz_clock_0/un5_counter_I_23/Y  two_mhz_clock_0/counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[1\]/CLK  ten_mhz_clock_0/counter\[1\]/Q  ten_mhz_clock_0/un5_counter_1_I_5/B  ten_mhz_clock_0/un5_counter_1_I_5/Y  ten_mhz_clock_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[4\]/CLK  ten_mhz_clock_0/counter\[4\]/Q  ten_mhz_clock_0/un5_counter_1_I_12/B  ten_mhz_clock_0/un5_counter_1_I_12/Y  ten_mhz_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[6\]/CLK  ten_mhz_clock_0/counter\[6\]/Q  ten_mhz_clock_0/un5_counter_1_I_17/B  ten_mhz_clock_0/un5_counter_1_I_17/Y  ten_mhz_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[1\]/CLK  main_clock_0/counter\[1\]/Q  main_clock_0/un5_counter_1_I_5/B  main_clock_0/un5_counter_1_I_5/Y  main_clock_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[8\]/CLK  ten_mhz_clock_0/counter\[8\]/Q  ten_mhz_clock_0/un5_counter_1_I_23/B  ten_mhz_clock_0/un5_counter_1_I_23/Y  ten_mhz_clock_0/counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[4\]/CLK  main_clock_0/counter\[4\]/Q  main_clock_0/un5_counter_1_I_12/B  main_clock_0/un5_counter_1_I_12/Y  main_clock_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[4\]/CLK  data_rate_0/counter\[4\]/Q  data_rate_0/counter_RNO_0\[4\]/C  data_rate_0/counter_RNO_0\[4\]/Y  data_rate_0/counter_RNO\[4\]/B  data_rate_0/counter_RNO\[4\]/Y  data_rate_0/counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[2\]/CLK  data_rate_0/counter\[2\]/Q  data_rate_0/counter_RNO_0\[2\]/C  data_rate_0/counter_RNO_0\[2\]/Y  data_rate_0/counter_RNO\[2\]/B  data_rate_0/counter_RNO\[2\]/Y  data_rate_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[6\]/CLK  data_rate_0/counter\[6\]/Q  data_rate_0/counter_RNO_0\[6\]/C  data_rate_0/counter_RNO_0\[6\]/Y  data_rate_0/counter_RNO\[6\]/B  data_rate_0/counter_RNO\[6\]/Y  data_rate_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[7\]/CLK  data_rate_0/counter\[7\]/Q  data_rate_0/counter_RNO_0\[7\]/B  data_rate_0/counter_RNO_0\[7\]/Y  data_rate_0/counter_RNO\[7\]/B  data_rate_0/counter_RNO\[7\]/Y  data_rate_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[2\]/CLK  two_mhz_clock_0/counter\[2\]/Q  two_mhz_clock_0/un5_counter_I_7/B  two_mhz_clock_0/un5_counter_I_7/Y  two_mhz_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[5\]/CLK  ten_mhz_clock_0/counter\[5\]/Q  ten_mhz_clock_0/un5_counter_1_I_14/B  ten_mhz_clock_0/un5_counter_1_I_14/Y  ten_mhz_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[7\]/CLK  two_mhz_clock_0/counter\[7\]/Q  two_mhz_clock_0/un5_counter_I_20/B  two_mhz_clock_0/un5_counter_I_20/Y  two_mhz_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[9\]/CLK  two_mhz_clock_0/counter\[9\]/Q  two_mhz_clock_0/un5_counter_I_26/B  two_mhz_clock_0/un5_counter_I_26/Y  two_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[7\]/CLK  ten_mhz_clock_0/counter\[7\]/Q  ten_mhz_clock_0/un5_counter_1_I_20/B  ten_mhz_clock_0/un5_counter_1_I_20/Y  ten_mhz_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[2\]/CLK  main_clock_0/counter\[2\]/Q  main_clock_0/un5_counter_1_I_7/B  main_clock_0/un5_counter_1_I_7/Y  main_clock_0/counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[9\]/CLK  ten_mhz_clock_0/counter\[9\]/Q  ten_mhz_clock_0/un5_counter_1_I_26/B  ten_mhz_clock_0/un5_counter_1_I_26/Y  ten_mhz_clock_0/counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[5\]/CLK  main_clock_0/counter\[5\]/Q  main_clock_0/un5_counter_1_I_14/B  main_clock_0/un5_counter_1_I_14/Y  main_clock_0/counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[1\]/CLK  data_rate_0/counter\[1\]/Q  data_rate_0/counter_RNO\[1\]/B  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/packet_start_flag/CLK  data_rate_0/packet_start_flag/Q  data_rate_0/packet_start_flag_RNO/B  data_rate_0/packet_start_flag_RNO/Y  data_rate_0/packet_start_flag/E  	(999.0:999.0:999.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[0\]/CLK  two_mhz_clock_0/counter\[0\]/Q  two_mhz_clock_0/un5_counter_I_4/A  two_mhz_clock_0/un5_counter_I_4/Y  two_mhz_clock_0/counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[1\]/CLK  modulator_0/clock_counter\[1\]/Q  modulator_0/clock_counter_RNO\[1\]/B  modulator_0/clock_counter_RNO\[1\]/Y  modulator_0/clock_counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[0\]/CLK  ten_mhz_clock_0/counter\[0\]/Q  ten_mhz_clock_0/counter_RNO\[0\]/C  ten_mhz_clock_0/counter_RNO\[0\]/Y  ten_mhz_clock_0/counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[0\]/CLK  main_clock_0/counter\[0\]/Q  main_clock_0/counter_RNO\[0\]/C  main_clock_0/counter_RNO\[0\]/Y  main_clock_0/counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/clock_out/CLK  main_clock_0/clock_out/Q  main_clock_0/clock_out_RNO/C  main_clock_0/clock_out_RNO/Y  main_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[0\]/CLK  ten_mhz_clock_0/counter\[0\]/Q  ten_mhz_clock_0/un5_counter_1_I_5/A  ten_mhz_clock_0/un5_counter_1_I_5/Y  ten_mhz_clock_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[0\]/CLK  main_clock_0/counter\[0\]/Q  main_clock_0/un5_counter_1_I_5/A  main_clock_0/un5_counter_1_I_5/Y  main_clock_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNO\[1\]/A  data_rate_0/counter_RNO\[1\]/Y  data_rate_0/counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[10\]/CLK  two_mhz_clock_0/counter\[10\]/Q  two_mhz_clock_0/un5_counter_I_28/B  two_mhz_clock_0/un5_counter_I_28/Y  two_mhz_clock_0/counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[10\]/CLK  ten_mhz_clock_0/counter\[10\]/Q  ten_mhz_clock_0/un5_counter_1_I_28/B  ten_mhz_clock_0/un5_counter_1_I_28/Y  ten_mhz_clock_0/counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[6\]/CLK  main_clock_0/counter\[6\]/Q  main_clock_0/un5_counter_1_I_17/B  main_clock_0/un5_counter_1_I_17/Y  main_clock_0/counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/counter\[0\]/CLK  data_rate_0/counter\[0\]/Q  data_rate_0/counter_RNO\[0\]/B  data_rate_0/counter_RNO\[0\]/Y  data_rate_0/counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNO\[1\]/A  modulator_0/clock_counter_RNO\[1\]/Y  modulator_0/clock_counter\[1\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[3\]/CLK  modulator_0/clock_counter\[3\]/Q  modulator_0/clock_counter_RNO\[3\]/A  modulator_0/clock_counter_RNO\[3\]/Y  modulator_0/clock_counter\[3\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[4\]/CLK  modulator_0/clock_counter\[4\]/Q  modulator_0/clock_counter_RNO\[4\]/A  modulator_0/clock_counter_RNO\[4\]/Y  modulator_0/clock_counter\[4\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[5\]/CLK  modulator_0/clock_counter\[5\]/Q  modulator_0/clock_counter_RNO\[5\]/A  modulator_0/clock_counter_RNO\[5\]/Y  modulator_0/clock_counter\[5\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[6\]/CLK  modulator_0/clock_counter\[6\]/Q  modulator_0/clock_counter_RNO\[6\]/A  modulator_0/clock_counter_RNO\[6\]/Y  modulator_0/clock_counter\[6\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[7\]/CLK  modulator_0/clock_counter\[7\]/Q  modulator_0/clock_counter_RNO\[7\]/A  modulator_0/clock_counter_RNO\[7\]/Y  modulator_0/clock_counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[8\]/CLK  modulator_0/clock_counter\[8\]/Q  modulator_0/clock_counter_RNO\[8\]/A  modulator_0/clock_counter_RNO\[8\]/Y  modulator_0/clock_counter\[8\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[9\]/CLK  modulator_0/clock_counter\[9\]/Q  modulator_0/clock_counter_RNO\[9\]/A  modulator_0/clock_counter_RNO\[9\]/Y  modulator_0/clock_counter\[9\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[10\]/CLK  modulator_0/clock_counter\[10\]/Q  modulator_0/clock_counter_RNO\[10\]/A  modulator_0/clock_counter_RNO\[10\]/Y  modulator_0/clock_counter\[10\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[11\]/CLK  modulator_0/clock_counter\[11\]/Q  modulator_0/clock_counter_RNO\[11\]/A  modulator_0/clock_counter_RNO\[11\]/Y  modulator_0/clock_counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[12\]/CLK  modulator_0/clock_counter\[12\]/Q  modulator_0/clock_counter_RNO\[12\]/A  modulator_0/clock_counter_RNO\[12\]/Y  modulator_0/clock_counter\[12\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[14\]/CLK  modulator_0/clock_counter\[14\]/Q  modulator_0/clock_counter_RNO\[14\]/A  modulator_0/clock_counter_RNO\[14\]/Y  modulator_0/clock_counter\[14\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[13\]/CLK  modulator_0/clock_counter\[13\]/Q  modulator_0/clock_counter_RNO\[13\]/A  modulator_0/clock_counter_RNO\[13\]/Y  modulator_0/clock_counter\[13\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[0\]/CLK  modulator_0/clock_counter\[0\]/Q  modulator_0/clock_counter_RNO\[0\]/B  modulator_0/clock_counter_RNO\[0\]/Y  modulator_0/clock_counter\[0\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/counter\[11\]/CLK  two_mhz_clock_0/counter\[11\]/Q  two_mhz_clock_0/un5_counter_I_32/B  two_mhz_clock_0/un5_counter_I_32/Y  two_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/counter\[11\]/CLK  ten_mhz_clock_0/counter\[11\]/Q  ten_mhz_clock_0/un5_counter_1_I_32/B  ten_mhz_clock_0/un5_counter_1_I_32/Y  ten_mhz_clock_0/counter\[11\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/counter\[7\]/CLK  main_clock_0/counter\[7\]/Q  main_clock_0/un5_counter_1_I_20/B  main_clock_0/un5_counter_1_I_20/Y  main_clock_0/counter\[7\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT modulator_0/clock_counter\[2\]/CLK  modulator_0/clock_counter\[2\]/Q  modulator_0/clock_counter_RNO\[2\]/A  modulator_0/clock_counter_RNO\[2\]/Y  modulator_0/clock_counter\[2\]/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT data_rate_0/output_data_rate/CLK  data_rate_0/output_data_rate/Q  data_rate_0/output_data_rate_RNO/B  data_rate_0/output_data_rate_RNO/Y  data_rate_0/output_data_rate/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNO/C  two_mhz_clock_0/clock_out_RNO/Y  two_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNO/C  ten_mhz_clock_0/clock_out_RNO/Y  ten_mhz_clock_0/clock_out/D  	(998.7:998.7:998.7) )
+
+    (PATHCONSTRAINT main_clock_0/clock_out/CLK  main_clock_0/clock_out/Q  AND2_0/A  AND2_0/Y  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT main_clock_0/clock_out/CLK  main_clock_0/clock_out/Q  AND2_3/A  AND2_3/Y  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT main_clock_0/clock_out/CLK  main_clock_0/clock_out/Q  INV_0/A  INV_0/Y  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT main_clock_0/clock_out/CLK  main_clock_0/clock_out/Q  ref_signal_pad/D  ref_signal_pad/PAD  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT data_rate_0/output_data_rate/CLK  data_rate_0/output_data_rate/Q  AND2_0/B  AND2_0/Y  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT data_rate_0/output_data_rate/CLK  data_rate_0/output_data_rate/Q  INV_1/A  INV_1/Y  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/output_data_rate/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/bit_index\[3\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/bit_index\[2\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/bit_index\[1\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/bit_index\[0\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/counter\[7\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/counter\[6\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/counter\[5\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/counter\[4\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/counter\[3\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/counter\[2\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/counter\[1\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT two_mhz_clock_0/clock_out/CLK  two_mhz_clock_0/clock_out/Q  two_mhz_clock_0/clock_out_RNIJP22/A  two_mhz_clock_0/clock_out_RNIJP22/Y  data_rate_0/counter\[0\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[13\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[12\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[11\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[10\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[9\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[8\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[7\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[6\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[5\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[4\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[3\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[2\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[1\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/clock_counter\[0\]/CLK  	(100000.0:100000.0:100000.0) )
+
+    (PATHCONSTRAINT ten_mhz_clock_0/clock_out/CLK  ten_mhz_clock_0/clock_out/Q  ten_mhz_clock_0/clock_out_RNI0542/A  ten_mhz_clock_0/clock_out_RNI0542/Y  modulator_0/output_signal/CLK  	(100000.0:100000.0:100000.0) )
+
+  )
+)
+)

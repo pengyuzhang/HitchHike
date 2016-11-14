@@ -1,0 +1,2 @@
+@W: CL169 :"Z:\fpga_vision\xorfi_demo\hdl\data_rate.v":39:0:39:5|Pruning register packet_start_flag 
+

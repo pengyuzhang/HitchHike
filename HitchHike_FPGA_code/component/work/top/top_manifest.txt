@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 (Version 11.5.0.26)
+
+Date      :  Fri Nov 11 14:44:40 2016
+Project   :  Z:\fpga_vision\xorfi_demo
+Component :  top
+Family    :  IGLOO
+
+
+HDL source files for all Synthesis and Simulation tools:
+    Z:/fpga_vision/xorfi_demo/component/work/top/top.v
+
