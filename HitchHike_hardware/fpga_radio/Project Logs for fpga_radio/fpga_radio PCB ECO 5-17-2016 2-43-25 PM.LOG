@@ -1,9 +1,0 @@
-Added Component: Designator=U7(PTS645)
-Added Pin To Net: NetName=NetC29_2 Pin=U7-1
-Added Pin To Net: NetName=NetC29_2 Pin=U7-2
-Added Pin To Net: NetName=GND Pin=U7-3
-Added Pin To Net: NetName=GND Pin=U7-4
-Added Member To Class: ClassName=power Member=Component U7 PTS645
-Added Room: Name=fpga_radio
-Added Room: Name=io_bank
-Added Room: Name=power
