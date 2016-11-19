@@ -1,8 +1,9 @@
-----
+**********************************************************************************
 * HitchHike - Practical Backscatter using Commodity WiFi
 * Author: Pengyu Zhang
 * Contact: pyzhang@stanford.edu
-*
+
+
 * Description: This repo hosts the hardware and software needed for running the HitchHike ECG sensing demo. We demonstrate that HitchHike can inject the ECG sensor data on top existing WiFi traffic.
 *
 * Technical paper:
