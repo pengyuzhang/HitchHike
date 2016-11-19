@@ -1,0 +1,62 @@
+#OPTIONS:"|-top|top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|Z:\\fpga_vision\\xorfi_high_rate\\synthesis\\|-I|C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\proasic\\igloo.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\bin\\c_ver.exe":1412910776
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\proasic\\igloo.v":1412954862
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\umr_capim.v":1412910898
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\scemi_objects.v":1412910644
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\scemi_pipes.svh":1412910644
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\hypermods.v":1412910644
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\hdl\\data_rate.v":1470761649
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\hdl\\data_source.v":1471303555
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\hdl\\dbpsk_modulator.v":1469923698
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\hdl\\main_clock.v":1461610935
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\hdl\\modulator.v":1469772675
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\smartgen\\pll_core\\pll_core.v":1469208306
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\hdl\\ten_mhz_clock.v":1463091150
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\hdl\\two_mhz_clock.v":1469486298
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\hdl\\whitening.v":1470012461
+#CUR:"Z:\\fpga_vision\\xorfi_high_rate\\component\\work\\top\\top.v":1475014152
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v" verilog
+1			"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v" verilog
+2			"Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v" verilog
+3			"Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v" verilog
+4			"Z:\fpga_vision\xorfi_high_rate\hdl\modulator.v" verilog
+5			"Z:\fpga_vision\xorfi_high_rate\smartgen\pll_core\pll_core.v" verilog
+6			"Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v" verilog
+7			"Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v" verilog
+8			"Z:\fpga_vision\xorfi_high_rate\hdl\whitening.v" verilog
+9			"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 0 1 2 3 4 5 6 7 8
+#Dependency Lists(Users Of)
+0 9
+1 9
+2 9
+3 9
+4 9
+5 9
+6 9
+7 9
+8 9
+9 -1
+#Design Unit to File Association
+module work data_rate 0
+module work data_source 1
+module work dbpsk_modulator 2
+module work main_clock 3
+module work modulator 4
+module work pll_core 5
+module work ten_mhz_clock 6
+module work two_mhz_clock 7
+module work whitening 8
+module work top 9

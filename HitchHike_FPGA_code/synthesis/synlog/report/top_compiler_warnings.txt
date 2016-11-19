@@ -1,0 +1,37 @@
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data3[7:0] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data4[7:0] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data5[7:0] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data6[7:0] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data7[7:0] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data8[7:0] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data9[7:0] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data10[7:0] 
+@W: CL113 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Feedback mux created for signal data2[7:0].
+@W: CL113 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Feedback mux created for signal data1[7:0].
+@W: CL251 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data1[7] assign 1, register removed by optimization
+@W: CL250 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data1[6:0] assign 0, register removed by optimization
+@W: CL250 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data2[7:0] assign 0, register removed by optimization
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[0] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[1] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[2] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[3] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[4] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[5] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[6] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[7] to a constant 0
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data4[7:0] 
+@W: CL168 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":236:14:236:28|Pruning instance ten_mhz_clock_0 -- not in use ...
+@W: CL168 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":133:10:133:20|Pruning instance data_rate_0 -- not in use ...
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[2] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[3] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[4] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[5] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[6] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[7] to a constant 0
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[7] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[6] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[5] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[4] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[3] 
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[2] 
+

@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  Z:\fpga_vision\xorfi_high_rate\synthesis   -part AGLN250V2  -package VQFP100  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\report\top_fpga_mapper.xml  -top_level_module  top  -flow mapping  -mp  1  -prjfile  Z:\fpga_vision\xorfi_high_rate\synthesis\scratchproject.prs  -implementation  synthesis  -licensetype  synplifypro_actel  -multisrs  -oedif  Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn   -freq 1.000   Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_prem.srd  -sap  Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap  -otap  Z:\fpga_vision\xorfi_high_rate\synthesis\top.tap  -omap  Z:\fpga_vision\xorfi_high_rate\synthesis\top.map  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v  -sap  Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap  -ologparam  Z:\fpga_vision\xorfi_high_rate\synthesis\syntmp\top.plg  -osyn  Z:\fpga_vision\xorfi_high_rate\synthesis\top.srm  -prjdir  Z:\fpga_vision\xorfi_high_rate\synthesis\  -prjname  top_syn  -log  Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_fpga_mapper.srr 
+rc:1 success:1
+Z:\fpga_vision\xorfi_high_rate\synthesis\scratchproject.prs|o|1470777592|2210
+Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn|o|1475014172|430210
+Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_prem.srd|i|1475014166|26010
+Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap|o|1475014167|48281
+Z:\fpga_vision\xorfi_high_rate\synthesis\top.tap|o|0|0
+Z:\fpga_vision\xorfi_high_rate\synthesis\top.map|o|1475014172|28
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v|i|1412954862|50704
+Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap|o|1475014167|48281
+Z:\fpga_vision\xorfi_high_rate\synthesis\syntmp\top.plg|o|1475014172|1776
+Z:\fpga_vision\xorfi_high_rate\synthesis\top.srm|o|1475014172|70761
+Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_fpga_mapper.srr|o|1475014172|29024
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe|i|1412958016|15337984
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe|i|1412955826|12576768

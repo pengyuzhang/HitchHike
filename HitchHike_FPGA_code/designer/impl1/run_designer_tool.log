@@ -1,0 +1,25 @@
+Microsemi Libero Software
+Version: 11.5.0.26
+Release: v11.5
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'Z:\fpga_vision\xorfi_high_rate\designer'
+Info: The design top.adb was last modified by software version 11.5.0.26.
+Opened an existing Libero design top.adb.
+
+The Execute Script command succeeded ( 00:00:23 )
+Checking for software updates...
+
+ Netlist Reading Time = 1.0 seconds
+Imported the file:
+   Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn
+
+The Import command succeeded ( 00:00:02 )
+Design saved to file Z:\fpga_vision\xorfi_high_rate\designer\impl1\top.adb.
+Error: Cannot execute the specified report command in this design state.
+
+The Report command failed ( 00:00:00 )
+Error: Failure when executing Tcl script. [ Line 1 ]
+
+The Execute Script command failed ( 00:00:00 )
+Design closed.
+

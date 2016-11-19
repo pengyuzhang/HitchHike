@@ -1,0 +1,13 @@
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":42:23:42:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
+@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v":42:23:42:32|Found 12-bit incrementor, 'un5_counter[11:0]'
+@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\whitening.v":87:30:87:46|Found 16-bit incrementor, 'un2_output_counter_1[15:0]'
+@N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
+@N: FP130 |Promoting Net ref_signal_c on CLKINT  main_clock_0.clock_out_inferred_clock 
+@N: FP130 |Promoting Net output_signal_c on CLKINT  I_56 
+@N: FP130 |Promoting Net data_source_0.N_134 on CLKINT  I_57 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

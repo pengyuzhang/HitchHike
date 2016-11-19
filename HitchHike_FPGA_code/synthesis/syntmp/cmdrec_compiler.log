@@ -1,0 +1,17 @@
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\c_ver.exe  -osyn  Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs  -top  top  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I Z:\fpga_vision\xorfi_high_rate\synthesis\  -I C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib   -v2001  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v  -encrypt  -pro  -dmgen  Z:\fpga_vision\xorfi_high_rate\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\modulator.v -lib work Z:\fpga_vision\xorfi_high_rate\smartgen\pll_core\pll_core.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\whitening.v -lib work Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v  -log  Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_compiler.srr 
+rc:1 success:1
+Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs|o|1475014163|23590
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v|i|1412954862|50704
+Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v|i|1470761649|2611
+Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v|i|1471303555|2100
+Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v|i|1469923698|1409
+Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v|i|1461610935|1151
+Z:\fpga_vision\xorfi_high_rate\hdl\modulator.v|i|1469772675|1640
+Z:\fpga_vision\xorfi_high_rate\smartgen\pll_core\pll_core.v|i|1469208306|2711
+Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v|i|1463091150|1152
+Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v|i|1469486298|1153
+Z:\fpga_vision\xorfi_high_rate\hdl\whitening.v|i|1470012461|2446
+Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v|i|1475014152|7356
+Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_compiler.srr|o|1475014163|9205
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\c_ver.exe|i|1412910978|5845504
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\c_ver.exe|i|1412910776|2306560

@@ -1,0 +1,39 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Tue Apr 05 12:41:55 2016
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : delay_five_ns
+Family                          : PA3LCLP
+Output Format                   : VERILOG
+Type                            : Delayed Clock
+Delay Index                     : 6
+CLKA Source                     : Core Logic
+
+Total Clock Delay = 6.562 ns.
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      0  Total:   6144   (0.00%)
+    IO (W/ clocks)             Used:      0  Total:     68   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      1  Total:     18   (5.56%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to Z:/fpga_vision/fs_backscatter/smartgen\delay_five_ns\delay_five_ns.v.
+
+ ** Log Ended:   Tue Apr 05 12:41:55 2016
+

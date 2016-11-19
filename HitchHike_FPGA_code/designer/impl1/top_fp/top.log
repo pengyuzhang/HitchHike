@@ -1,0 +1,27 @@
+FlashPro
+Version: 11.5.0.26
+Release: v11.5
+
+Software Version: 11.5.0.26
+PDB file 'Z:\fpga_vision\xorfi_high_rate\designer\impl1\top.pdb' has been loaded successfully.
+DESIGN : Top;  CHECKSUM : F5C6;  PDB_VERSION : 1.9
+programmer '012ZVMC' : FlashPro5
+Opened 'Z:\fpga_vision\xorfi_high_rate\designer\impl1\top_fp\top.pro'
+programmer '012ZVMC' : Scan Chain...
+Warning: programmer '012ZVMC' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '012ZVMC' : Scan Chain PASSED.
+programmer '012ZVMC' : Executing action PROGRAM
+programmer '012ZVMC' : EXPORT FSN[48] = 0155dc08c895
+programmer '012ZVMC' : Erase ...
+programmer '012ZVMC' : Completed erase
+programmer '012ZVMC' : EXPORT CHECKSUM: [16] = f5c6
+programmer '012ZVMC' : Programming FPGA Array
+programmer '012ZVMC' : Verifying FPGA Array
+programmer '012ZVMC' :         Verifying FPGA Array -- pass
+programmer '012ZVMC' : Finished: Fri Nov 18 20:32:46 2016 (Elapsed time 00:00:54)
+programmer '012ZVMC' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Project closed.

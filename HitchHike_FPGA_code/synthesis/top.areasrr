@@ -1,0 +1,203 @@
+----------------------------------------------------------------------
+Report for cell top.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         4       1.0        4.0
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF        12       0.0        0.0
+                                INV         3       1.0        3.0
+                                OR2         2       1.0        2.0
+                             OUTBUF         6       0.0        0.0
+                                VCC         1       0.0        0.0
+                        data_source         1     572.0      572.0
+                    dbpsk_modulator         1      67.0       67.0
+                         main_clock         1      30.0       30.0
+                          modulator         1      91.0       91.0
+                           pll_core         1       0.0        0.0
+                      two_mhz_clock         1      53.0       53.0
+                          whitening         1     152.0      152.0
+                            
+                         TOTAL             37                974.0
+----------------------------------------------------------------------
+Report for cell whitening.netlist
+     Instance path:  whitening_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3        17       1.0       17.0
+                                AO1         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                              AOI1B         4       1.0        4.0
+                               AX1D         1       1.0        1.0
+                           DFN0E0C0         1       1.0        1.0
+                           DFN0E1C0        16       1.0       16.0
+                             DFN1C0        10       1.0       10.0
+                           DFN1E1C0         7       1.0        7.0
+                             DFN1P0         6       1.0        6.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         7       1.0        7.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B        13       1.0       13.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         6       1.0        6.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         8       1.0        8.0
+                                OR2         4       1.0        4.0
+                               OR2A         8       1.0        8.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         7       1.0        7.0
+                               XAI1         5       1.0        5.0
+                              XAI1A         1       1.0        1.0
+                               XOR2        17       1.0       17.0
+                            
+                         TOTAL            154                152.0
+----------------------------------------------------------------------
+Report for cell two_mhz_clock.netlist
+     Instance path:  two_mhz_clock_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AND3        12       1.0       12.0
+                              AOI1B         3       1.0        3.0
+                               AX1C         1       1.0        1.0
+                             DFN1C0        13       1.0       13.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2        11       1.0       11.0
+                            
+                         TOTAL             55                 53.0
+----------------------------------------------------------------------
+Report for cell pll_core.netlist
+     Instance path:  pll_core_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                PLL         1       0.0        0.0
+                             PLLINT         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
+----------------------------------------------------------------------
+Report for cell modulator.netlist
+     Instance path:  modulator_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0         6       1.0        6.0
+                           DFN1E1C0        17       1.0       17.0
+                                GND         1       0.0        0.0
+                               MX2A         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         8       1.0        8.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         3       1.0        3.0
+                                OA1         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         5       1.0        5.0
+                               OR2A        11       1.0       11.0
+                               OR2B         2       1.0        2.0
+                                OR3         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1A         7       1.0        7.0
+                               XA1B         4       1.0        4.0
+                               XA1C         5       1.0        5.0
+                               XAI1         1       1.0        1.0
+                            
+                         TOTAL             94                 91.0
+----------------------------------------------------------------------
+Report for cell main_clock.netlist
+     Instance path:  main_clock_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AND3         6       1.0        6.0
+                               AOI1         1       1.0        1.0
+                               AX1C         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0         9       1.0        9.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         2       1.0        2.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         7       1.0        7.0
+                            
+                         TOTAL             33                 30.0
+----------------------------------------------------------------------
+Report for cell dbpsk_modulator.netlist
+     Instance path:  dbpsk_modulator_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1B         2       1.0        2.0
+                             DFN1C0        10       1.0       10.0
+                           DFN1E1C0         1       1.0        1.0
+                             DFN1P0         6       1.0        6.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         7       1.0        7.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         2       1.0        2.0
+                               OA1B         1       1.0        1.0
+                                OR2         4       1.0        4.0
+                               OR2A         9       1.0        9.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1A         7       1.0        7.0
+                               XA1C         1       1.0        1.0
+                               XAI1         5       1.0        5.0
+                              XAI1A         1       1.0        1.0
+                            
+                         TOTAL             69                 67.0
+----------------------------------------------------------------------
+Report for cell data_source.netlist
+     Instance path:  data_source_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1        12       1.0       12.0
+                               AO1A        13       1.0       13.0
+                               AX1A         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0       103       1.0      103.0
+                           DFN1E0C0         1       1.0        1.0
+                             DFN1P0        27       1.0       27.0
+                           DFN1P1C1        40       1.0       40.0
+                                GND         1       0.0        0.0
+                                MX2       148       1.0      148.0
+                               NOR2        30       1.0       30.0
+                              NOR2A        23       1.0       23.0
+                              NOR2B        91       1.0       91.0
+                              NOR3A         4       1.0        4.0
+                              NOR3B         1       1.0        1.0
+                               OA1B         2       1.0        2.0
+                               OA1C        13       1.0       13.0
+                               OAI1         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A        37       1.0       37.0
+                               OR2B         3       1.0        3.0
+                                OR3         6       1.0        6.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1A        10       1.0       10.0
+                               XAI1         1       1.0        1.0
+                            
+                         TOTAL            575                572.0

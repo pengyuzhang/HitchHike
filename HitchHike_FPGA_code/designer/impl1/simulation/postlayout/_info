@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dZ:/fpga_vision/test_tmp/simulation
+vPLLBA
+Z0 !s110 1457218210
+!i10b 1
+!s100 =W<K[^2F<<k[`SNE=BK500
+IE_DNXANOma9^X?V^YROFL2
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dZ:/fpga_vision/fs_backscatter/simulation
+Z3 w1457218156
+Z4 8Z:/fpga_vision/fs_backscatter/designer/impl1/top_ba.v
+Z5 FZ:/fpga_vision/fs_backscatter/designer/impl1/top_ba.v
+L0 6
+Z6 OW;L;10.3c;59
+r1
+!s85 0
+31
+Z7 !s108 1457218210.166000
+Z8 !s107 Z:/fpga_vision/fs_backscatter/designer/impl1/top_ba.v|
+Z9 !s90 -reportprogress|300|-work|postlayout|Z:/fpga_vision/fs_backscatter/designer/impl1/top_ba.v|
+!s101 -O0
+!i113 1
+Z10 o-work postlayout -O0
+n@p@l@l@b@a
+vtop
+R0
+!i10b 1
+!s100 aSoH<:A<SZS>1AHQ1U5Bf3
+I>RYBEgne@QMR>CLUlND=N3
+R1
+R2
+R3
+R4
+R5
+L0 217
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtop_tb
+R0
+!i10b 1
+!s100 5:kA4GTmbSK`4`igDQQjL1
+IoD?ZhW`ddS8[Nh8J7D`Q52
+R1
+R2
+w1457216635
+8Z:/fpga_vision/fs_backscatter/stimulus/top_tb.v
+FZ:/fpga_vision/fs_backscatter/stimulus/top_tb.v
+L0 21
+R6
+r1
+!s85 0
+31
+!s108 1457218210.416000
+!s107 Z:/fpga_vision/fs_backscatter/stimulus/top_tb.v|
+!s90 -reportprogress|300|+incdir+Z:/fpga_vision/fs_backscatter/stimulus|-work|postlayout|Z:/fpga_vision/fs_backscatter/stimulus/top_tb.v|
+!s101 -O0
+!i113 1
+R10
+!s92 +incdir+Z:/fpga_vision/fs_backscatter/stimulus -work postlayout -O0

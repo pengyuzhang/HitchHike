@@ -1,0 +1,84 @@
+Microsemi Libero Software
+Version: 11.5.0.26
+Release: v11.5
+
+Info: The design top.adb was last modified by software version 11.5.0.26.
+Opened an existing Libero design top.adb.
+'BA_NAME' set to 'top_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'Z:\fpga_vision\xorfi_high_rate\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Sep 27 18:10:38 2016
+
+Placer Finished: Tue Sep 27 18:10:45 2016
+Total Placer CPU Time:     00:00:07
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: top                             Started: Tue Sep 27 18:10:47 2016
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: top                             
+Finished: Tue Sep 27 18:10:55 2016
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:08
+Total Memory Usage: 164.1 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:22 )
+Wrote status report to file: top_place_and_route_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalnet report to file: top_globalnet_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalusage report to file: top_globalusage_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote iobank report to file: top_iobank_report.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: top_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: top_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file Z:\fpga_vision\xorfi_high_rate\designer\impl1\top.adb.
+
+The Execute Script command succeeded ( 00:00:26 )
+Design closed.
+

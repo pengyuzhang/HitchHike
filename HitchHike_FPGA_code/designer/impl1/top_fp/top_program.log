@@ -1,0 +1,18 @@
+FlashPro
+Version: 11.5.0.26
+Release: v11.5
+
+Software Version: 11.5.0.26
+PDB file 'Z:\fpga_vision\xorfi_high_rate\designer\impl1\top.pdb' has been loaded successfully.
+DESIGN : Top;  CHECKSUM : F5C6;  PDB_VERSION : 1.9
+Warning: The programmer with id '' in the project file cannot be detected and connected.
+Opened 'Z:/fpga_vision/xorfi_high_rate/designer/impl1/top_fp/top.pro'
+The 'open_project' command succeeded.
+The 'set_programming_action' command succeeded.
+Error: No programmers found. Please check the programmer connection to the computer and ensure
+       the drivers are properly installed.
+Error: Failed to run Action.
+Error: The command 'run_selected_actions' failed.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

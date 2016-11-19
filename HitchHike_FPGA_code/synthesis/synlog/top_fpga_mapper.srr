@@ -1,0 +1,451 @@
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1346R, Built Oct 10 2014 10:43:41
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version I-2014.03M-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 62MB peak: 64MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 64MB)
+
+@N:"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Found counter in view:work.data_source(verilog) inst counter[15:0]
+@W: MO161 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[7] is always 1, optimizing ...
+@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[6] is always 0, optimizing ...
+@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[5] is always 0, optimizing ...
+@W: MO161 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[4] is always 1, optimizing ...
+@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[3] is always 0, optimizing ...
+@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[2] is always 0, optimizing ...
+@W: MO161 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[1] is always 1, optimizing ...
+@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[0] is always 0, optimizing ...
+@N:"z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v":27:0:27:5|Found counter in view:work.dbpsk_modulator(verilog) inst counter[15:0]
+@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":42:23:42:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
+@N:"z:\fpga_vision\xorfi_high_rate\hdl\modulator.v":27:0:27:5|Found counter in view:work.modulator(verilog) inst clock_counter[15:0]
+@N:"z:\fpga_vision\xorfi_high_rate\hdl\modulator.v":27:0:27:5|Found counter in view:work.modulator(verilog) inst counter[5:0]
+@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v":42:23:42:32|Found 12-bit incrementor, 'un5_counter[11:0]'
+@N:"z:\fpga_vision\xorfi_high_rate\hdl\whitening.v":28:0:28:5|Found counter in view:work.whitening(verilog) inst counter[15:0]
+@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\whitening.v":87:30:87:46|Found 16-bit incrementor, 'un2_output_counter_1[15:0]'
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 67MB peak: 67MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 65MB peak: 67MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 66MB peak: 67MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 66MB peak: 67MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                 Fanout, notes                   
+---------------------------------------------------------------------------
+data_source_0.state_1_sqmuxa / Y           25                              
+data_source_0.counter23_0_a2_12_o4 / Y     122                             
+reset_pad / Y                              273 : 233 asynchronous set/reset
+modulator_0.output_signal / Q              222                             
+===========================================================================
+
+@N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
+@N: FP130 |Promoting Net ref_signal_c on CLKINT  main_clock_0.clock_out_inferred_clock 
+@N: FP130 |Promoting Net output_signal_c on CLKINT  I_56 
+@N: FP130 |Promoting Net data_source_0.N_134 on CLKINT  I_57 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+
+Replicating Combinational Instance data_source_0.state_1_sqmuxa, fanout 25 segments 2
+
+Added 0 Buffers
+Added 1 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 1 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 273 clock pin(s) of sequential element(s)
+0 instances converted, 273 sequential instances remain driven by gated/generated clocks
+
+========================================================================================================== Gated/Generated Clocks ===========================================================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                 Explanation                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       main_clock_0.clock_out     DFN1C0                 251        whitening_0.state[6]            No generated or derived clock directive on output of sequential instance                                                      
+@K:CKID0002       pll_core_0.Core            PLL                    22         two_mhz_clock_0.counter[11]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=============================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base Z:\fpga_vision\xorfi_high_rate\synthesis\top.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 65MB peak: 67MB)
+
+Writing Analyst data base Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 65MB peak: 67MB)
+
+Writing EDIF Netlist and constraint files
+I-2014.03M-SP1
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 65MB peak: 67MB)
+
+@W: MT420 |Found inferred clock pll_core|GLA_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:pll_core_0.GLA"
+
+@W: MT420 |Found inferred clock main_clock|clock_out_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:main_clock_0.clock_out"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Sep 27 18:09:32 2016
+#
+
+
+Top view:               top
+Library name:           IGLOO_V2
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.14, P = 3.70, tree_type = balanced_tree )
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Wire load model:        igloo
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 488.995
+
+                                        Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                          Frequency     Frequency     Period        Period        Slack       Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------------------
+main_clock|clock_out_inferred_clock     1.0 MHz       23.0 MHz      1000.000      43.459        488.995     inferred     Inferred_clkgroup_0
+pll_core|GLA_inferred_clock             1.0 MHz       54.7 MHz      1000.000      18.284        981.716     inferred     Inferred_clkgroup_1
+============================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise     |    fall  to  fall     |    rise  to  fall     |    fall  to  rise   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack    |  constraint  slack    |  constraint  slack    |  constraint  slack  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+main_clock|clock_out_inferred_clock  main_clock|clock_out_inferred_clock  |  1000.000    956.541  |  1000.000    979.758  |  500.000     488.996  |  500.000     493.990
+pll_core|GLA_inferred_clock          pll_core|GLA_inferred_clock          |  1000.000    981.716  |  No paths    -        |  No paths    -        |  No paths    -      
+========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: main_clock|clock_out_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                                                                      Arrival            
+Instance                         Reference                               Type         Pin     Net                              Time        Slack  
+                                 Clock                                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------
+modulator_0.output_signal        main_clock|clock_out_inferred_clock     DFN1E1C0     Q       output_signal_0                  1.771       488.995
+whitening_0.state[3]             main_clock|clock_out_inferred_clock     DFN1E1C0     Q       state[3]                         1.771       489.421
+whitening_0.state[6]             main_clock|clock_out_inferred_clock     DFN1E1C0     Q       state[6]                         1.771       490.654
+data_source_0.output_data        main_clock|clock_out_inferred_clock     DFN1E0C0     Q       data_source_0_output_data        1.771       493.660
+whitening_0.output_whitening     main_clock|clock_out_inferred_clock     DFN0E0C0     Q       whitening_0_output_whitening     1.570       493.990
+data_source_0.counter[0]         main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       956.541
+dbpsk_modulator_0.counter[1]     main_clock|clock_out_inferred_clock     DFN1P0       Q       counter_i_0[1]                   1.771       957.798
+data_source_0.counter[1]         main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[1]                       1.395       957.957
+dbpsk_modulator_0.counter[0]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       958.437
+whitening_0.counter[0]           main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       959.101
+==================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                  Starting                                                                                   Required            
+Instance                          Reference                               Type         Pin     Net                           Time         Slack  
+                                  Clock                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------------------------
+whitening_0.output_whitening      main_clock|clock_out_inferred_clock     DFN0E0C0     D       N_32                          498.288      488.995
+whitening_0.output_whitening      main_clock|clock_out_inferred_clock     DFN0E0C0     E       output_whitening_1_sqmuxa     498.538      489.985
+whitening_0.output_counter[0]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
+whitening_0.output_counter[1]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
+whitening_0.output_counter[2]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
+whitening_0.output_counter[3]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
+whitening_0.output_counter[4]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
+whitening_0.output_counter[5]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
+whitening_0.output_counter[6]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
+whitening_0.output_counter[7]     main_clock|clock_out_inferred_clock     DFN0E1C0     E       output_signal_c               498.538      491.731
+=================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            1.712
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         498.288
+
+    - Propagation time:                      9.292
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     488.995
+
+    Number of logic level(s):                2
+    Starting point:                          modulator_0.output_signal / Q
+    Ending point:                            whitening_0.output_whitening / D
+    The start point is clocked by            main_clock|clock_out_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            main_clock|clock_out_inferred_clock [falling] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+modulator_0.output_signal             DFN1E1C0     Q        Out     1.771     1.771       -         
+output_signal_0                       Net          -        -       0.773     -           1         
+modulator_0.output_signal_RNI2QGD     CLKINT       A        In      -         2.543       -         
+modulator_0.output_signal_RNI2QGD     CLKINT       Y        Out     0.418     2.961       -         
+output_signal_c                       Net          -        -       3.846     -           223       
+whitening_0.output_whitening_RNO      XA1          C        In      -         6.807       -         
+whitening_0.output_whitening_RNO      XA1          Y        Out     1.712     8.520       -         
+N_32                                  Net          -        -       0.773     -           1         
+whitening_0.output_whitening          DFN0E0C0     D        In      -         9.292       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 11.005 is 5.613(51.0%) logic and 5.392(49.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: pll_core|GLA_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                          Arrival            
+Instance                       Reference                       Type       Pin     Net            Time        Slack  
+                               Clock                                                                                
+--------------------------------------------------------------------------------------------------------------------
+two_mhz_clock_0.counter[6]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[6]     1.771       981.716
+two_mhz_clock_0.counter[8]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[8]     1.771       982.050
+two_mhz_clock_0.counter[0]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[0]     1.771       982.464
+two_mhz_clock_0.counter[1]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[1]     1.771       982.468
+two_mhz_clock_0.counter[2]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[2]     1.771       982.614
+two_mhz_clock_0.counter[3]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[3]     1.771       982.944
+two_mhz_clock_0.counter[4]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[4]     1.771       982.948
+two_mhz_clock_0.counter[5]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[5]     1.771       983.095
+two_mhz_clock_0.counter[7]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[7]     1.771       984.556
+two_mhz_clock_0.counter[9]     pll_core|GLA_inferred_clock     DFN1C0     Q       counter[9]     1.771       984.890
+====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                               Required            
+Instance                        Reference                       Type       Pin     Net                 Time         Slack  
+                                Clock                                                                                      
+---------------------------------------------------------------------------------------------------------------------------
+two_mhz_clock_0.clock_out       pll_core|GLA_inferred_clock     DFN1C0     D       clock_out_RNO_0     998.705      981.716
+two_mhz_clock_0.counter[1]      pll_core|GLA_inferred_clock     DFN1C0     D       counter_3[1]        998.622      982.435
+two_mhz_clock_0.counter[4]      pll_core|GLA_inferred_clock     DFN1C0     D       counter_3[4]        998.622      982.435
+two_mhz_clock_0.counter[5]      pll_core|GLA_inferred_clock     DFN1C0     D       counter_3[5]        998.622      982.435
+two_mhz_clock_0.counter[9]      pll_core|GLA_inferred_clock     DFN1C0     D       I_26                998.705      982.464
+two_mhz_clock_0.counter[10]     pll_core|GLA_inferred_clock     DFN1C0     D       I_28                998.705      982.794
+two_mhz_clock_0.counter[11]     pll_core|GLA_inferred_clock     DFN1C0     D       I_32                998.705      982.948
+two_mhz_clock_0.counter[6]      pll_core|GLA_inferred_clock     DFN1C0     D       I_17_0              998.705      984.899
+two_mhz_clock_0.counter[7]      pll_core|GLA_inferred_clock     DFN1C0     D       I_20_0              998.705      984.899
+two_mhz_clock_0.counter[8]      pll_core|GLA_inferred_clock     DFN1C0     D       I_23                998.705      984.899
+===========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            1.295
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         998.705
+
+    - Propagation time:                      16.989
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 981.716
+
+    Number of logic level(s):                4
+    Starting point:                          two_mhz_clock_0.counter[6] / Q
+    Ending point:                            two_mhz_clock_0.clock_out / D
+    The start point is clocked by            pll_core|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            pll_core|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                     Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+two_mhz_clock_0.counter[6]               DFN1C0     Q        Out     1.771     1.771       -         
+counter[6]                               Net        -        -       3.074     -           5         
+two_mhz_clock_0.counter_RNIUT6U[6]       NOR2       B        In      -         4.845       -         
+two_mhz_clock_0.counter_RNIUT6U[6]       NOR2       Y        Out     1.554     6.398       -         
+counter14_3                              Net        -        -       0.773     -           1         
+two_mhz_clock_0.counter_RNILKDS1[2]      NOR3B      B        In      -         7.171       -         
+two_mhz_clock_0.counter_RNILKDS1[2]      NOR3B      Y        Out     1.499     8.670       -         
+counter14_7                              Net        -        -       0.773     -           1         
+two_mhz_clock_0.counter_RNI82AV2[11]     NOR3C      C        In      -         9.443       -         
+two_mhz_clock_0.counter_RNI82AV2[11]     NOR3C      Y        Out     1.599     11.042      -         
+counter14_9                              Net        -        -       2.844     -           4         
+two_mhz_clock_0.clock_out_RNO            AX1C       B        In      -         13.886      -         
+two_mhz_clock_0.clock_out_RNO            AX1C       Y        Out     2.330     16.217      -         
+clock_out_RNO_0                          Net        -        -       0.773     -           1         
+two_mhz_clock_0.clock_out                DFN1C0     D        In      -         16.989      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 18.284 is 10.048(55.0%) logic and 8.236(45.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: AGLN250V2_VQFP100_STD
+Report for cell top.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2    10      1.0       10.0
+              AND3    35      1.0       35.0
+               AO1    14      1.0       14.0
+              AO1A    13      1.0       13.0
+              AO1B     5      1.0        5.0
+              AOI1     2      1.0        2.0
+             AOI1B     7      1.0        7.0
+              AX1A     1      1.0        1.0
+              AX1C     2      1.0        2.0
+              AX1D     1      1.0        1.0
+            CLKINT     3      0.0        0.0
+               GND     8      0.0        0.0
+               INV     5      1.0        5.0
+               MX2   148      1.0      148.0
+              MX2A     1      1.0        1.0
+              NOR2    46      1.0       46.0
+             NOR2A    32      1.0       32.0
+             NOR2B   124      1.0      124.0
+              NOR3     5      1.0        5.0
+             NOR3A    14      1.0       14.0
+             NOR3B    11      1.0       11.0
+             NOR3C    14      1.0       14.0
+               OA1     1      1.0        1.0
+              OA1B     3      1.0        3.0
+              OA1C    14      1.0       14.0
+              OAI1     2      1.0        2.0
+               OR2    18      1.0       18.0
+              OR2A    65      1.0       65.0
+              OR2B     5      1.0        5.0
+               OR3     8      1.0        8.0
+              OR3A     3      1.0        3.0
+              OR3C     1      1.0        1.0
+               PLL     1      0.0        0.0
+            PLLINT     1      0.0        0.0
+               VCC     8      0.0        0.0
+               XA1     1      1.0        1.0
+              XA1A    31      1.0       31.0
+              XA1B     4      1.0        4.0
+              XA1C     6      1.0        6.0
+              XAI1    12      1.0       12.0
+             XAI1A     2      1.0        2.0
+              XOR2    35      1.0       35.0
+
+
+          DFN0E0C0     1      1.0        1.0
+          DFN0E1C0    16      1.0       16.0
+            DFN1C0   151      1.0      151.0
+          DFN1E0C0     1      1.0        1.0
+          DFN1E1C0    25      1.0       25.0
+            DFN1P0    39      1.0       39.0
+          DFN1P1C1    40      1.0       40.0
+                   -----          ----------
+             TOTAL   995               974.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF    12
+            OUTBUF     6
+                   -----
+             TOTAL    19
+
+
+Core Cells         : 974 of 6144 (16%)
+IO Cells           : 19
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 32MB peak: 67MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Tue Sep 27 18:09:32 2016
+
+###########################################################]

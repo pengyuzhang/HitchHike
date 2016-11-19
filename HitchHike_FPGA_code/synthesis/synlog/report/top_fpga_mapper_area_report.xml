@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the area information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="1" name="Area Summary">
+<report_link name="Detailed report">
+<data>Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\report\top_fpga_mapper_resourceusage.rpt</data>
+<title>Report for cell</title>
+</report_link>
+<parameter tooltip="Total Core Cells used" name="Core Cells">
+<data>974</data>
+</parameter>
+<parameter tooltip="Total IO Cells used" name="IO Cells">
+<data>19</data>
+</parameter>
+<parameter tcl_name="v_ram" tooltip="Total Block RAMs used" name="Block RAMs">
+<data>0</data>
+</parameter>
+</report_table>
