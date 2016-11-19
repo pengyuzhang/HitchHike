@@ -3,7 +3,7 @@
 - Contact: pyzhang@stanford.edu
 
 ## License
-- The hardware and software source code of HitchHike platform is distributed under academic license to ensure the reproducibility of our results. The hardware and software can NOT be used for commercial purpose.
+- The hardware and software source code of the HitchHike platform is distributed under academic license to ensure the reproducibility of our results. The hardware and software can NOT be used for commercial purpose.
 
 * Description: This repo hosts the hardware and software needed for running the HitchHike ECG sensing demo. We demonstrate that HitchHike can inject the ECG sensor data on top existing WiFi traffic.
 *
@@ -30,3 +30,13 @@ apple_computer_software inlcudes the files needed for receiving the backscattere
 Details of how to run the HitchHike system is shown in the following document.
 
 https://docs.google.com/document/d/1yD-POD4OKe0HTxtUZdOaUgfRqkNDYJDK3f1_O2Xi9FA
+
+## References
+Technical paper:\\
+* HitchHike: Practical Backscatter using Commodity WiFi
+* Pengyu Zhang, Dinesh Bharadia, Kiran Joshi, Sachin Katti
+* SenSys 2016
+* Demo paper:
+* Enabling backscatter communication among commodity wifi radios
+* Pengyu Zhang, Dinesh Bharadia, Kiran Joshi, Sachin Katti
+* SIGCOMM 2016
