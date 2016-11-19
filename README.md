@@ -1,4 +1,4 @@
-**********************************************************************************
+## Project
 * HitchHike - Practical Backscatter using Commodity WiFi
 * Author: Pengyu Zhang
 * Contact: pyzhang@stanford.edu
