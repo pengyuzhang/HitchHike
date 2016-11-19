@@ -2,6 +2,8 @@
 - Author: Pengyu Zhang
 - Contact: pyzhang@stanford.edu
 
+## License
+- The hardware and software source code of HitchHike platform is distributed under academic license to ensure the reproducibility of our results. The hardware and software can NOT be used for commercial purpose.
 
 * Description: This repo hosts the hardware and software needed for running the HitchHike ECG sensing demo. We demonstrate that HitchHike can inject the ECG sensor data on top existing WiFi traffic.
 *
