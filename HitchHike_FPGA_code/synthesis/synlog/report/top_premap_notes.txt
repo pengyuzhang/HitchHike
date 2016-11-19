@@ -1,3 +1,0 @@
-@N: MF249 |Running in 32-bit mode.
-@N: MF667 |Clock conversion disabled 
-@N: BN225 |Writing default property annotation file Z:\fpga_vision\xorfi_demo\synthesis\top.sap.

@@ -1,4 +1,0 @@
-CKID0001:@|S:pll_core_0.Core@|E:two_mhz_clock_0.counter[11]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:ten_mhz_clock_0.clock_out@|E:modulator_0.clock_counter[15]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
-CKID0003:@|S:two_mhz_clock_0.clock_out@|E:data_rate_0.packet_start_flag@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
-CKID0004:@|S:modulator_0.output_signal@|E:data_rate_0.data[9]@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 
