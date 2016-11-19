@@ -1,21 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Company: <Name>
-//
-// File: whitening.v
-// File history:
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//
-// Description: 
-//
-// <Description here>
-//
-// Targeted device: <Family::IGLOO> <Die::AGLN250V2> <Package::100 VQFP>
-// Author: <Name>
-//
-/////////////////////////////////////////////////////////////////////////////////////////////////// 
-
 module whitening( clock, reset, input_data, trigger, output_whitening );
 input clock, reset;
 input trigger;

@@ -1,22 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Company: <Name>
-//
-// File: trigger_signal_gen.v
-// File history:
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//
-// Description: 
-//
-// <Description here>
-//
-// Targeted device: <Family::IGLOO> <Die::AGLN250V2> <Package::100 VQFP>
-// Author: <Name>
-//
-/////////////////////////////////////////////////////////////////////////////////////////////////// 
-//`timescale <time_units> / <precision>
-
 module trigger_signal_gen( clock, reset, output_trigger_signal );
 input clock, reset;
 output output_trigger_signal;

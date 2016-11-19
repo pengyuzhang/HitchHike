@@ -1,21 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Company: <Name>
-//
-// File: data_source.v
-// File history:
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//
-// Description: 
-//
-// <Description here>
-//
-// Targeted device: <Family::IGLOO> <Die::AGLN250V2> <Package::100 VQFP>
-// Author: <Name>
-//
-/////////////////////////////////////////////////////////////////////////////////////////////////// 
-
 module data_source( clock, reset, trigger, input_data, output_data );
 input clock, reset;
 input trigger;

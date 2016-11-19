@@ -1,21 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Company: <Name>
-//
-// File: dbpsk_modulator.v
-// File history:
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//
-// Description: 
-//
-// <Description here>
-//
-// Targeted device: <Family::IGLOO> <Die::AGLN250V2> <Package::100 VQFP>
-// Author: <Name>
-//
-/////////////////////////////////////////////////////////////////////////////////////////////////// 
-
 module dbpsk_modulator( clock, reset, input_data, trigger, output_dbpsk);
 input clock, reset;
 input trigger;

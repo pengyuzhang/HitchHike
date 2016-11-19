@@ -1,22 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Company: <Name>
-//
-// File: main_clock.v
-// File history:
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//      <Revision number>: <Date>: <Comments>
-//
-// Description: 
-//
-// <Description here>
-//
-// Targeted device: <Family::IGLOO> <Die::AGLN250V2> <Package::100 VQFP>
-// Author: <Name>
-//
-/////////////////////////////////////////////////////////////////////////////////////////////////// 
-//`timescale <time_units> / <precision>
-
 module main_clock( clock, reset, clock_out );
 input clock, reset;
 output reg clock_out;
