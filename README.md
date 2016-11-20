@@ -2,6 +2,7 @@
 - Author: Pengyu Zhang
 - Contact: pyzhang@stanford.edu
 - Description: This repo hosts the hardware and software needed for running the HitchHike ECG sensing demo. We demonstrate that HitchHike can inject the ECG sensor data on top existing WiFi traffic. The HitchHike system can support transmission of other sensor data with small software modification.
+- Project video: please check the HitchHike project video <a href="https://www.youtube.com/watch?v=q7fCElntD9g&t=2s">here</a> and the ECG sensing demo video <a href="https://https://www.youtube.com/watch?v=r6Lh5ftg3C8">here</a>. Once you download all the software and hardware, you should be able to reproduce the ECG sensing demo.
 
 ## License
 - The hardware and software source code of the HitchHike platform is distributed under academic license to ensure the reproducibility of our results. The hardware and software can NOT be used for commercial purpose.
