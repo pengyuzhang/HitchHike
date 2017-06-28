@@ -1,7 +1,7 @@
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\syn_nfilter.exe  -link  -top  top  -multisrs  Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs  -osyn  Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_mult.srs  -log  Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_multi_srs_gen.srr 
-rc:0 success:1
-Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs|i|1475014163|23590
-Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_mult.srs|o|1475014165|5546
-Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_multi_srs_gen.srr|o|1475014165|467
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\syn_nfilter.exe|i|1412911056|6340608
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\syn_nfilter.exe|i|1412910862|2743296
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_comp.srs  -osyn  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_mult.srs  -log  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synlog\top_multi_srs_gen.srr 
+rc:0 success:1 runtime:1
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_comp.srs|io:i|time:1498670577|size:21172|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_mult.srs|io:o|time:1498670579|size:4814|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synlog\top_multi_srs_gen.srr|io:o|time:1498670579|size:603|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479402458|size:3128320|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479402724|size:4208128|exec:1

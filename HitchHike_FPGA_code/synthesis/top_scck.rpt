@@ -1,7 +1,7 @@
-# Synopsys Constraint Checker(syntax only), version mapact, Build 1346R, built Oct 10 2014
-# Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+# Synopsys Constraint Checker(syntax only), version mapact, Build 1920R, built Nov 17 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-# Written on Tue Sep 27 18:09:26 2016
+# Written on Wed Jun 28 10:23:01 2017
 
 
 ##### DESIGN INFO #######################################################
@@ -19,11 +19,11 @@ No issues found in constraint syntax.
 
 
 Clock Summary
-**************
+*************
 
-Start                                   Requested     Requested     Clock        Clock              
-Clock                                   Frequency     Period        Type         Group              
-----------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
-pll_core|GLA_inferred_clock             1.0 MHz       1000.000      inferred     Inferred_clkgroup_1
-====================================================================================================
+Start                                   Requested     Requested     Clock        Clock                   Clock
+Clock                                   Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------------
+main_clock|clock_out_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     265  
+pll_core|GLA_inferred_clock             1.0 MHz       1000.000      inferred     Inferred_clkgroup_1     22   
+==============================================================================================================

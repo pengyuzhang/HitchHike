@@ -1,37 +1,25 @@
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data3[7:0] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data4[7:0] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data5[7:0] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data6[7:0] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data7[7:0] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data8[7:0] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data9[7:0] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data10[7:0] 
-@W: CL113 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Feedback mux created for signal data2[7:0].
-@W: CL113 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Feedback mux created for signal data1[7:0].
-@W: CL251 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data1[7] assign 1, register removed by optimization
-@W: CL250 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data1[6:0] assign 0, register removed by optimization
-@W: CL250 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data2[7:0] assign 0, register removed by optimization
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[0] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[1] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[2] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[3] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[4] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[5] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[6] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[7] to a constant 0
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data4[7:0] 
-@W: CL168 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":236:14:236:28|Pruning instance ten_mhz_clock_0 -- not in use ...
-@W: CL168 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":133:10:133:20|Pruning instance data_rate_0 -- not in use ...
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[2] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[3] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[4] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[5] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[6] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[7] to a constant 0
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[7] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[6] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[5] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[4] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[3] 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[2] 
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data3[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data4[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data5[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data6[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data7[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data8[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data9[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data10[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL113 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Feedback mux created for signal data2[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Feedback mux created for signal data1[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL251 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|All reachable assignments to data1[7] assign 1, register removed by optimization
+@W: CL250 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|All reachable assignments to data1[6:0] assign 0, register removed by optimization
+@W: CL250 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|All reachable assignments to data2[7:0] assign 0, register removed by optimization
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Pruning unused register data4[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL168 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":236:14:236:28|Removing instance ten_mhz_clock_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":133:10:133:20|Removing instance data_rate_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 

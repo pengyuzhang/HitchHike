@@ -1,17 +1,17 @@
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\c_ver.exe  -osyn  Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs  -top  top  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I Z:\fpga_vision\xorfi_high_rate\synthesis\  -I C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib   -v2001  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v  -encrypt  -pro  -dmgen  Z:\fpga_vision\xorfi_high_rate\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\modulator.v -lib work Z:\fpga_vision\xorfi_high_rate\smartgen\pll_core\pll_core.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v -lib work Z:\fpga_vision\xorfi_high_rate\hdl\whitening.v -lib work Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v  -log  Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_compiler.srr 
-rc:1 success:1
-Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs|o|1475014163|23590
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v|i|1412954862|50704
-Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v|i|1470761649|2611
-Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v|i|1471303555|2100
-Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v|i|1469923698|1409
-Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v|i|1461610935|1151
-Z:\fpga_vision\xorfi_high_rate\hdl\modulator.v|i|1469772675|1640
-Z:\fpga_vision\xorfi_high_rate\smartgen\pll_core\pll_core.v|i|1469208306|2711
-Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v|i|1463091150|1152
-Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v|i|1469486298|1153
-Z:\fpga_vision\xorfi_high_rate\hdl\whitening.v|i|1470012461|2446
-Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v|i|1475014152|7356
-Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_compiler.srr|o|1475014163|9205
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\c_ver.exe|i|1412910978|5845504
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\c_ver.exe|i|1412910776|2306560
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_comp.srs  -top  top  -hdllog  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synlog\top_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\  -I C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v  -encrypt  -pro  -dmgen  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\modulator.v -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\whitening.v -lib work Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v 
+rc:0 success:1 runtime:4
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_comp.srs|io:o|time:1498670577|size:21172|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synlog\top_compiler.srr|io:o|time:1498670577|size:11297|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v|io:i|time:1487970450|size:50704|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v|io:i|time:1498670302|size:2010|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v|io:i|time:1498670534|size:1688|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v|io:i|time:1498670302|size:843|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v|io:i|time:1498670302|size:549|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\modulator.v|io:i|time:1498670302|size:1039|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v|io:i|time:1498670302|size:2711|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v|io:i|time:1498670302|size:547|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v|io:i|time:1498670302|size:548|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\whitening.v|io:i|time:1498670302|size:1886|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v|io:i|time:1498670566|size:7356|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\c_hdl.exe|io:i|time:1479402364|size:1337856|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479402568|size:1973248|exec:1

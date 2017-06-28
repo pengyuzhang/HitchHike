@@ -1,8 +1,8 @@
 *****************************************************************
-Pin Report - Date: Tue Sep 27 18:11:00 2016 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Wed Jun 28 10:24:14 2017 Pinchecksum: NOT-AVAILABLE
 Product: Designer
-Release: v11.5
-Version: 11.5.0.26
+Release: v11.8
+Version: 11.8.0.26
 Design Name: Top
 Family: IGLOO
 Die: AGLN250V2
@@ -81,21 +81,21 @@ Number |Port               |Function         |State       |I/O Std  |Output Driv
 62                          GCA1/IO27RSB1     Special
 63                          GCA0/IO28RSB1     Special
 64                          GCC0/IO26RSB1     Special
-65      input_data[0]       GCC1/IO25RSB1     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+65                          GCC1/IO25RSB1     Special
 66                          VCCIB1            Reserved
 67                          GND               Reserved
 68                          VCC               Reserved
-69      input_data[1]       IO24RSB1          Fixed        LVCMOS12  ---                ---   None           ---               No           No             No               No
-70      input_data[2]       GBC2/IO23RSB1     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
-71      input_data[3]       GBB2/IO22RSB1     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
-72      input_data[4]       IO21RSB1          Fixed        LVCMOS12  ---                ---   None           ---               No           No             No               No
-73      input_data[5]       GBA2/IO20RSB1     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+69                          IO24RSB1          Unassigned
+70                          GBC2/IO23RSB1     Special
+71                          GBB2/IO22RSB1     Special
+72                          IO21RSB1          Unassigned
+73                          GBA2/IO20RSB1     Special
 74                          VMV1              Reserved
 75                          GNDQ              Reserved
-76      input_data[6]       GBA1/IO19RSB0     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
-77      input_data[7]       GBA0/IO18RSB0     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
-78      input_data[8]       GBB1/IO17RSB0     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
-79      input_data[9]       GBB0/IO16RSB0     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+76                          GBA1/IO19RSB0     Special
+77                          GBA0/IO18RSB0     Special
+78                          GBB1/IO17RSB0     Special
+79                          GBB0/IO16RSB0     Special
 80                          GBC1/IO15RSB0     Special
 81                          GBC0/IO14RSB0     Special
 82                          IO13RSB0          Unassigned

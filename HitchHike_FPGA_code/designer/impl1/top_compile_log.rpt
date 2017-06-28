@@ -1,6 +1,6 @@
 Microsemi Libero Software
-Version: 11.5.0.26
-Release: v11.5
+Version: 11.8.0.26
+Release: v11.8
 
 Info: The design top.adb was last modified by software version 11.5.0.26.
 Opened an existing Libero design top.adb.
@@ -9,14 +9,14 @@ Opened an existing Libero design top.adb.
 'IDE_DESIGNERVIEW_COUNT' set to '1'
 'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
-'IDE_DESIGNERVIEW_ROOTDIR' set to 'Z:\fpga_vision\xorfi_high_rate\designer'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
 
  Netlist Reading Time = 0.0 seconds
 Imported the file:
-   Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn
+   Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.edn
 
-The Import command succeeded ( 00:00:01 )
+The Import command succeeded ( 00:00:02 )
 =====================================================================
 Parameters used to run compile:
 ===============================
@@ -24,7 +24,7 @@ Parameters used to run compile:
 Family      : IGLOO
 Device      : AGLN250V2
 Package     : 100 VQFP
-Source      : Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn
+Source      : Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.edn
 Format      : EDIF
 Topcell     : top
 Speed grade : STD
@@ -56,6 +56,16 @@ Warning: CMP201: Net pll_core_0/Core_GLC drives no load.
 Warning: CMP201: Net pll_core_0/LOCK drives no load.
 Warning: CMP201: Net pll_core_0/Core_YB drives no load.
 Warning: CMP201: Net pll_core_0/Core_YC drives no load.
+Warning: Top level port input_data<9> is not connected to any IO pad
+Warning: Top level port input_data<8> is not connected to any IO pad
+Warning: Top level port input_data<7> is not connected to any IO pad
+Warning: Top level port input_data<6> is not connected to any IO pad
+Warning: Top level port input_data<5> is not connected to any IO pad
+Warning: Top level port input_data<4> is not connected to any IO pad
+Warning: Top level port input_data<3> is not connected to any IO pad
+Warning: Top level port input_data<2> is not connected to any IO pad
+Warning: Top level port input_data<1> is not connected to any IO pad
+Warning: Top level port input_data<0> is not connected to any IO pad
 
 Netlist Optimization Report
 ===========================
@@ -65,11 +75,11 @@ Optimized macros:
   - Buffers:                1
   - Inverters:              0
   - Tieoff:                 0
-  - Logic combining:        18
+  - Logic combining:        17
 
-    Total macros optimized  19
+    Total macros optimized  18
 
-There were 0 error(s) and 5 warning(s) in this design.
+There were 0 error(s) and 15 warning(s) in this design.
 =====================================================================
 
 Reading previous post-compile physical placement constraints.
@@ -81,8 +91,8 @@ There were 0 error(s) and 0 warning(s).
 Compile report:
 ===============
 
-    CORE                       Used:   1076  Total:   6144   (17.51%)
-    IO (W/ clocks)             Used:     19  Total:     68   (27.94%)
+    CORE                       Used:    879  Total:   6144   (14.31%)
+    IO (W/ clocks)             Used:      9  Total:     68   (13.24%)
     GLOBAL (Chip+Quadrant)     Used:      5  Total:     18   (27.78%)
     PLL                        Used:      1  Total:      1   (100.00%)
     RAM/FIFO                   Used:      0  Total:      8   (0.00%)
@@ -105,14 +115,14 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 683          | 683
-    SEQ     | 273          | 393
+    COMB    | 616          | 616
+    SEQ     | 263          | 263
 
 I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 13            | 0            | 0
+    Input I/O                             | 3             | 0            | 0
     Output I/O                            | 6             | 0            | 0
     Bidirectional I/O                     | 0             | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
@@ -124,11 +134,11 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVCMOS12                        | 1.20v | N/A   | 13    | 6      | 0
+    LVCMOS12                        | 1.20v | N/A   | 3     | 6      | 0
 
 I/O Placement:
 
-    Locked  :  19 ( 100.00% )
+    Locked  :   9 ( 100.00% )
     Placed  :   0
     UnPlaced:   0
 
@@ -138,16 +148,16 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    295     INT_NET       Net   : ref_signal_c
-                          Driver: main_clock_0/clock_out_RNIG44
-                          Source: NETLIST
-    273     SET/RESET_NET Net   : reset_c
+    263     SET/RESET_NET Net   : reset_c
                           Driver: reset_pad
                           Source: NETLIST
-    223     INT_NET       Net   : output_signal_c
+    245     CLK_NET       Net   : ref_signal_c
+                          Driver: main_clock_0/clock_out_RNIG44
+                          Source: NETLIST
+    225     INT_NET       Net   : output_signal_c
                           Driver: modulator_0/output_signal_RNI2QGD
                           Source: NETLIST
-    123     INT_NET       Net   : data_source_0/N_134
+    145     INT_NET       Net   : data_source_0/counter_RNII6P43_0[4]
                           Driver: data_source_0/counter_RNII6P43_0[4]
                           Source: NETLIST
     22      CLK_NET       Net   : GLA
@@ -157,50 +167,50 @@ The following nets have been assigned to a chip global resource:
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    24      INT_NET       Net   : data_source_0/counter_RNIK0AI3_1[4]
-                          Driver: data_source_0/counter_RNIK0AI3_1[4]
+    21      INT_NET       Net   : trigger_signal_c
+                          Driver: trigger_signal_pad
     17      INT_NET       Net   : modulator_0/clock_countere
                           Driver: modulator_0/counter_RNISQHA3[5]
-    15      INT_NET       Net   : trigger_signal_c
-                          Driver: trigger_signal_pad
-    13      INT_NET       Net   : data_source_0/state_1_sqmuxa_0
-                          Driver: data_source_0/counter_RNIK0AI3[4]
-    12      INT_NET       Net   : data_source_0/state_1_sqmuxa
-                          Driver: data_source_0/counter_RNIK0AI3_0[4]
-    10      INT_NET       Net   : modulator_0/N_8
-                          Driver: modulator_0/counter_RNISQHA3[0]
     7       INT_NET       Net   : two_mhz_clock_0/DWACT_FINC_E[0]
                           Driver: two_mhz_clock_0/un5_counter_I_10
-    7       INT_NET       Net   : data_source_0/data2[1]
-                          Driver: data_source_0/data2[1]
-    7       INT_NET       Net   : data_source_0/data2[2]
-                          Driver: data_source_0/data2[2]
-    7       INT_NET       Net   : data_source_0/data2[3]
-                          Driver: data_source_0/data2[3]
+    7       INT_NET       Net   : whitening_0/output_counter[0]
+                          Driver: whitening_0/output_counter[0]
+    7       INT_NET       Net   : whitening_0/output_counter[3]
+                          Driver: whitening_0/output_counter[3]
+    7       INT_NET       Net   : whitening_0/DWACT_FINC_E[0]
+                          Driver: whitening_0/un2_output_counter_1_I_10
+    7       INT_NET       Net   : whitening_0/N_34
+                          Driver: whitening_0/counter_RNI4KP75[4]
+    6       INT_NET       Net   : two_mhz_clock_0/counter[0]
+                          Driver: two_mhz_clock_0/counter[0]
+    6       INT_NET       Net   : two_mhz_clock_0/counter[3]
+                          Driver: two_mhz_clock_0/counter[3]
+    6       INT_NET       Net   : whitening_0/output_counter[1]
+                          Driver: whitening_0/output_counter[1]
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    24      INT_NET       Net   : data_source_0/counter_RNIK0AI3_1[4]
-                          Driver: data_source_0/counter_RNIK0AI3_1[4]
+    21      INT_NET       Net   : trigger_signal_c
+                          Driver: trigger_signal_pad
     17      INT_NET       Net   : modulator_0/clock_countere
                           Driver: modulator_0/counter_RNISQHA3[5]
-    15      INT_NET       Net   : trigger_signal_c
-                          Driver: trigger_signal_pad
-    13      INT_NET       Net   : data_source_0/state_1_sqmuxa_0
-                          Driver: data_source_0/counter_RNIK0AI3[4]
-    12      INT_NET       Net   : data_source_0/state_1_sqmuxa
-                          Driver: data_source_0/counter_RNIK0AI3_0[4]
-    10      INT_NET       Net   : modulator_0/N_8
-                          Driver: modulator_0/counter_RNISQHA3[0]
     7       INT_NET       Net   : two_mhz_clock_0/DWACT_FINC_E[0]
                           Driver: two_mhz_clock_0/un5_counter_I_10
-    7       INT_NET       Net   : data_source_0/data2[1]
-                          Driver: data_source_0/data2[1]
-    7       INT_NET       Net   : data_source_0/data2[2]
-                          Driver: data_source_0/data2[2]
-    7       INT_NET       Net   : data_source_0/data2[3]
-                          Driver: data_source_0/data2[3]
+    7       INT_NET       Net   : whitening_0/output_counter[0]
+                          Driver: whitening_0/output_counter[0]
+    7       INT_NET       Net   : whitening_0/output_counter[3]
+                          Driver: whitening_0/output_counter[3]
+    7       INT_NET       Net   : whitening_0/DWACT_FINC_E[0]
+                          Driver: whitening_0/un2_output_counter_1_I_10
+    7       INT_NET       Net   : whitening_0/N_34
+                          Driver: whitening_0/counter_RNI4KP75[4]
+    6       INT_NET       Net   : two_mhz_clock_0/counter[0]
+                          Driver: two_mhz_clock_0/counter[0]
+    6       INT_NET       Net   : two_mhz_clock_0/counter[3]
+                          Driver: two_mhz_clock_0/counter[3]
+    6       INT_NET       Net   : whitening_0/output_counter[1]
+                          Driver: whitening_0/output_counter[1]
 ====================
 Flash*Freeze report:
 ====================
@@ -209,18 +219,18 @@ The design does not use the Flash*Freeze feature.
 
 ====================
 
-The Compile command succeeded ( 00:00:01 )
+The Compile command succeeded ( 00:00:02 )
 Wrote status report to file: top_compile_report.txt
 
 The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: top_report_pin_byname.txt
 
-The Report command succeeded ( 00:00:01 )
+The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: top_report_pin_bynumber.txt
 
 The Report command succeeded ( 00:00:01 )
-Design saved to file Z:\fpga_vision\xorfi_high_rate\designer\impl1\top.adb.
+Design saved to file Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer\impl1\top.adb.
 
-The Execute Script command succeeded ( 00:00:05 )
+The Execute Script command succeeded ( 00:00:06 )
 Design closed.
 

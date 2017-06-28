@@ -1,13 +1,16 @@
-@N: MF249 |Running in 32-bit mode.
-@N: MF667 |Clock conversion disabled 
-@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":42:23:42:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
-@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v":42:23:42:32|Found 12-bit incrementor, 'un5_counter[11:0]'
-@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\whitening.v":87:30:87:46|Found 16-bit incrementor, 'un2_output_counter_1[15:0]'
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Found counter in view:work.data_source(verilog) instance counter[15:0] 
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\dbpsk_modulator.v":9:0:9:5|Found counter in view:work.dbpsk_modulator(verilog) instance counter[15:0] 
+@N: MF238 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\main_clock.v":23:23:23:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance clock_counter[15:0] 
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance counter[5:0] 
+@N: MF238 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\two_mhz_clock.v":23:23:23:32|Found 12-bit incrementor, 'un5_counter[11:0]'
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Found counter in view:work.whitening(verilog) instance counter[15:0] 
+@N: MF238 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\whitening.v":69:30:69:46|Found 16-bit incrementor, 'un2_output_counter_1[15:0]'
 @N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
 @N: FP130 |Promoting Net ref_signal_c on CLKINT  main_clock_0.clock_out_inferred_clock 
 @N: FP130 |Promoting Net output_signal_c on CLKINT  I_56 
-@N: FP130 |Promoting Net data_source_0.N_134 on CLKINT  I_57 
-@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
-@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
-@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
-@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: FP130 |Promoting Net data_source_0.counter23 on CLKINT  I_57 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

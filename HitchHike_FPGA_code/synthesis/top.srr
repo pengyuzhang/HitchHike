@@ -1,322 +1,359 @@
-#Build: Synplify Pro I-2014.03M-SP1, Build 097R, Oct  9 2014
-#install: C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
-#OS: Windows XP 5.1
-#Hostname: PENGYU-7BE0EE31
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 7 6.1
+#Hostname: WIN-20J06I78429
+
+# Wed Jun 28 10:22:55 2017
 
 #Implementation: synthesis
 
-Synopsys Verilog Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
-@N|Running in 32-bit mode
-Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v"
-@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\umr_capim.v"
-@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\scemi_objects.v"
-@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\scemi_pipes.svh"
-@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\hypermods.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\hdl\modulator.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\smartgen\pll_core\pll_core.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\hdl\whitening.v"
-@I::"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v"
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v" (library work)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v" (library work)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v" (library work)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v" (library work)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\modulator.v" (library work)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v" (library work)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v" (library work)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v" (library work)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\whitening.v" (library work)
+@I::"Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v" (library work)
 Verilog syntax check successful!
 Selecting top level module top
-@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
 
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":20:7:20:15|Synthesizing module data_rate
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":1:7:1:15|Synthesizing module data_rate in library work.
 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data3[7:0] 
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data3[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data4[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data5[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data6[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data7[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data8[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data9[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Pruning unused register data10[7:0]. Make sure that there are no unused intermediate registers.
+@A: CL291 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Register state with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@W: CL113 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Feedback mux created for signal data2[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|Feedback mux created for signal data1[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL251 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|All reachable assignments to data1[7] assign 1, register removed by optimization
+@W: CL250 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|All reachable assignments to data1[6:0] assign 0, register removed by optimization
+@W: CL250 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v":19:0:19:5|All reachable assignments to data2[7:0] assign 0, register removed by optimization
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":1:7:1:17|Synthesizing module data_source in library work.
 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data4[7:0] 
+@A: CL291 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Register state with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Optimizing register bit data4[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":14:0:14:5|Pruning unused register data4[7:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":1:7:1:21|Synthesizing module dbpsk_modulator in library work.
 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data5[7:0] 
+@N: CG179 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v":22:32:22:43|Removing redundant assignment.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data6[7:0] 
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":1:7:1:16|Synthesizing module main_clock in library work.
 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data7[7:0] 
+@N: CG179 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v":24:25:24:33|Removing redundant assignment.
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\modulator.v":1:7:1:15|Synthesizing module modulator in library work.
 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data8[7:0] 
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1464:7:1464:9|Synthesizing module OR2 in library work.
 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data9[7:0] 
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
 
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data10[7:0] 
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT in library work.
 
-@A: CL291 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Register state with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
-@W: CL113 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Feedback mux created for signal data2[7:0].
-@W: CL113 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Feedback mux created for signal data1[7:0].
-@W: CL251 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data1[7] assign 1, register removed by optimization
-@W: CL250 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data1[6:0] assign 0, register removed by optimization
-@W: CL250 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data2[7:0] assign 0, register removed by optimization
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":19:7:19:17|Synthesizing module data_source
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND in library work.
 
-@A: CL291 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register data2 with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
-@A: CL291 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register state with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
-@A: CL291 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register data3 with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[0] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[1] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[2] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[3] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[4] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[5] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[6] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[7] to a constant 0
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data4[7:0] 
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC in library work.
 
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v":19:7:19:21|Synthesizing module dbpsk_modulator
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core in library work.
 
-@N: CG179 :"Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v":40:32:40:43|Removing redundant assignment
-@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v":1:7:1:19|Synthesizing module ten_mhz_clock in library work.
 
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":20:7:20:16|Synthesizing module main_clock
+@N: CG179 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v":24:25:24:33|Removing redundant assignment.
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v":1:7:1:19|Synthesizing module two_mhz_clock in library work.
 
-@N: CG179 :"Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":43:25:43:33|Removing redundant assignment
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\modulator.v":20:7:20:15|Synthesizing module modulator
+@N: CG179 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v":24:25:24:33|Removing redundant assignment.
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\whitening.v":1:7:1:15|Synthesizing module whitening in library work.
 
-@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":1464:7:1464:9|Synthesizing module OR2
+@N: CG364 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
 
-@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL
+@W: CL168 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":236:14:236:28|Removing instance ten_mhz_clock_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v":133:10:133:20|Removing instance data_rate_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CL159 :"Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v":4:11:4:20|Input input_data is unused.
 
-@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT
-
-@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND
-
-@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC
-
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core
-
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v":20:7:20:19|Synthesizing module ten_mhz_clock
-
-@N: CG179 :"Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v":43:25:43:33|Removing redundant assignment
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v":20:7:20:19|Synthesizing module two_mhz_clock
-
-@N: CG179 :"Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v":43:25:43:33|Removing redundant assignment
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\whitening.v":19:7:19:15|Synthesizing module whitening
-
-@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":9:7:9:9|Synthesizing module top
-
-@W: CL168 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":236:14:236:28|Pruning instance ten_mhz_clock_0 -- not in use ...
-
-@W: CL168 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":133:10:133:20|Pruning instance data_rate_0 -- not in use ...
-
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[2] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[3] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[4] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[5] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[6] to a constant 0
-@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[7] to a constant 0
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[7] 
-
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[6] 
-
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[5] 
-
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[4] 
-
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[3] 
-
-@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[2] 
-
-@END
-
-At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 42MB peak: 43MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 79MB peak: 80MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Sep 27 18:09:23 2016
+
+Process completed successfully.
+# Wed Jun 28 10:22:57 2017
 
 ###########################################################]
-Synopsys Netlist Linker, version comp201403sp1p1, Build 095R, built Oct  9 2014
-@N|Running in 32-bit mode
-File Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs changed - recompiling
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 37MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Sep 27 18:09:25 2016
+
+Process completed successfully.
+# Wed Jun 28 10:22:57 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 28 10:22:57 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+File C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\syn_nfilter.exe changed - recompiling
+File Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 28 10:22:59 2017
 
 ###########################################################]
 Pre-mapping Report
 
-Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1346R, Built Oct 10 2014 10:43:41
-Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
-Product Version I-2014.03M-SP1
+# Wed Jun 28 10:23:01 2017
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
 
-@L: Z:\fpga_vision\xorfi_high_rate\synthesis\top_scck.rpt 
-Printing clock  summary report in "Z:\fpga_vision\xorfi_high_rate\synthesis\top_scck.rpt" file 
-@N: MF249 |Running in 32-bit mode.
-@N: MF667 |Clock conversion disabled 
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 59MB)
+@A: MF827 |No constraint file specified.
+@L: Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top_scck.rpt 
+Printing clock  summary report in "Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 59MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
 
 
 
-@S |Clock Summary
-****************
+Clock Summary
+*****************
 
-Start                                   Requested     Requested     Clock        Clock              
-Clock                                   Frequency     Period        Type         Group              
-----------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
-pll_core|GLA_inferred_clock             1.0 MHz       1000.000      inferred     Inferred_clkgroup_1
-====================================================================================================
+Start                                   Requested     Requested     Clock        Clock                   Clock
+Clock                                   Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------------
+main_clock|clock_out_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     265  
+pll_core|GLA_inferred_clock             1.0 MHz       1000.000      inferred     Inferred_clkgroup_1     22   
+==============================================================================================================
 
-@W: MT530 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Found inferred clock main_clock|clock_out_inferred_clock which controls 259 sequential elements including data_source_0.state[143]. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":26:0:26:5|Found inferred clock pll_core|GLA_inferred_clock which controls 22 sequential elements including main_clock_0.counter[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Found inferred clock main_clock|clock_out_inferred_clock which controls 265 sequential elements including data_source_0.state[143]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\main_clock.v":7:0:7:5|Found inferred clock pll_core|GLA_inferred_clock which controls 22 sequential elements including main_clock_0.counter[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap.
+@N: BN225 |Writing default property annotation file Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 30MB peak: 64MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 110MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Sep 27 18:09:27 2016
+# Wed Jun 28 10:23:02 2017
 
 ###########################################################]
 Map & Optimize Report
 
-Synopsys Microsemi Technology Mapper, Version mapact, Build 1346R, Built Oct 10 2014 10:43:41
-Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
-Product Version I-2014.03M-SP1
+# Wed Jun 28 10:23:04 2017
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
 
-@N: MF249 |Running in 32-bit mode.
-@N: MF667 |Clock conversion disabled 
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
-
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 62MB peak: 64MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 64MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
 
-@N:"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Found counter in view:work.data_source(verilog) inst counter[15:0]
-@W: MO161 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[7] is always 1, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[6] is always 0, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[5] is always 0, optimizing ...
-@W: MO161 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[4] is always 1, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[3] is always 0, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[2] is always 0, optimizing ...
-@W: MO161 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[1] is always 1, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[0] is always 0, optimizing ...
-@N:"z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v":27:0:27:5|Found counter in view:work.dbpsk_modulator(verilog) inst counter[15:0]
-@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":42:23:42:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
-@N:"z:\fpga_vision\xorfi_high_rate\hdl\modulator.v":27:0:27:5|Found counter in view:work.modulator(verilog) inst clock_counter[15:0]
-@N:"z:\fpga_vision\xorfi_high_rate\hdl\modulator.v":27:0:27:5|Found counter in view:work.modulator(verilog) inst counter[5:0]
-@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v":42:23:42:32|Found 12-bit incrementor, 'un5_counter[11:0]'
-@N:"z:\fpga_vision\xorfi_high_rate\hdl\whitening.v":28:0:28:5|Found counter in view:work.whitening(verilog) inst counter[15:0]
-@N: MF238 :"z:\fpga_vision\xorfi_high_rate\hdl\whitening.v":87:30:87:46|Found 16-bit incrementor, 'un2_output_counter_1[15:0]'
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Found counter in view:work.data_source(verilog) instance counter[15:0] 
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[7] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[6] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[5] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[4] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[3] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[2] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[1] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[0] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[7] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[6] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[5] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[4] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[3] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[2] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[1] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[0] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[7] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[6] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[5] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[4] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[3] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[2] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[1] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[0] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\dbpsk_modulator.v":9:0:9:5|Found counter in view:work.dbpsk_modulator(verilog) instance counter[15:0] 
+@N: MF238 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\main_clock.v":23:23:23:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance clock_counter[15:0] 
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\modulator.v":8:0:8:5|Found counter in view:work.modulator(verilog) instance counter[5:0] 
+@N: MF238 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\two_mhz_clock.v":23:23:23:32|Found 12-bit incrementor, 'un5_counter[11:0]'
+@N: MO231 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\whitening.v":10:0:10:5|Found counter in view:work.whitening(verilog) instance counter[15:0] 
+@N: MF238 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\whitening.v":69:30:69:46|Found 16-bit incrementor, 'un2_output_counter_1[15:0]'
 
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 67MB peak: 67MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 65MB peak: 67MB)
-
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 66MB peak: 67MB)
-
-
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 66MB peak: 67MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
-
-
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
-
-
-Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 113MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 113MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 113MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 113MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 113MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 113MB)
 
 
 High Fanout Net Report
 **********************
 
-Driver Instance / Pin Name                 Fanout, notes                   
----------------------------------------------------------------------------
-data_source_0.state_1_sqmuxa / Y           25                              
-data_source_0.counter23_0_a2_12_o4 / Y     122                             
-reset_pad / Y                              273 : 233 asynchronous set/reset
-modulator_0.output_signal / Q              222                             
-===========================================================================
+Driver Instance / Pin Name           Fanout, notes                   
+---------------------------------------------------------------------
+data_source_0.counter23_0_a2 / Y     145                             
+reset_pad / Y                        263 : 263 asynchronous set/reset
+modulator_0.output_signal / Q        225                             
+=====================================================================
 
 @N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
 @N: FP130 |Promoting Net ref_signal_c on CLKINT  main_clock_0.clock_out_inferred_clock 
 @N: FP130 |Promoting Net output_signal_c on CLKINT  I_56 
-@N: FP130 |Promoting Net data_source_0.N_134 on CLKINT  I_57 
+@N: FP130 |Promoting Net data_source_0.counter23 on CLKINT  I_57 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 113MB)
 
-Replicating Combinational Instance data_source_0.state_1_sqmuxa, fanout 25 segments 2
 
 Added 0 Buffers
-Added 1 Cells via replication
+Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
-	Added 1 Combinational Cells via replication
+	Added 0 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 66MB peak: 67MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 113MB)
 
+
+
+@S |Clock Optimization Summary
 
 
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 273 clock pin(s) of sequential element(s)
-0 instances converted, 273 sequential instances remain driven by gated/generated clocks
+2 gated/generated clock tree(s) driving 263 clock pin(s) of sequential element(s)
+0 instances converted, 263 sequential instances remain driven by gated/generated clocks
 
 ========================================================================================================== Gated/Generated Clocks ===========================================================================================================
 Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                 Explanation                                                                                                                   
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       main_clock_0.clock_out     DFN1C0                 251        whitening_0.state[6]            No generated or derived clock directive on output of sequential instance                                                      
+@K:CKID0001       main_clock_0.clock_out     DFN1C0                 241        whitening_0.state[6]            No generated or derived clock directive on output of sequential instance                                                      
 @K:CKID0002       pll_core_0.Core            PLL                    22         two_mhz_clock_0.counter[11]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
 =============================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
-Writing Analyst data base Z:\fpga_vision\xorfi_high_rate\synthesis\top.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 65MB peak: 67MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
 
-Writing Analyst data base Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_m.srm
+Writing Analyst data base Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 65MB peak: 67MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
 
 Writing EDIF Netlist and constraint files
-I-2014.03M-SP1
+L-2016.09M-2
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 65MB peak: 67MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
 
 @W: MT420 |Found inferred clock pll_core|GLA_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:pll_core_0.GLA"
-
 @W: MT420 |Found inferred clock main_clock|clock_out_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:main_clock_0.clock_out"
 
 
-
-@S |##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Sep 27 18:09:32 2016
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jun 28 10:23:07 2017
 #
 
 
@@ -328,13 +365,13 @@ Wire load mode:         top
 Wire load model:        igloo
 Paths requested:        5
 Constraint File(s):    
-@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
-@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
 
 
 
-Performance Summary 
+Performance Summary
 *******************
 
 
@@ -343,7 +380,7 @@ Worst slack in design: 488.995
                                         Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                          Frequency     Frequency     Period        Period        Slack       Type         Group              
 --------------------------------------------------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock     1.0 MHz       23.0 MHz      1000.000      43.459        488.995     inferred     Inferred_clkgroup_0
+main_clock|clock_out_inferred_clock     1.0 MHz       23.7 MHz      1000.000      42.202        488.995     inferred     Inferred_clkgroup_0
 pll_core|GLA_inferred_clock             1.0 MHz       54.7 MHz      1000.000      18.284        981.716     inferred     Inferred_clkgroup_1
 ============================================================================================================================================
 
@@ -358,7 +395,7 @@ Clocks                                                                    |    r
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                             Ending                               |  constraint  slack    |  constraint  slack    |  constraint  slack    |  constraint  slack  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock  main_clock|clock_out_inferred_clock  |  1000.000    956.541  |  1000.000    979.758  |  500.000     488.996  |  500.000     493.990
+main_clock|clock_out_inferred_clock  main_clock|clock_out_inferred_clock  |  1000.000    957.798  |  1000.000    979.758  |  500.000     488.996  |  500.000     493.990
 pll_core|GLA_inferred_clock          pll_core|GLA_inferred_clock          |  1000.000    981.716  |  No paths    -        |  No paths    -        |  No paths    -      
 ========================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -391,11 +428,11 @@ whitening_0.state[3]             main_clock|clock_out_inferred_clock     DFN1E1C
 whitening_0.state[6]             main_clock|clock_out_inferred_clock     DFN1E1C0     Q       state[6]                         1.771       490.654
 data_source_0.output_data        main_clock|clock_out_inferred_clock     DFN1E0C0     Q       data_source_0_output_data        1.771       493.660
 whitening_0.output_whitening     main_clock|clock_out_inferred_clock     DFN0E0C0     Q       whitening_0_output_whitening     1.570       493.990
-data_source_0.counter[0]         main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       956.541
 dbpsk_modulator_0.counter[1]     main_clock|clock_out_inferred_clock     DFN1P0       Q       counter_i_0[1]                   1.771       957.798
-data_source_0.counter[1]         main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[1]                       1.395       957.957
 dbpsk_modulator_0.counter[0]     main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       958.437
+data_source_0.counter[0]         main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       959.101
 whitening_0.counter[0]           main_clock|clock_out_inferred_clock     DFN1C0       Q       counter[0]                       1.395       959.101
+whitening_0.counter[1]           main_clock|clock_out_inferred_clock     DFN1P0       Q       counter_i_0[1]                   1.771       959.945
 ==================================================================================================================================================
 
 
@@ -447,7 +484,7 @@ modulator_0.output_signal             DFN1E1C0     Q        Out     1.771     1.
 output_signal_0                       Net          -        -       0.773     -           1         
 modulator_0.output_signal_RNI2QGD     CLKINT       A        In      -         2.543       -         
 modulator_0.output_signal_RNI2QGD     CLKINT       Y        Out     0.418     2.961       -         
-output_signal_c                       Net          -        -       3.846     -           223       
+output_signal_c                       Net          -        -       3.846     -           225       
 whitening_0.output_whitening_RNO      XA1          C        In      -         6.807       -         
 whitening_0.output_whitening_RNO      XA1          Y        Out     1.712     8.520       -         
 N_32                                  Net          -        -       0.773     -           1         
@@ -552,6 +589,14 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 ##### END OF TIMING REPORT #####]
 
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 111MB peak: 113MB)
+
 --------------------------------------------------------------------------------
 Target Part: AGLN250V2_VQFP100_STD
 Report for cell top.verilog
@@ -559,79 +604,74 @@ Report for cell top.verilog
               cell count     area count*area
               AND2    10      1.0       10.0
               AND3    35      1.0       35.0
-               AO1    14      1.0       14.0
-              AO1A    13      1.0       13.0
+               AO1     3      1.0        3.0
               AO1B     5      1.0        5.0
               AOI1     2      1.0        2.0
              AOI1B     7      1.0        7.0
-              AX1A     1      1.0        1.0
               AX1C     2      1.0        2.0
-              AX1D     1      1.0        1.0
+              AX1D     2      1.0        2.0
             CLKINT     3      0.0        0.0
                GND     8      0.0        0.0
                INV     5      1.0        5.0
-               MX2   148      1.0      148.0
-              MX2A     1      1.0        1.0
-              NOR2    46      1.0       46.0
-             NOR2A    32      1.0       32.0
-             NOR2B   124      1.0      124.0
-              NOR3     5      1.0        5.0
+               MX2   144      1.0      144.0
+              NOR2    17      1.0       17.0
+             NOR2A    10      1.0       10.0
+             NOR2B   139      1.0      139.0
+              NOR3     6      1.0        6.0
              NOR3A    14      1.0       14.0
              NOR3B    11      1.0       11.0
-             NOR3C    14      1.0       14.0
+             NOR3C    18      1.0       18.0
                OA1     1      1.0        1.0
-              OA1B     3      1.0        3.0
-              OA1C    14      1.0       14.0
-              OAI1     2      1.0        2.0
-               OR2    18      1.0       18.0
-              OR2A    65      1.0       65.0
-              OR2B     5      1.0        5.0
-               OR3     8      1.0        8.0
+              OA1B     1      1.0        1.0
+              OA1C     1      1.0        1.0
+               OR2    19      1.0       19.0
+              OR2A    78      1.0       78.0
+              OR2B     2      1.0        2.0
+               OR3     2      1.0        2.0
               OR3A     3      1.0        3.0
               OR3C     1      1.0        1.0
                PLL     1      0.0        0.0
             PLLINT     1      0.0        0.0
                VCC     8      0.0        0.0
                XA1     1      1.0        1.0
-              XA1A    31      1.0       31.0
+              XA1A    34      1.0       34.0
               XA1B     4      1.0        4.0
-              XA1C     6      1.0        6.0
-              XAI1    12      1.0       12.0
-             XAI1A     2      1.0        2.0
-              XOR2    35      1.0       35.0
+              XA1C     1      1.0        1.0
+              XAI1    16      1.0       16.0
+             XAI1A     3      1.0        3.0
+              XOR2    36      1.0       36.0
 
 
           DFN0E0C0     1      1.0        1.0
           DFN0E1C0    16      1.0       16.0
-            DFN1C0   151      1.0      151.0
+            DFN1C0   160      1.0      160.0
           DFN1E0C0     1      1.0        1.0
           DFN1E1C0    25      1.0       25.0
-            DFN1P0    39      1.0       39.0
-          DFN1P1C1    40      1.0       40.0
+            DFN1P0    60      1.0       60.0
                    -----          ----------
-             TOTAL   995               974.0
+             TOTAL   917               896.0
 
 
   IO Cell usage:
               cell count
             CLKBUF     1
-             INBUF    12
+             INBUF     2
             OUTBUF     6
                    -----
-             TOTAL    19
+             TOTAL     9
 
 
-Core Cells         : 974 of 6144 (16%)
-IO Cells           : 19
+Core Cells         : 896 of 6144 (15%)
+IO Cells           : 9
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 32MB peak: 67MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 26MB peak: 113MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Tue Sep 27 18:09:32 2016
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Wed Jun 28 10:23:07 2017
 
 ###########################################################]

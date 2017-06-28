@@ -1,41 +1,55 @@
-Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1346R, Built Oct 10 2014 10:43:41
-Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
-Product Version I-2014.03M-SP1
+# Wed Jun 28 10:23:01 2017
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
 
-@L: Z:\fpga_vision\xorfi_high_rate\synthesis\top_scck.rpt 
-Printing clock  summary report in "Z:\fpga_vision\xorfi_high_rate\synthesis\top_scck.rpt" file 
-@N: MF249 |Running in 32-bit mode.
-@N: MF667 |Clock conversion disabled 
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 59MB)
+@A: MF827 |No constraint file specified.
+@L: Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top_scck.rpt 
+Printing clock  summary report in "Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 59MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
 
 
 
-@S |Clock Summary
-****************
+Clock Summary
+*****************
 
-Start                                   Requested     Requested     Clock        Clock              
-Clock                                   Frequency     Period        Type         Group              
-----------------------------------------------------------------------------------------------------
-main_clock|clock_out_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
-pll_core|GLA_inferred_clock             1.0 MHz       1000.000      inferred     Inferred_clkgroup_1
-====================================================================================================
+Start                                   Requested     Requested     Clock        Clock                   Clock
+Clock                                   Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------------
+main_clock|clock_out_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     265  
+pll_core|GLA_inferred_clock             1.0 MHz       1000.000      inferred     Inferred_clkgroup_1     22   
+==============================================================================================================
 
-@W: MT530 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Found inferred clock main_clock|clock_out_inferred_clock which controls 259 sequential elements including data_source_0.state[143]. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":26:0:26:5|Found inferred clock pll_core|GLA_inferred_clock which controls 22 sequential elements including main_clock_0.counter[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Found inferred clock main_clock|clock_out_inferred_clock which controls 265 sequential elements including data_source_0.state[143]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\main_clock.v":7:0:7:5|Found inferred clock pll_core|GLA_inferred_clock which controls 22 sequential elements including main_clock_0.counter[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap.
+@N: BN225 |Writing default property annotation file Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 30MB peak: 64MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 110MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Sep 27 18:09:27 2016
+# Wed Jun 28 10:23:02 2017
 
 ###########################################################]

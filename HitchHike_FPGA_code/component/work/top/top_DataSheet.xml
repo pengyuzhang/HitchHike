@@ -11,33 +11,33 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>Z:/fpga_vision/xorfi_high_rate/component/work/top</location>
-    <state>GENERATED ( Tue Sep 27 18:09:13 2016 )</state>
+    <location>Z:/Desktop/HitchHike/HitchHike_FPGA_code/component/work/top</location>
+    <state>GENERATED ( Wed Jun 28 10:22:47 2017 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\clock_divider.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\counter_tmp.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\data_dqpsk_generator.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\dqpsk_modulator.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\modulator.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\phaser_modulator.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\sigen_trigger.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\trigger_signal_gen.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\hdl\whitening.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\smartgen\delay\delay.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\smartgen\delay_five_ns\delay_five_ns.v</file>
-    <file>Z:\fpga_vision\xorfi_high_rate\smartgen\pll_core\pll_core.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\component\work\top\top.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\clock_divider.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\counter_tmp.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_dqpsk_generator.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_rate.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\data_source.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dbpsk_modulator.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\dqpsk_modulator.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\main_clock.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\modulator.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\phaser_modulator.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\sigen_trigger.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\ten_mhz_clock.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\trigger_signal_gen.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\two_mhz_clock.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\hdl\whitening.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\delay\delay.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\delay_five_ns\delay_five_ns.v</file>
+    <file>Z:\Desktop\HitchHike\HitchHike_FPGA_code\smartgen\pll_core\pll_core.v</file>
   </fileset>
   <io>
     <port-name>output_data_rate</port-name>
@@ -231,7 +231,7 @@
   <core type="ComponentModule">
     <core-type>ComponentModule</core-type>
     <core-exttype>SmartGen</core-exttype>
-    <core-location>Z:/fpga_vision/xorfi_high_rate/smartgen/pll_core</core-location>
+    <core-location>Z:/Desktop/HitchHike/HitchHike_FPGA_code/smartgen/pll_core</core-location>
     <core-name>pll_core_0</core-name>
   </core>
   <core type="HdlModule">

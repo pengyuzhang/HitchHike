@@ -1,10 +1,11 @@
 
-Starting:    C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\mbin\synbatch.exe
-Install:     C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
-Date:        Tue Sep 27 18:09:21 2016
-Version:     I-2014.03M-SP1
+Starting:    C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+Hostname:    WIN-20J06I78429
+Date:        Wed Jun 28 10:22:53 2017
+Version:     L-2016.09M-2
 
-Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log top_syn.tcl
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log top_syn.tcl
 ProductType: synplify_pro
 
 License checkout: synplifypro_actel
@@ -17,68 +18,81 @@ Running in Vendor Mode
 
 auto_infer_blackbox is not supported in current product.
 
-log file: "Z:\fpga_vision\xorfi_high_rate\synthesis\top.srr"
+log file: "Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.srr"
+
+Running: synthesis in foreground
 
 
 
 Running top_syn|synthesis
 
 
-Running: Compile on top_syn|synthesis
+Running: compile (Compile) on top_syn|synthesis
+# Wed Jun 28 10:22:55 2017
 
 
-Running: Compile Process on top_syn|synthesis
+Running: compile_flow (Compile Process) on top_syn|synthesis
+# Wed Jun 28 10:22:55 2017
 
 
-Running: Compile Input on top_syn|synthesis
+Running: compiler (Compile Input) on top_syn|synthesis
+# Wed Jun 28 10:22:55 2017
 
-Copied Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs to Z:\fpga_vision\xorfi_high_rate\synthesis\top.srs
-
-
-compiler Completed with warnings
-Return Code: 1
-Run Time:0h:00m:03s
+Copied Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_comp.srs to Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.srs
 
 
-Running: Multi-srs Generator on top_syn|synthesis
+compiler completed
+# Wed Jun 28 10:22:59 2017
 
-Copied Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs to Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_s.srs
-
-
-multi_srs_gen Completed
 Return Code: 0
-Run Time:0h:00m:01s
+Run Time:00h:00m:04s
 
-Copied Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_mult.srs to Z:\fpga_vision\xorfi_high_rate\synthesis\top.srs
+
+Running: multi_srs_gen (Multi-srs Generator) on top_syn|synthesis
+# Wed Jun 28 10:22:59 2017
+
+
+multi_srs_gen completed
+# Wed Jun 28 10:23:00 2017
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Copied Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_mult.srs to Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.srs
 
 Complete: Compile Process on top_syn|synthesis
 
 
-Running: Pre-mapping on top_syn|synthesis
-
-Copied Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap to Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_s.sap
-
-Copied Z:\fpga_vision\xorfi_high_rate\synthesis\top.fse to Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_s.fse
+Running: premap (Pre-mapping) on top_syn|synthesis
+# Wed Jun 28 10:23:00 2017
 
 
-premap Completed with warnings
+premap completed with warnings
+# Wed Jun 28 10:23:03 2017
+
 Return Code: 1
-Run Time:0h:00m:02s
+Run Time:00h:00m:03s
 
 Complete: Compile on top_syn|synthesis
 
 
-Running: Map on top_syn|synthesis
+Running: map (Map) on top_syn|synthesis
+# Wed Jun 28 10:23:03 2017
+
+License granted for 4 parallel jobs
 
 
-Running: Map & Optimize on top_syn|synthesis
+Running: fpga_mapper (Map & Optimize) on top_syn|synthesis
+# Wed Jun 28 10:23:03 2017
 
-Copied Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_m.srm to Z:\fpga_vision\xorfi_high_rate\synthesis\top.srm
+Copied Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_m.srm to Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.srm
 
 
-fpga_mapper Completed with warnings
+fpga_mapper completed with warnings
+# Wed Jun 28 10:23:08 2017
+
 Return Code: 1
-Run Time:0h:00m:05s
+Run Time:00h:00m:05s
 
 Complete: Map on top_syn|synthesis
 

@@ -20,9 +20,9 @@ KEY IDE_DES_BLOCK_PUBLISH "FALSE"
 KEY IDE_DES_BA_EXPORTED "TRUE"
 KEY IDE_DES_INTERACTIVE "FALSE"
 KEY IDE_DES_ERROR_FOUND "FALSE"
-KEY IDE_DES_ADB_PATH "Z:\fpga_vision\xorfi_high_rate\designer\impl1\top.adb"
+KEY IDE_DES_ADB_PATH "Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer\impl1\top.adb"
 LIST SOURCE_FILES
-VALUE "Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn;edn"
+VALUE "Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.edn;edn"
 ENDLIST
 LIST OPTIONAL_FILES
 ENDLIST

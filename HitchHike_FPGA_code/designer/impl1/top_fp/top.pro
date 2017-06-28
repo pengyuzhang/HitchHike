@@ -1,6 +1,6 @@
 <project name="top" version="1.1">
     <ProjectDirectory>
-        Z:\fpga_vision\HitchHike\designer\impl1\top_fp
+        Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer\impl1\top_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
@@ -9,7 +9,7 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        Z:\fpga_vision\HitchHike\designer\impl1\top_fp\top.log
+        Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer\impl1\top_fp\top.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -83,7 +83,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                Z:\fpga_vision\HitchHike\designer\impl1\top.pdb
+                Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer\impl1\top.pdb
             </filename>
             <local>
                 projectData\top.pdb

@@ -1,15 +1,15 @@
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  Z:\fpga_vision\xorfi_high_rate\synthesis   -part AGLN250V2  -package VQFP100  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\report\top_fpga_mapper.xml  -top_level_module  top  -flow mapping  -mp  1  -prjfile  Z:\fpga_vision\xorfi_high_rate\synthesis\scratchproject.prs  -implementation  synthesis  -licensetype  synplifypro_actel  -multisrs  -oedif  Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn   -freq 1.000   Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_prem.srd  -sap  Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap  -otap  Z:\fpga_vision\xorfi_high_rate\synthesis\top.tap  -omap  Z:\fpga_vision\xorfi_high_rate\synthesis\top.map  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v  -sap  Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap  -ologparam  Z:\fpga_vision\xorfi_high_rate\synthesis\syntmp\top.plg  -osyn  Z:\fpga_vision\xorfi_high_rate\synthesis\top.srm  -prjdir  Z:\fpga_vision\xorfi_high_rate\synthesis\  -prjname  top_syn  -log  Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_fpga_mapper.srr 
-rc:1 success:1
-Z:\fpga_vision\xorfi_high_rate\synthesis\scratchproject.prs|o|1470777592|2210
-Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn|o|1475014172|430210
-Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_prem.srd|i|1475014166|26010
-Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap|o|1475014167|48281
-Z:\fpga_vision\xorfi_high_rate\synthesis\top.tap|o|0|0
-Z:\fpga_vision\xorfi_high_rate\synthesis\top.map|o|1475014172|28
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v|i|1412954862|50704
-Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap|o|1475014167|48281
-Z:\fpga_vision\xorfi_high_rate\synthesis\syntmp\top.plg|o|1475014172|1776
-Z:\fpga_vision\xorfi_high_rate\synthesis\top.srm|o|1475014172|70761
-Z:\fpga_vision\xorfi_high_rate\synthesis\synlog\top_fpga_mapper.srr|o|1475014172|29024
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe|i|1412958016|15337984
-C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe|i|1412955826|12576768
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis   -part AGLN250V2  -package VQFP100  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synlog\report\top_fpga_mapper.xml  -top_level_module  top  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.edn   -freq 1.000   Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_prem.srd  -sap  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.sap  -otap  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.tap  -omap  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v  -sap  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.sap  -ologparam  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\syntmp\top.plg  -osyn  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.srm  -prjdir  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\  -prjname  top_syn  -log  Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synlog\top_fpga_mapper.srr 
+rc:1 success:1 runtime:5
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\scratchproject.prs|io:o|time:1498670574|size:2482|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.edn|io:o|time:1498670587|size:389026|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synwork\top_prem.srd|io:i|time:1498670581|size:26385|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.sap|io:o|time:1498670582|size:3486|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.tap|io:o|time:0|size:0|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.map|io:o|time:1498670587|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v|io:i|time:1487970450|size:50704|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.sap|io:o|time:1498670582|size:3486|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\syntmp\top.plg|io:o|time:1498670587|size:937|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.srm|io:o|time:1498670587|size:69691|exec:0
+file:Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\synlog\top_fpga_mapper.srr|io:o|time:1498670587|size:33773|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479403034|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479404440|size:14125056|exec:1

@@ -1,18 +1,19 @@
 Microsemi Libero Software
-Version: 11.5.0.26
-Release: v11.5
+Version: 11.8.0.26
+Release: v11.8
 
-Info: The design Z:/fpga_vision/xorfi_high_rate/designer/impl1/top.adb was last modified by
-      software version 11.5.0.26.
-Opened an existing Libero design Z:/fpga_vision/xorfi_high_rate/designer/impl1/top.adb.
+Info: The design Z:/Desktop/HitchHike/HitchHike_FPGA_code/designer/impl1/top.adb was last
+      modified by software version 11.8.0.26.
+Opened an existing Libero design
+Z:/Desktop/HitchHike/HitchHike_FPGA_code/designer/impl1/top.adb.
 
-The Export-map command succeeded ( 00:00:16 )
-Wrote to the file: Z:\fpga_vision\xorfi_high_rate\designer\impl1\top.pdb
-CHECKSUM: F5C6
+The Export-map command succeeded ( 00:00:10 )
+Wrote to the file: Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer\impl1\top.pdb
+CHECKSUM: 3875
 
-The Generate programming file command succeeded ( 00:00:17 )
-Design saved to file Z:/fpga_vision/xorfi_high_rate/designer/impl1/top.adb.
+The Generate programming file command succeeded ( 00:00:11 )
+Design saved to file Z:/Desktop/HitchHike/HitchHike_FPGA_code/designer/impl1/top.adb.
 
-The Execute Script command succeeded ( 00:00:20 )
+The Execute Script command succeeded ( 00:00:13 )
 Design closed.
 

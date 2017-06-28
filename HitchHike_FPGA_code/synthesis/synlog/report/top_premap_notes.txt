@@ -1,3 +1,3 @@
-@N: MF249 |Running in 32-bit mode.
-@N: MF667 |Clock conversion disabled 
-@N: BN225 |Writing default property annotation file Z:\fpga_vision\xorfi_high_rate\synthesis\top.sap.
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN225 |Writing default property annotation file Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.sap.

@@ -1,7 +1,5 @@
-open_project -project {Z:\fpga_vision\xorfi_high_rate\designer\impl1\top_fp\top.pro}
+open_project -project {Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer\impl1\top_fp\top.pro}
 set_programming_action -action {PROGRAM}
-catch {run_selected_actions} return_val
+run_selected_actions
 save_project
 close_project
-if { $return_val != 0 } {
-  exit 1 }

@@ -4,70 +4,65 @@ Report for cell top.verilog
               cell count     area count*area
               AND2    10      1.0       10.0
               AND3    35      1.0       35.0
-               AO1    14      1.0       14.0
-              AO1A    13      1.0       13.0
+               AO1     3      1.0        3.0
               AO1B     5      1.0        5.0
               AOI1     2      1.0        2.0
              AOI1B     7      1.0        7.0
-              AX1A     1      1.0        1.0
               AX1C     2      1.0        2.0
-              AX1D     1      1.0        1.0
+              AX1D     2      1.0        2.0
             CLKINT     3      0.0        0.0
                GND     8      0.0        0.0
                INV     5      1.0        5.0
-               MX2   148      1.0      148.0
-              MX2A     1      1.0        1.0
-              NOR2    46      1.0       46.0
-             NOR2A    32      1.0       32.0
-             NOR2B   124      1.0      124.0
-              NOR3     5      1.0        5.0
+               MX2   144      1.0      144.0
+              NOR2    17      1.0       17.0
+             NOR2A    10      1.0       10.0
+             NOR2B   139      1.0      139.0
+              NOR3     6      1.0        6.0
              NOR3A    14      1.0       14.0
              NOR3B    11      1.0       11.0
-             NOR3C    14      1.0       14.0
+             NOR3C    18      1.0       18.0
                OA1     1      1.0        1.0
-              OA1B     3      1.0        3.0
-              OA1C    14      1.0       14.0
-              OAI1     2      1.0        2.0
-               OR2    18      1.0       18.0
-              OR2A    65      1.0       65.0
-              OR2B     5      1.0        5.0
-               OR3     8      1.0        8.0
+              OA1B     1      1.0        1.0
+              OA1C     1      1.0        1.0
+               OR2    19      1.0       19.0
+              OR2A    78      1.0       78.0
+              OR2B     2      1.0        2.0
+               OR3     2      1.0        2.0
               OR3A     3      1.0        3.0
               OR3C     1      1.0        1.0
                PLL     1      0.0        0.0
             PLLINT     1      0.0        0.0
                VCC     8      0.0        0.0
                XA1     1      1.0        1.0
-              XA1A    31      1.0       31.0
+              XA1A    34      1.0       34.0
               XA1B     4      1.0        4.0
-              XA1C     6      1.0        6.0
-              XAI1    12      1.0       12.0
-             XAI1A     2      1.0        2.0
-              XOR2    35      1.0       35.0
+              XA1C     1      1.0        1.0
+              XAI1    16      1.0       16.0
+             XAI1A     3      1.0        3.0
+              XOR2    36      1.0       36.0
 
 
           DFN0E0C0     1      1.0        1.0
           DFN0E1C0    16      1.0       16.0
-            DFN1C0   151      1.0      151.0
+            DFN1C0   160      1.0      160.0
           DFN1E0C0     1      1.0        1.0
           DFN1E1C0    25      1.0       25.0
-            DFN1P0    39      1.0       39.0
-          DFN1P1C1    40      1.0       40.0
+            DFN1P0    60      1.0       60.0
                    -----          ----------
-             TOTAL   995               974.0
+             TOTAL   917               896.0
 
 
   IO Cell usage:
               cell count
             CLKBUF     1
-             INBUF    12
+             INBUF     2
             OUTBUF     6
                    -----
-             TOTAL    19
+             TOTAL     9
 
 
-Core Cells         : 974 of 6144 (16%)
-IO Cells           : 19
+Core Cells         : 896 of 6144 (15%)
+IO Cells           : 9
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)

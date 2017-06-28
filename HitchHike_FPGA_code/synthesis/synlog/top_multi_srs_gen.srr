@@ -1,10 +1,13 @@
-Synopsys Netlist Linker, version comp201403sp1p1, Build 095R, built Oct  9 2014
-@N|Running in 32-bit mode
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+File C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\syn_nfilter.exe changed - recompiling
 File Z:\fpga_vision\xorfi_high_rate\synthesis\synwork\top_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 37MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Sep 27 18:09:25 2016
+
+Process completed successfully.
+# Wed Jun 28 10:22:59 2017
 
 ###########################################################]

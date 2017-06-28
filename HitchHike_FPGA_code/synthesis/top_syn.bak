@@ -1,22 +1,18 @@
 #--  Synopsys, Inc.
 #--  Version I-2014.03M-SP1
-#--  Project file Z:\fpga_vision\xorfi\synthesis\top_syn.prj
+#--  Project file Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top_syn.prj
 
 #project files
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/clock_divider.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/data_dqpsk_generator.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/data_rate.v"
-add_file -verilog "Z:/fpga_vision/xorfi/smartgen/delay_five_ns/delay_five_ns.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/dqpsk_modulator.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/main_clock.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/modulator.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/phaser_modulator.v"
-add_file -verilog "Z:/fpga_vision/xorfi/smartgen/pll_core/pll_core.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/sigen_trigger.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/ten_mhz_clock.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/trigger_signal_gen.v"
-add_file -verilog "Z:/fpga_vision/xorfi/hdl/two_mhz_clock.v"
-add_file -verilog "Z:/fpga_vision/xorfi/component/work/top/top.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/data_rate.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/data_source.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/dbpsk_modulator.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/main_clock.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/modulator.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/smartgen/pll_core/pll_core.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/ten_mhz_clock.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/two_mhz_clock.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/hdl/whitening.v"
+add_file -verilog "Z:/Desktop/HitchHike/HitchHike_FPGA_code/component/work/top/top.v"
 
 
 

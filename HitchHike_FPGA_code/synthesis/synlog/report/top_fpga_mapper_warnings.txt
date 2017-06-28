@@ -1,10 +1,26 @@
-@W: MO161 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[7] is always 1, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[6] is always 0, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[5] is always 0, optimizing ...
-@W: MO161 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[4] is always 1, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[3] is always 0, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[2] is always 0, optimizing ...
-@W: MO161 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[1] is always 1, optimizing ...
-@W: MO160 :"z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register bit data1[0] is always 0, optimizing ...
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[7] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[6] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[5] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[4] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[3] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[2] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[1] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data1[0] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[7] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[6] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[5] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[4] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[3] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[2] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[1] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data2[0] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[7] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[6] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[5] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[4] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[3] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[2] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[1] (in view view:work.data_source(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"z:\desktop\hitchhike\hitchhike_fpga_code\hdl\data_source.v":14:0:14:5|Register bit data3[0] (in view view:work.data_source(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
 @W: MT420 |Found inferred clock pll_core|GLA_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:pll_core_0.GLA"
 @W: MT420 |Found inferred clock main_clock|clock_out_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:main_clock_0.clock_out"

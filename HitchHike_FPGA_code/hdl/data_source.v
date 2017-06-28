@@ -18,8 +18,12 @@ begin
         output_data <= 0;
 
         data1 <= #1 8'b10010010;
-        data2 <= input_data[7:0];
-        data3[1:0] <= input_data[9:8];
+        //data2 <= input_data[7:0];
+        //data3[1:0] <= input_data[9:8];
+
+        data2 <= #1 8'b10101010;
+        data3[1:0] <= #1 2'b10;
+
         data3[7:2] <= #1 6'b000000;
         data4 <= #1 8'b00000000; 
         state[143:0] <= {data1,data1,data1,data1,data1,data1, data2,data2,data2, data3,data3,data3, data1,data1,data1, data4,data4,data4};
@@ -46,8 +50,12 @@ begin
         output_data <= 0;
 
         data1 <= #1 8'b10010010;
-        data2 <= input_data[7:0];
-        data3[1:0] <= input_data[9:8];
+        //data2 <= input_data[7:0];
+        //data3[1:0] <= input_data[9:8];
+
+        data2 <= #1 8'b10101010;
+        data3[1:0] <= #1 2'b10;
+
         data3[7:2] <= #1 6'b000000;
         data4 <= #1 8'b00000000; 
         state[143:0] <= {data1,data1,data1,data1,data1,data1, data2,data2,data2, data3,data3,data3, data1,data1,data1, data4,data4,data4};        

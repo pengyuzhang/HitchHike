@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Tue Sep 27 18:10:58 2016 ***************************************************************************
+                          Wed Jun 28 10:24:12 2017 ***************************************************************************
 
 Product: Designer
-Release: v11.5
-Version: 11.5.0.26
-File Name: Z:\fpga_vision\xorfi_high_rate\designer\impl1\top.adb
+Release: v11.8
+Version: 11.8.0.26
+File Name: Z:\Desktop\HitchHike\HitchHike_FPGA_code\designer\impl1\top.adb
 Design Name: Top  Design State: layout
-Last Saved: Tue Sep 27 18:09:56 2016
+Last Saved: Wed Jun 28 10:23:26 2017
 
 ***** Device Data **************************************************
 
@@ -22,8 +22,8 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Tue Sep 27 18:09:52 2016:
-        Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn
+Source File(s) Imported on Wed Jun 28 10:23:21 2017:
+        Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.edn
 
 
 ***** CAE Variables ************************************************
@@ -49,7 +49,7 @@ Parameters used to run compile:
 Family      : IGLOO
 Device      : AGLN250V2
 Package     : 100 VQFP
-Source      : Z:\fpga_vision\xorfi_high_rate\synthesis\top.edn
+Source      : Z:\Desktop\HitchHike\HitchHike_FPGA_code\synthesis\top.edn
 Format      : EDIF
 Topcell     : top
 Speed grade : STD
@@ -81,6 +81,16 @@ Warning: CMP201: Net pll_core_0/Core_GLC drives no load.
 Warning: CMP201: Net pll_core_0/LOCK drives no load.
 Warning: CMP201: Net pll_core_0/Core_YB drives no load.
 Warning: CMP201: Net pll_core_0/Core_YC drives no load.
+Warning: Top level port input_data<9> is not connected to any IO pad
+Warning: Top level port input_data<8> is not connected to any IO pad
+Warning: Top level port input_data<7> is not connected to any IO pad
+Warning: Top level port input_data<6> is not connected to any IO pad
+Warning: Top level port input_data<5> is not connected to any IO pad
+Warning: Top level port input_data<4> is not connected to any IO pad
+Warning: Top level port input_data<3> is not connected to any IO pad
+Warning: Top level port input_data<2> is not connected to any IO pad
+Warning: Top level port input_data<1> is not connected to any IO pad
+Warning: Top level port input_data<0> is not connected to any IO pad
 
 Netlist Optimization Report
 ===========================
@@ -90,11 +100,11 @@ Optimized macros:
   - Buffers:                1
   - Inverters:              0
   - Tieoff:                 0
-  - Logic combining:        18
+  - Logic combining:        17
 
-    Total macros optimized  19
+    Total macros optimized  18
 
-There were 0 error(s) and 5 warning(s) in this design.
+There were 0 error(s) and 15 warning(s) in this design.
 =====================================================================
 
 Reading previous post-compile physical placement constraints.
@@ -106,8 +116,8 @@ There were 0 error(s) and 0 warning(s).
 Compile report:
 ===============
 
-    CORE                       Used:   1076  Total:   6144   (17.51%)
-    IO (W/ clocks)             Used:     19  Total:     68   (27.94%)
+    CORE                       Used:    879  Total:   6144   (14.31%)
+    IO (W/ clocks)             Used:      9  Total:     68   (13.24%)
     GLOBAL (Chip+Quadrant)     Used:      5  Total:     18   (27.78%)
     PLL                        Used:      1  Total:      1   (100.00%)
     RAM/FIFO                   Used:      0  Total:      8   (0.00%)
@@ -130,14 +140,14 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 683          | 683
-    SEQ     | 273          | 393
+    COMB    | 616          | 616
+    SEQ     | 263          | 263
 
 I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 13            | 0            | 0
+    Input I/O                             | 3             | 0            | 0
     Output I/O                            | 6             | 0            | 0
     Bidirectional I/O                     | 0             | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
@@ -149,11 +159,11 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVCMOS12                        | 1.20v | N/A   | 13    | 6      | 0
+    LVCMOS12                        | 1.20v | N/A   | 3     | 6      | 0
 
 I/O Placement:
 
-    Locked  :  19 ( 100.00% )
+    Locked  :   9 ( 100.00% )
     Placed  :   0
     UnPlaced:   0
 
@@ -163,16 +173,16 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    295     INT_NET       Net   : ref_signal_c
-                          Driver: main_clock_0/clock_out_RNIG44
-                          Source: NETLIST
-    273     SET/RESET_NET Net   : reset_c
+    263     SET/RESET_NET Net   : reset_c
                           Driver: reset_pad
                           Source: NETLIST
-    223     INT_NET       Net   : output_signal_c
+    245     CLK_NET       Net   : ref_signal_c
+                          Driver: main_clock_0/clock_out_RNIG44
+                          Source: NETLIST
+    225     INT_NET       Net   : output_signal_c
                           Driver: modulator_0/output_signal_RNI2QGD
                           Source: NETLIST
-    123     INT_NET       Net   : data_source_0/N_134
+    145     INT_NET       Net   : data_source_0/counter_RNII6P43_0[4]
                           Driver: data_source_0/counter_RNII6P43_0[4]
                           Source: NETLIST
     22      CLK_NET       Net   : GLA
@@ -182,50 +192,50 @@ The following nets have been assigned to a chip global resource:
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    24      INT_NET       Net   : data_source_0/counter_RNIK0AI3_1[4]
-                          Driver: data_source_0/counter_RNIK0AI3_1[4]
+    21      INT_NET       Net   : trigger_signal_c
+                          Driver: trigger_signal_pad
     17      INT_NET       Net   : modulator_0/clock_countere
                           Driver: modulator_0/counter_RNISQHA3[5]
-    15      INT_NET       Net   : trigger_signal_c
-                          Driver: trigger_signal_pad
-    13      INT_NET       Net   : data_source_0/state_1_sqmuxa_0
-                          Driver: data_source_0/counter_RNIK0AI3[4]
-    12      INT_NET       Net   : data_source_0/state_1_sqmuxa
-                          Driver: data_source_0/counter_RNIK0AI3_0[4]
-    10      INT_NET       Net   : modulator_0/N_8
-                          Driver: modulator_0/counter_RNISQHA3[0]
     7       INT_NET       Net   : two_mhz_clock_0/DWACT_FINC_E[0]
                           Driver: two_mhz_clock_0/un5_counter_I_10
-    7       INT_NET       Net   : data_source_0/data2[1]
-                          Driver: data_source_0/data2[1]
-    7       INT_NET       Net   : data_source_0/data2[2]
-                          Driver: data_source_0/data2[2]
-    7       INT_NET       Net   : data_source_0/data2[3]
-                          Driver: data_source_0/data2[3]
+    7       INT_NET       Net   : whitening_0/output_counter[0]
+                          Driver: whitening_0/output_counter[0]
+    7       INT_NET       Net   : whitening_0/output_counter[3]
+                          Driver: whitening_0/output_counter[3]
+    7       INT_NET       Net   : whitening_0/DWACT_FINC_E[0]
+                          Driver: whitening_0/un2_output_counter_1_I_10
+    7       INT_NET       Net   : whitening_0/N_34
+                          Driver: whitening_0/counter_RNI4KP75[4]
+    6       INT_NET       Net   : two_mhz_clock_0/counter[0]
+                          Driver: two_mhz_clock_0/counter[0]
+    6       INT_NET       Net   : two_mhz_clock_0/counter[3]
+                          Driver: two_mhz_clock_0/counter[3]
+    6       INT_NET       Net   : whitening_0/output_counter[1]
+                          Driver: whitening_0/output_counter[1]
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    24      INT_NET       Net   : data_source_0/counter_RNIK0AI3_1[4]
-                          Driver: data_source_0/counter_RNIK0AI3_1[4]
+    21      INT_NET       Net   : trigger_signal_c
+                          Driver: trigger_signal_pad
     17      INT_NET       Net   : modulator_0/clock_countere
                           Driver: modulator_0/counter_RNISQHA3[5]
-    15      INT_NET       Net   : trigger_signal_c
-                          Driver: trigger_signal_pad
-    13      INT_NET       Net   : data_source_0/state_1_sqmuxa_0
-                          Driver: data_source_0/counter_RNIK0AI3[4]
-    12      INT_NET       Net   : data_source_0/state_1_sqmuxa
-                          Driver: data_source_0/counter_RNIK0AI3_0[4]
-    10      INT_NET       Net   : modulator_0/N_8
-                          Driver: modulator_0/counter_RNISQHA3[0]
     7       INT_NET       Net   : two_mhz_clock_0/DWACT_FINC_E[0]
                           Driver: two_mhz_clock_0/un5_counter_I_10
-    7       INT_NET       Net   : data_source_0/data2[1]
-                          Driver: data_source_0/data2[1]
-    7       INT_NET       Net   : data_source_0/data2[2]
-                          Driver: data_source_0/data2[2]
-    7       INT_NET       Net   : data_source_0/data2[3]
-                          Driver: data_source_0/data2[3]
+    7       INT_NET       Net   : whitening_0/output_counter[0]
+                          Driver: whitening_0/output_counter[0]
+    7       INT_NET       Net   : whitening_0/output_counter[3]
+                          Driver: whitening_0/output_counter[3]
+    7       INT_NET       Net   : whitening_0/DWACT_FINC_E[0]
+                          Driver: whitening_0/un2_output_counter_1_I_10
+    7       INT_NET       Net   : whitening_0/N_34
+                          Driver: whitening_0/counter_RNI4KP75[4]
+    6       INT_NET       Net   : two_mhz_clock_0/counter[0]
+                          Driver: two_mhz_clock_0/counter[0]
+    6       INT_NET       Net   : two_mhz_clock_0/counter[3]
+                          Driver: two_mhz_clock_0/counter[3]
+    6       INT_NET       Net   : whitening_0/output_counter[1]
+                          Driver: whitening_0/output_counter[1]
 ====================
 Flash*Freeze report:
 ====================
@@ -257,25 +267,25 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Tue Sep 27 18:10:38 2016
+Timing-driven Placer Started: Wed Jun 28 10:23:54 2017
 
-Placer Finished: Tue Sep 27 18:10:45 2016
-Total Placer CPU Time:     00:00:07
+Placer Finished: Wed Jun 28 10:24:00 2017
+Total Placer CPU Time:     00:00:06
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: top                             Started: Tue Sep 27 18:10:47 2016
+Design: top                             Started: Wed Jun 28 10:24:02 2017
 
  
 
 Timing-driven Router completed successfully.
 
 Design: top                             
-Finished: Tue Sep 27 18:10:55 2016
-Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:08
-Total Memory Usage: 164.1 Mbytes
+Finished: Wed Jun 28 10:24:08 2017
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 162.5 Mbytes
                         o - o - o - o - o - o
 
 
